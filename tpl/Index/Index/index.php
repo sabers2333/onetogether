@@ -21,7 +21,7 @@
 <div class="cur">
      <div class="title">
          <h3>品牌文化</h3>
-         <p>香港国际餐饮品牌 潮流休闲生活馆</p>
+         <p>香港国际餐饮品牌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;潮流休闲生活馆</p>
      </div>
      <div class="w16 cur_c clearfix">
          <div class="video">
@@ -52,7 +52,7 @@
 <div class="food">
      <div class="title">
          <h3>一起休闲餐厅</h3>
-         <p>品味世界美食 给您味蕾绽放的快感</p>
+         <p>品味世界美食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给您味蕾绽放的快感</p>
      </div>
      <div class="w16">
          <ul class="food_memu">
@@ -82,7 +82,7 @@
 <div class="lunbo">
     <div class="title">
          <h3>美食 + 手游</h3>
-         <p>中国最有趣的吃货现场</p>
+         <p>娱乐休闲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国最有趣的吃货战场</p>
      </div>
     <div class="w16">
             <div id="divRuner">
