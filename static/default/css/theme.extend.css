@@ -1,0 +1,274 @@
+/* ---------------------------------------------------------------------------------------------- */
+/* 重置部分 js_composer_front.css 的定义 */
+.wpb_row,
+.wpb_content_element,
+ul.wpb_thumbnails-fluid > li,
+.last_toggle_el_margin,
+.wpb_button {
+  margin-bottom: 0 !important;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------- */
+/* divRuner */
+#divRunerWrapper {
+	width: 900px;
+	height: 210px;
+
+	display:block;
+	clear:both;
+}
+#divRunerInner {
+	width: 1200px;
+	height: 260px; 
+	margin: -120px 0 0 -600px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+#divRuner {
+	/* width: 960px; */
+	width: 1200px;
+	padding:0 10px;
+	position:vrelative;
+}
+#divRuner ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#divRuner li {
+	/* background: transparent url(/images/carousel_polaroid.png) no-repeat 0 0; */
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	display: block;
+	width: 280px;
+	height: 210px;
+	padding: 0;
+	margin: 6px;
+	float: left;
+	position: relative;
+}
+#divRuner li img {
+	/* 
+	width: 280px;
+	height: 250px;
+	*/
+	width: 100%;
+	height: 100%;
+	margin-top: 14px;
+}/* 
+#divRuner li span {
+	background: transparent url(/images/carousel_shine.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 201px;
+	height: 127px;
+	position: absolute;
+	z-index: 2;
+	top: 14px;
+	left: 16px;
+} */
+#divRuner .clearfix {
+	float: none;
+	clear: both;
+}
+#divRuner .prev, #divRuner .next {
+	background: transparent url(../images/carousel_control.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 15px;
+	height: 21px;
+	margin-left: 10px;
+	position: absolute;
+	top: 50%;
+}
+#divRuner .prev {
+	background-position: 0 0;
+	left: -30px;
+}
+#divRuner .prev:hover {
+	left: -31px;
+}
+#divRuner .next {
+	background-position: -18px 0;
+	right: -40px;
+}
+
+#divRuner .pager {
+	text-align: center;
+	margin: 0 auto;
+}
+#divRuner .pager a {
+	background: transparent url(/images/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+}
+#divRuner .pager a.selected {
+	background: transparent url(/images/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;	
+}
+/* ---------------------------------------------------------------------------------------------- */
+/* divRuner4pic */
+#divRunerWrapper4pic {
+	width: 900px;
+	height: 360px;
+	padding-bottom:30px;
+	margin:10px 0 10px 0;
+	display:block;
+	clear:both;
+}
+#divRunerInner4pic {
+	width: 900px;
+	height: 360px; 
+	margin: -200px 0 0 -450px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+#divRuner4pic {
+	/* width: 960px; */
+	width: 900px;
+	padding:0 10px;
+	position:vrelative;
+}
+#divRuner4pic ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#divRuner4pic li {
+	/* background: transparent url(/images/carousel_polaroid.png) no-repeat 0 0; */
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	display: block;
+	width: 210px;
+	height: 350px;
+	padding: 0;
+	margin: 6px;
+	float: left;
+	position: relative;
+}
+#divRuner4pic li img {
+	/* 
+	width: 280px;
+	height: 250px;
+	*/
+	width: 100%;
+	height: 100%;
+	margin-top: 14px;
+}
+#divRuner4pic .clearfix {
+	float: none;
+	clear: both;
+}
+#divRuner4pic .prev,
+#divRuner4pic .next {
+	background: transparent url(/images/carousel_control.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 15px;
+	height: 21px;
+	margin-left: 10px;
+	position: absolute;
+	top: 50%;
+}
+#divRuner4pic .prev {
+	background-position: 0 0;
+	left: -30px;
+}
+#divRuner4pic .prev:hover {
+	left: -31px;
+}
+#divRuner4pic .next {
+	background-position: -18px 0;
+	right: -20px;
+}
+#divRuner4pic .next:hover {
+	right: -21px;
+}
+#divRuner4pic .pager {
+	text-align: center;
+	margin: 0 auto;
+}
+#divRuner4pic .pager a {
+	background: transparent url(/images/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+}
+#divRuner4pic .pager a.selected {
+	background: transparent url(/images/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;	
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* fullScreenRunner */
+#fullScreenRunner {
+	/* margin-top: -100px; */
+	clear:both;
+}
+#fullScreenRunner div {
+	text-align: center;
+	width: 250px;
+	height:180px;
+	/* padding:0 10px; */
+	margin:0 10px;
+	float: left;
+	position: relative;
+}
+#fullScreenRunner div img {
+	border: none;
+}
+
+#fullScreenRunner div span {
+	display: none;
+}
+#fullScreenRunner div:hover span {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+	padding: 2px 0;
+	margin: 0 0 0 -50px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	border-radius: 3px;
+}
+/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- * /
+
+.products-thumb{ background:#413d35;width:335px; height:210px;float:left; margin-left:10px; margin-right:10px; margin-bottom:20px;display:block; overflow:hidden; position:relative;}
+.products-thumb .block{ position:absolute; width:459px; height:283px; overflow:hidden; top:200px; }
+.products-thumb .block h4{ position:absolute; width:459px; text-align:center; color:#f8faf4; height:283px; line-height:283px; font-size:20px; z-index:1000; display:none;font-family: EotDemonstration; text-transform:uppercase}
+.products-thumb .block img{ position:absolute; z-index:900; left:0px; bottom:0px}
+.products-thumb .block span{  position:absolute; bottom:50px;left:210px; width:25px; height:25px; z-index:1000; }
+.products-thumb .block .hover{width:459px; height:113px; left:0px; bottom:-283px;position:absolute; background:#413d35; padding-top:170px;z-index:920; display:block}
+.products-thumb .block .hover h5{ color:#f8faf4; text-align:center; font-size:12px; line-height:16px;font-family: EotDemonstration;text-transform:uppercase; padding:0px 80px}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
