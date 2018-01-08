@@ -4,7 +4,7 @@
 		<table cellpadding="0" cellspacing="0" class="frame_form" width="100%">
 			<tr>
 				<th width="80">标题</th>
-				<td><input type="text" class="input fl" name="name" value="{$now_slider.name}" size="20" placeholder="请输入名称" validate="maxlength:20,required:true"/></td>
+				<td><input type="text" class="input fl" name="name" value="{$now_slider.name}" size="20" placeholder="请输入名称" validate="maxlength:120,required:true"/></td>
 			</tr>
 			<if condition="$now_slider['pic']">
 				<tr>

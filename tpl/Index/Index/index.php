@@ -89,4 +89,70 @@
             </div>
     </div>
 </div>
+<div class="news">
+     <div class="title">
+         <h3>新闻资讯</h3>
+        <!-- <p>海外轻奢型美味 向家庭厨房和社区服务延伸</p>-->
+     </div>
+     <div class="w16 clearfix">
+         <div class="news_2" style="margin-left:0;">
+            <h3>新闻动态 <a href="news.html?sec_id=2002">+更多</a></h3>
+            
+                        <a href="detail?id=2840" target="_blank"><img alt="左邻优社西餐厅" src="{$static_path}images/20180101153039466.jpg" width="275" height="200" style="margin-right:10px"></a>
+                        <a href="detail?id=2838" target="_blank"><img alt="左邻优社西餐厅" src="{$static_path}images/20171222104600995.jpg" width="275" height="200" style=""></a>
+                       <div class="clear"></div>                
+            <ul>
+                  
+            
+             <li><a href="detail?id=2840" target="_blank">【元旦活动】左邻优社邻里西餐与遛娃团亲子活动<span style="text-align:right;">[2018-01-01]</span></a></li>
+                  
+            
+             <li><a href="detail?id=2838" target="_blank">左邻优社邻里西餐厅2017年度厨艺大比拼<span style="text-align:right;">[2017-12-22]</span></a></li>
+                  
+            
+             <li><a href="detail?id=2837" target="_blank">【新店开业】热烈庆祝左邻优社商之都店盛大开业<span style="text-align:right;">[2017-12-20]</span></a></li>
+                  
+            
+             <li><a href="detail?id=2835" target="_blank">【新品上市】酥香苹果球<span style="text-align:right;">[2017-12-08]</span></a></li>
+                  
+            
+             <li><a href="detail?id=2834" target="_blank">【新品上市】新式咖喱鸡饭<span style="text-align:right;">[2017-11-27]</span></a></li>
+                
+            </ul>
+         </div>
+         <div class="news_2">
+            <h3>最新产品 <a href="news.html?sec_id=2003">+更多</a></h3>
+                        <a href="detail?id=2839" target="_blank"><img alt="左邻优社西餐厅" src="{$static_path}images/20171229084917138.jpg" width="275" height="200" style="margin-right:10px"></a>
+                        <a href="detail?id=2836" target="_blank"><img alt="左邻优社西餐厅" src="{$static_path}images/20171209160728598.jpg" width="275" height="200" style=""></a>
+                                
+            <div class="clear"></div>               
+           <ul>
+                  
+             <li><a href="detail?id=2839" target="_blank">【山东淄博】左邻优社西餐厅加盟店签约成功！<span style="text-align:right;">[2017-12-29]</span></a></li>
+                  
+             <li><a href="detail?id=2836" target="_blank">【天津和平区】左邻优社西餐厅加盟店签约成功！<span style="text-align:right;">[2017-12-09]</span></a></li>
+                  
+             <li><a href="detail?id=2833" target="_blank">【北京】左邻优社西餐厅加盟店签约成功！<span style="text-align:right;">[2017-11-26]</span></a></li>
+                  
+             <li><a href="detail?id=2830" target="_blank">【河北廊坊】左邻优社西餐厅加盟店签约成功！<span style="text-align:right;">[2017-11-24]</span></a></li>
+                  
+             <li><a href="detail?id=2826" target="_blank">【河南郑州】左邻优社西餐厅加盟店签约成功！<span style="text-align:right;">[2017-10-24]</span></a></li>
+                
+            </ul>
+         </div>
+     </div>
+</div>
+<div class="wpb_row vc_row-fluid">
+    <div class="vc_span12 wpb_column column_container">
+        <div class="wpb_wrapper">
+            
+    <div class="wpb_single_image wpb_content_element vc_align_center">
+        <div class="wpb_wrapper">
+            
+            <img class=" vc_box_border_grey " src="{$static_path}images/e8a8a6d0046dcc25.gif" width="1023" height="96" alt="index_jiameng_tel">
+        </div> 
+    </div> 
+        </div> 
+    </div> 
+</div>
 <include file="Public:footer"/>
