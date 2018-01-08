@@ -51,8 +51,8 @@
 </div>
 <div class="food">
      <div class="title">
-         <h3>一起休闲馆</h3>
-         <p>融合东西方风味的美食 享用生活的片刻情趣</p>
+         <h3>一起休闲餐厅</h3>
+         <p>品味世界美食 给您味蕾绽放的快感</p>
      </div>
      <div class="w16">
          <ul class="food_memu">
@@ -82,7 +82,7 @@
 <div class="lunbo">
     <div class="title">
          <h3>美食 + 手游</h3>
-         <p>一站帮扶无需开店经验 化繁为简多菜系揽金</p>
+         <p>中国最有趣的吃货现场</p>
      </div>
     <div class="w16">
             <div id="divRuner">

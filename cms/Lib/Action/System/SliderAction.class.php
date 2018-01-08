@@ -90,7 +90,6 @@ class SliderAction extends BaseAction{
 		$this->display();
 	}
 	public function slider_modify(){
-		 $duration=D('Qiniu')->getduration($_POST['url']);
 		 $_POST['duration']=$duration;
 
 	     
@@ -138,7 +137,6 @@ class SliderAction extends BaseAction{
 				$this->frame_submit_tips(0, $image['msg']);
 			}
 		}
-		$duration=D('Qiniu')->getduration($_POST['url']);
 
 		$_POST['duration']=$duration;
 
