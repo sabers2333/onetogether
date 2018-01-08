@@ -90,8 +90,6 @@ class SliderAction extends BaseAction{
 		$this->display();
 	}
 	public function slider_modify(){
-		 $_POST['duration']=$duration;
-
 	     
 		if($_FILES['pic']['error'] != 4){
 			$image = D('Image')->handle($this->system_session['id'], 'slider');
@@ -105,7 +103,10 @@ class SliderAction extends BaseAction{
 		$_POST['last_time'] = $_SERVER['REQUEST_TIME'];
 		$_POST['content']=fulltext_filter($_POST['content']);
 		$database_slider = D('Slider');
-		if($id = $database_slider->data($_POST)->add()){
+		$id = $database_slider->data($_POST)->add();     
+	
+		     
+		if($id){
 			D('Image')->update_table_id('/upload/slider/' . $_POST['pic'], $id, 'slider');
 			S('slider_list_'.$_POST['cat_id'],NULL);
 			$this->frame_submit_tips(1,'添加成功！');
