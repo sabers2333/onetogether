@@ -34,7 +34,23 @@
                           <li><a href="lianxi.html">联系我们</a></li>
                           <li><a href="tuiguang.html">品牌推广</a></li>
                           <li><a href="news.html">新闻动态</a></li>
-                          <li><a href="food.html">美食</a></li>
+                          <li>
+                            <a href="food.html">美食</a>
+                            <ul class="sub sub-small" >
+                                
+                              <li><a href="food.html?sec_id=4009#food">西餐</a></li>  
+                                
+                              <li><a href="food.html?sec_id=4007#food">中餐</a></li>  
+                                
+                              <li><a href="food.html?sec_id=4008#food">饮品</a></li>  
+                                
+                              <li><a href="food.html?sec_id=4002#food">烧烤</a></li>  
+                                
+                              <li><a href="food.html?sec_id=4006#food">特色</a></li>  
+                             </ul>
+
+                          </li>
+
                           <li><a href="pinpai.html">品牌文化</a></li>   
                           <li><a href="index.html">首页</a></li>
                         </ul>

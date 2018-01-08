@@ -43,6 +43,21 @@ $(document).ready(function() {
     
 <div class="ny_food">
         <div class="w16">
+            <div class="ny_food_t">
+            <ul class="food_memu">
+                  
+            <li><a href="food.html?sec_id=4009"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4007"><div><i class="icon iconfont"></i></div><p>中餐</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4008"><div><i class="icon iconfont"></i></div><p>饮品</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4002"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4006"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
+                        <div class="clear"></div>
+         </ul>
+           </div>
            <div class="ny_food_c">
                <ul id="auto-loop">
                     <volist name = 'list' id = 'vo'>

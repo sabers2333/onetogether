@@ -21,7 +21,7 @@
 <div class="cur">
      <div class="title">
          <h3>品牌文化</h3>
-         <p>来自新加坡的邻里西餐 贴近大众的国际品牌</p>
+         <p>香港国际餐饮品牌 潮流休闲生活馆</p>
      </div>
      <div class="w16 cur_c clearfix">
          <div class="video">
@@ -53,6 +53,21 @@
      <div class="title">
          <h3>一起休闲馆</h3>
          <p>融合东西方风味的美食 享用生活的片刻情趣</p>
+     </div>
+     <div class="w16">
+         <ul class="food_memu">
+                  
+            <li><a href="food.html?sec_id=4009"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4007"><div><i class="icon iconfont"></i></div><p>中餐</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4008"><div><i class="icon iconfont"></i></div><p>饮品</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4002"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
+                  
+            <li><a href="food.html?sec_id=4006"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
+                        <div class="clear"></div>
+         </ul>
      </div>
      
      <div class="food_c">
