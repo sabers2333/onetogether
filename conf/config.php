@@ -58,6 +58,7 @@ return array(
         'lianxi'    => 'Index/lianxi',
         'detail/:id'    => 'Index/detail',
         'zhaoshang'    => 'Index/zhaoshang',
+        'addclick'    => 'Index/addclick',
     ),
 	
 );

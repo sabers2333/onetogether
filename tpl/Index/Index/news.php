@@ -43,7 +43,7 @@
                                             <a target="_blank" href="detail.html?id={$vo.id}" target="_blank">{$vo.filename}</a>
                                             </p>
                                             <p class="more">
-                                            <a target="_blank" href="detail.html?id={$vo.id}" class="more-link themebutton" target="_blank">Read More</a>
+                                            <a target="_blank" href="detail.html?id={$vo.id}" class="more-link themebutton" target="_blank" onclick="clicknews({$vo.id})">Read More</a>
                                             </p>
                                         </div>
                                         <div class="clearboth">
@@ -104,4 +104,10 @@
     <!-- #main-core -->
     <div class="fix_margin_b25px">
     </div>
+    <script type="text/javascript">
+        function clicknews(id){
+            $.post("addclick.html",{id:id},function(data){
+             });
+        }
+    </script>
 <include file="Public:footer"/>

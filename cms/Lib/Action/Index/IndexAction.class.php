@@ -65,7 +65,9 @@ class IndexAction extends BaseAction
     public function detail()
     {
         $id = I('id');
-        $info = M('slider')->where("id = $id")->find();
+        $info = M('slider')->where("id = $id")->find();     
+        
+             
         $this->info = $info;
         //z最近新闻
         $this->getnew = $this->getnews('id');
@@ -101,6 +103,13 @@ class IndexAction extends BaseAction
         $order = $condition.' desc';
         $list = $model->where($where)->field($field)->order($order)->limit(5)->select();
         return $list;
+    }
 
+    //增加新闻点击量
+    public function addclick()
+    {
+        $id = I('id');
+        M('slider')->where('id='.$id)->setInc('click');     
+       
     }
 }
