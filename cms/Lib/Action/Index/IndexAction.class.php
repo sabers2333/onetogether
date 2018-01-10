@@ -15,6 +15,12 @@ class IndexAction extends BaseAction
         //美食
         $food = D('Adver')->get_adver_by_key('food');
         $this->food = $food;
+        //新闻
+        $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
+        $this->news = $news;
+        //产品
+        $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
+        $this->products = $products;
         $this->assign('index_lunbo_adver',$index_lunbo_adver);
         $this->display();
     }
@@ -45,8 +51,9 @@ class IndexAction extends BaseAction
     //新闻
     public function news()
     {
+        $cat_id = I('cat_id',5);
         $model = M('slider');
-        $where['cat_id'] = 5;
+        $where['cat_id'] = $cat_id;
         $field = 'id,name,pic,filename,last_time,click';
         $count = $model->where($where)->count(); 
         $page = 6;
