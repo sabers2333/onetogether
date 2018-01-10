@@ -32,21 +32,21 @@
                         <ul class="an-nav">
                           <li><a href="zhaoshang.html">招商加盟</a></li>
                           <li><a href="lianxi.html">联系我们</a></li>
-                          <li><a href="tuiguang.html">品牌推广</a></li>
+                          <!-- <li><a href="tuiguang.html">品牌推广</a></li> -->
                           <li><a href="news.html">新闻动态</a></li>
                           <li>
                             <a href="food.html">美食</a>
                             <ul class="sub sub-small" >
                                 
-                              <li><a href="food.html?sec_id=4009#food">西餐</a></li>  
+                              <li><a href="food.html?cat_id=24">西餐</a></li>  
                                 
-                              <li><a href="food.html?sec_id=4007#food">中餐</a></li>  
+                              <li><a href="food.html?cat_id=25">中餐</a></li>  
                                 
-                              <li><a href="food.html?sec_id=4008#food">饮品</a></li>  
+                              <li><a href="food.html?cat_id=26">饮品</a></li>  
                                 
-                              <li><a href="food.html?sec_id=4002#food">烧烤</a></li>  
+                              <li><a href="food.html?cat_id=27">烧烤</a></li>  
                                 
-                              <li><a href="food.html?sec_id=4006#food">特色</a></li>  
+                              <li><a href="food.html?cat_id=28">特色</a></li>  
                              </ul>
 
                           </li>

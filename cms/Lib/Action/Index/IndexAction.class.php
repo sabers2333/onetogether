@@ -28,8 +28,9 @@ class IndexAction extends BaseAction
     //美食
     public function food()
     {
+        $cat_id = I('cat_id', '23');
         $model = M('Adver');
-        $where['cat_id'] = 22;
+        $where['cat_id'] = $cat_id;
         $field = 'id,name,pic';
         $count = $model->where($where)->count(); 
         $page = 20;
