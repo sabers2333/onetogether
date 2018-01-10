@@ -33,7 +33,15 @@
                           <li><a href="zhaoshang.html">招商加盟</a></li>
                           <li><a href="lianxi.html">联系我们</a></li>
                           <!-- <li><a href="tuiguang.html">品牌推广</a></li> -->
-                          <li><a href="news.html">新闻动态</a></li>
+                          <li>
+                            <a href="news.html">新闻动态</a>
+                            <ul class="sub sub-small" >
+                                
+                              <li><a href="news.html?cat_id=5">最新新闻</a></li>  
+                              <li><a href="news.html?cat_id=7">最新产品</a></li>  
+                             </ul>
+
+                          </li>
                           <li>
                             <a href="food.html">美食</a>
                             <ul class="sub sub-small" >
