@@ -17,7 +17,7 @@
                             <div class="wpb_wrapper">
                                 <header class="entry-header entry-meta"><span class="author"><i class="icon-pencil"></i>By <a href="/index.html" rel="author">一起手游吧</a></span><span class="date"><i class="icon-calendar-empty"></i><a ><time >{$info.last_time|date='Y-m-d H:i:s',###}</time></a></span><span class="category"><i class="icon-folder-open"></i><a href="/news.html">新闻动态</a></span>阅读 {$info.click} 次</header><!-- .entry-header -->
                                
-                                <div class="entry-content" style="width: 100px;line-height: 24px;">{$info.content}</div>
+                                <div class="entry-content" style="line-height: 24px;">{$info.content}</div>
 
                                 <!-- .entry-content --><nav role="navigation" id="nav-below">
                                 <div class="nav-previous">
