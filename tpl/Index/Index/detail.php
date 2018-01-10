@@ -19,14 +19,16 @@
                                
                                 <div class="entry-content" style="line-height: 24px;">{$info.content}</div>
 
-                                <!-- .entry-content --><nav role="navigation" id="nav-below">
-                                <div class="nav-previous">
-                                    <a href="#?id=147" rel="prev"><span class="meta-icon"><i class="icon-angle-left icon-large"></i></span><span class="meta-nav">没有了 </span></a>
-                                </div>
-                                <div class="nav-next">
-                                    <a href="javascript:;" rel="next"><span class="meta-nav">万圣狂欢 魔夜魅影 </span><span class="meta-icon"><i class="icon-angle-right icon-large"></i></span></a>
-                                </div>
-                                </nav><!-- #nav-below -->
+                                <!-- .entry-content -->
+                               <!--  <nav role="navigation" id="nav-below">
+                               <div class="nav-previous">
+                                   <a href="#?id=147" rel="prev"><span class="meta-icon"><i class="icon-angle-left icon-large"></i></span><span class="meta-nav">没有了 </span></a>
+                               </div>
+                               <div class="nav-next">
+                                   <a href="javascript:;" rel="next"><span class="meta-nav">万圣狂欢 魔夜魅影 </span><span class="meta-icon"><i class="icon-angle-right icon-large"></i></span></a>
+                               </div>
+                               </nav> -->
+                                <!-- #nav-below -->
                             </div>
                         </div>
                         <div class="vc_span3 wpb_column column_container">
