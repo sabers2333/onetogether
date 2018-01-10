@@ -33,7 +33,7 @@ class IndexAction extends BaseAction
         $where['cat_id'] = $cat_id;
         $field = 'id,name,pic';
         $count = $model->where($where)->count(); 
-        $page = 20;
+        $page = 12;
         import('@.ORG.system_page');
         $p = new Page($count, $page);
         $list = $model->where($where)->limit($p->firstRow . ',' . $p->listRows)->field($field)->select();
