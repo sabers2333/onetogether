@@ -2438,6 +2438,13 @@ h4.project-title {
 
 	margin: 0 auto !important;
 }
+.row_width961{
+	display: block;
+	max-width:1000px;
+	/* width:960px; */
+
+	margin: 0 auto !important;
+}
  .shipin{
 	 
 	

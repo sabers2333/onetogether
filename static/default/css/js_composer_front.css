@@ -203,6 +203,15 @@
   padding-right: 15px;
 
     float: left;
+    width: 680px;
+  }
+  .wpb_row .vc_span9 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+    float: left;
     width: 720px;
   }
 
