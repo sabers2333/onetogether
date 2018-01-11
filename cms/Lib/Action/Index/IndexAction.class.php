@@ -16,10 +16,10 @@ class IndexAction extends BaseAction
         $food = D('Adver')->get_adver_by_key('food');
         $this->food = $food;
         //新闻
-        $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
+        $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->cache(true,60)->order("id desc")->select();
         $this->news = $news;
         //产品
-        $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
+        $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->cache(true,60)->order("id desc")->select();
         $this->products = $products;
         $this->assign('index_lunbo_adver',$index_lunbo_adver);
         $this->display();
