@@ -53,7 +53,7 @@
 </div>
 <div class="food">
      <div class="title">
-         <h3>吃货&nbsp;&nbsp;【美食】</h3>
+         <h3>吃货&nbsp;【美食】</h3>
          <p>品味世界美食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给您味蕾绽放的快感</p>
      </div>
      <div class="w16">
@@ -83,7 +83,7 @@
 </div>
 <div class="lunbo">
     <div class="title">
-         <h3>美食 + 手游</h3>
+         <h3>娱乐 + 手游</h3>
          <p>娱乐休闲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国最有趣的吃货战场</p>
      </div>
     <div class="w16">
