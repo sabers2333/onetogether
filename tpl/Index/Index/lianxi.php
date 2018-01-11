@@ -13,11 +13,11 @@
                                         <br>
                                         传真：020-86150265 &nbsp;
                                         <br>
-                                        EMAIL:hkjiuwotianpin.163.com &nbsp; &nbsp;
+                                        EMAIL:yiqishouyouba@163.com &nbsp; &nbsp;
                                         <br>
-                                        公司地址：广州天河区天河路230号万菱汇A塔
+                                        公司地址：深圳市龙华新区龙华街道龙园社区
                                         <br>
-                                        （万菱国际中心）2602～2604
+                                        和平路龙胜一号202
                                     </p>
                                     <br>
                                 </div>
