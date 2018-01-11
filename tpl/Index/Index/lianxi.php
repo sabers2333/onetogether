@@ -4,7 +4,7 @@
             <div>
                 <div class="wpb_wrapper">
                     <div class="wpb_row vc_row-fluid row_width960 index_jiameng_wrap">
-                        <div class="vc_span6 wpb_column column_container">
+                        <div class="vc_span6 wpb_column column_container" style="width: 800px;">
                             <div class="wpb_wrapper contect-add">
                                 <div class="adress">
                                     <p class="title_jiuwo" style="font-size: 30px;margin:10px;"> ADRESS地址</p>
