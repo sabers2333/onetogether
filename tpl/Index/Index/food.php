@@ -46,15 +46,15 @@ $(document).ready(function() {
             <div class="ny_food_t">
             <ul class="food_memu">
                   
-            <li><a href="food.html?cat_id=24"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
+            <li><a href="food.html?cat_id=24" title="西餐"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
                   
-            <li><a href="food.html?cat_id=25"><div><i class="icon iconfont"></i></div><p>中餐</p></a></li>
+            <li><a href="food.html?cat_id=25" title="中餐"><div><i class="icon iconfont"></i></div><p>中餐</p></a></li>
                   
-            <li><a href="food.html?cat_id=26"><div><i class="icon iconfont"></i></div><p>饮品</p></a></li>
+            <li><a href="food.html?cat_id=26" title="饮品"><div><i class="icon iconfont"></i></div><p>饮品</p></a></li>
                   
-            <li><a href="food.html?cat_id=27"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
+            <li><a href="food.html?cat_id=27" title="烧烤"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
                   
-            <li><a href="food.html?cat_id=28"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
+            <li><a href="food.html?cat_id=28" title="特色"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
                         <div class="clear"></div>
          </ul>
            </div>

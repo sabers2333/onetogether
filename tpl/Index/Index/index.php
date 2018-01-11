@@ -83,7 +83,7 @@
 </div>
 <div class="lunbo">
     <div class="title">
-         <h3>娱乐 + 手游</h3>
+         <h3>手游 + 娱乐</h3>
          <p>娱乐休闲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国最有趣的吃货战场</p>
      </div>
     <div class="w16">
