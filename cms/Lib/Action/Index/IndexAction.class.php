@@ -19,7 +19,7 @@ class IndexAction extends BaseAction
         $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
         $this->news = $news;
         //产品
-        $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->order("id desc")->select();
+        $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->cache(true)->order("id desc")->select();
         $this->products = $products;
         $this->assign('index_lunbo_adver',$index_lunbo_adver);
         $this->display();
