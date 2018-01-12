@@ -32,7 +32,7 @@
 <!-- <embed src="flv.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
          </div>
          <div class="cur_t">
-             <h3>一起手游吧西餐厅【官网】</h3><p>
+             <h3>{$config.site_name}【官网】</h3><p>
     <span style="white-space:normal;">"一起手游吧"【官网】</span>是一家以牛排、披萨、意面等西式简餐为主的邻里西餐厅，消费群体主要为学生、上班族、儿童等大众消费群体。人均消费三十元左右<span style="white-space:normal;">！</span>是家庭聚餐、朋友聚会、情侣约会的极佳场所。已开设多家连锁直管店及数百家特许连锁加盟店。 如果您想加盟投资创业餐饮项目,一起手游吧将是您的不二之选。
 </p>
 <p style="margin-top:0px;margin-bottom:0px;padding:0px;font-family:&quot;font-size:14px;white-space:normal;background-color:#F6F6F6;">
