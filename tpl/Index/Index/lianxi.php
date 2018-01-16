@@ -9,11 +9,11 @@
                                 <div class="adress">
                                     <p class="title_jiuwo" style="font-size: 30px;margin:10px;"> ADRESS地址</p>
                                     <p class="add">
-                                        免费客服热线，400-9916-858 &nbsp; &nbsp;&nbsp;
+                                        免费客服热线，{$config.site_phone} &nbsp; &nbsp;&nbsp;
                                         <br>
                                         传真：020-86150265 &nbsp;
                                         <br>
-                                        EMAIL:yiqishouyouba@163.com &nbsp; &nbsp;
+                                        EMAIL:{$config.site_email} &nbsp; &nbsp;
                                         <br>
                                         公司地址：深圳市龙华新区龙华街道龙园社区和平路龙胜一号202
                                     </p>

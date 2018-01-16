@@ -36,7 +36,7 @@ $(document).ready(function() {
                  <div class="tels">
                      <i class="icon iconfont">&#xe616;</i>
                      <h2>客户服务热线</h2>
-                     <h4>400-875-3808</h4>
+                     <h4>{$config.site_phone}</h4>
                  </div>
             </div>
     </div>
