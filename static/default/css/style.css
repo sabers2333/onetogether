@@ -105,7 +105,7 @@ ul.food_memu{width:100%;height:90px; overflow:hidden;}
 ul.food_memu li{width:230px;height:auto; float:left;}
 ul.food_memu li div{width:100%;height:40px;padding:5px 0;text-align:center;background:url(../images/food_1.jpg) no-repeat center center;}
 ul.food_memu li div i{color:#fff;font-size:30px; }
-ul.food_memu li p{font-size:18px;color:#000; text-align:center;padding:8px 0;}
+ul.food_memu li p{font-size:28px;color:#000; text-align:center;padding:8px 0;}
 ul.food_memu li a:hover div{background:url(../images/food_2.jpg) no-repeat center center;}
 
 .food_c{width:100%;height:432px;margin-top:25px;overflow:hidden;}
