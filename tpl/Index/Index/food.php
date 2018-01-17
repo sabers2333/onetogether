@@ -39,7 +39,7 @@ $(document).ready(function() {
 <a name="food" id="food"></a>
 <div class="ny_main">
     <div class="ny_title">
-             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 90px;background-color: #B3B3B3;"> 
+             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 90px;background-color: #B3B3B3;font-weight: bold;"> 
             
 <div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 86px;border: 0">
     <ul class="nav-first">
