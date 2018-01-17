@@ -28,6 +28,7 @@ $(document).ready(function() {
     .FrontColumns_navigation01-d1_c1 ul.nav-first li a{
         line-height: 90px;
         font-size: 18px;
+        color: #000;
     }
     .FrontColumns_navigation01-d1_c1 ul.nav-first li{
         width: 246px;
