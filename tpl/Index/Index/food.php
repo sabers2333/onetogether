@@ -80,7 +80,7 @@ $(document).ready(function() {
                     </volist> 
                 </ul>  
               <!--分页开始-->
-                  {$page}
+                  <div style="margin:0 auto;text-align: center;">{$page}</div>
               <!--分页结束 --> 
            </div>
         </div>
