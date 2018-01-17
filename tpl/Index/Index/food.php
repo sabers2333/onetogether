@@ -30,9 +30,6 @@ $(document).ready(function() {
         font-size: 18px;
         color: #000;
     }
-    .FrontColumns_navigation01-d1_c1 ul.nav-first li{
-        width: 246px;
-    }
 </style>
                     
 <div class="ny_banner" style="background:url({$static_path}images/20160130112133492.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
@@ -46,11 +43,11 @@ $(document).ready(function() {
     <ul class="nav-first">
      
          <li><a href="food.html?cat_id=24" title="西餐">西餐</a></li>  
-         <li><a href="food.html?cat_id=25" title="中餐">中餐</a></li>  
-         <li><a href="food.html?cat_id=26" title="饮品">饮品</a></li>  
+         <li style="margin-left: 148px"><a href="food.html?cat_id=25" title="中餐">中餐</a></li>  
+         <li style="margin-left: 148px"><a href="food.html?cat_id=26" title="饮品">饮品</a></li>  
         
-         <li><a href="food.html?cat_id=27" title="烧烤">烧烤</a></li>  
-         <li><a href="food.html?cat_id=28" title="特色">特色</a></li>  
+         <li style="margin-left: 148px"><a href="food.html?cat_id=27" title="烧烤">烧烤</a></li>  
+         <li style="margin-left: 148px"><a href="food.html?cat_id=28" title="特色">特色</a></li>  
                   
     </ul></div> 
           </div>
