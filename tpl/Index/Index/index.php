@@ -1,4 +1,7 @@
 <include file="Public:header"/>
+<style>
+    ul.food_memu li p{font-weight: bold;font-size: 20px;}
+</style>
 <div class="banner_all">
     <div class="banner">
       <div class="banner_center">
@@ -53,7 +56,7 @@
 </div>
 <div class="food">
      <div class="title">
-         <h3>吃货&nbsp;【美食】</h3>
+         <h3>美食</h3>
          <p>品味世界美食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给您味蕾绽放的快感</p>
      </div>
      <div class="w16">
