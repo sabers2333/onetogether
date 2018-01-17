@@ -50,7 +50,7 @@
                                         </div>
                                     </article>
                                     </volist>
-                                   {$page}
+                                   <div style="margin:0 auto;text-align: center;">{$page}</div>
                             </div>
                             <div class="vc_span3 wpb_column column_container">
                                 <div class=" sidebar_list">
