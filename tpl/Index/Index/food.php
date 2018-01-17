@@ -24,40 +24,55 @@ $(document).ready(function() {
         });
 });
 </script>
-
+<style>
+    .FrontColumns_navigation01-d1_c1 ul.nav-first li a{
+        line-height: 90px;
+        font-size: 18px;
+    }
+    .FrontColumns_navigation01-d1_c1 ul.nav-first li{
+        width: 246px;
+    }
+</style>
                     
 <div class="ny_banner" style="background:url({$static_path}images/20160130112133492.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
     
 <a name="food" id="food"></a>
 <div class="ny_main">
     <div class="ny_title">
-            <div class="w16">
-                 <h3>美味提供</h3><p>Delicious offer</p>
-                 <div class="tels">
-                     <i class="icon iconfont">&#xe616;</i>
-                     <h2>客户服务热线</h2>
-                     <h4>{$config.site_phone}</h4>
-                 </div>
-            </div>
+             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 90px;background-color: #000"> 
+            
+<div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 86px;border: 0">
+    <ul class="nav-first">
+     
+         <li><a href="food.html?cat_id=24" title="西餐">西餐</a></li>  
+         <li><a href="food.html?cat_id=25" title="中餐">中餐</a></li>  
+         <li><a href="food.html?cat_id=26" title="饮品">饮品</a></li>  
+        
+         <li><a href="food.html?cat_id=27" title="烧烤">烧烤</a></li>  
+         <li><a href="food.html?cat_id=28" title="特色">特色</a></li>  
+                  
+    </ul></div> 
+          </div>
     </div>
     
 <div class="ny_food">
         <div class="w16">
-            <div class="ny_food_t">
+            <!-- <div class="ny_food_t">
             <ul class="food_memu">
                   
-            <li><a href="food.html?cat_id=24" title="西餐"><!-- <div><i class="icon iconfont"></i></div> --><p>西餐</p></a></li>
-                  
-            <li><a href="food.html?cat_id=25" title="中餐"><!-- <div><i class="icon iconfont"></i></div --><p>中餐</p></a></li>
-                  
-            <li><a href="food.html?cat_id=26" title="饮品"><!-- <div><i class="icon iconfont"></i></div --><p>饮品</p></a></li>
-                  
-            <li><a href="food.html?cat_id=27" title="烧烤"><!-- <div><i class="icon iconfont"></i></div> --><p>烧烤</p></a></li>
-                  
-            <li><a href="food.html?cat_id=28" title="特色"><!-- <div><i class="icon iconfont"></i></div> --><p>特色</p></a></li>
-                        <div class="clear"></div>
-         </ul>
-           </div>
+                <li><a href="food.html?cat_id=24" title="西餐"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
+                      
+                <li><a href="food.html?cat_id=25" title="中餐"><div><i class="icon iconfont"></i></div<p>中餐</p></a></li>
+                      
+                <li><a href="food.html?cat_id=26" title="饮品"><div><i class="icon iconfont"></i></div<p>饮品</p></a></li>
+                      
+                <li><a href="food.html?cat_id=27" title="烧烤"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
+                      
+                <li><a href="food.html?cat_id=28" title="特色"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
+                            <div class="clear"></div>
+             </ul>
+                       </div> -->
+          
            <div class="ny_food_c">
                <ul id="auto-loop">
                     <volist name = 'list' id = 'vo'>
