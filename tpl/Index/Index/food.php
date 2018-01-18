@@ -29,6 +29,7 @@ $(document).ready(function() {
         line-height: 90px;
         font-size: 18px;
         color: #000;
+
     }
 </style>
                     
@@ -39,7 +40,7 @@ $(document).ready(function() {
     <div class="ny_title">
              <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 90px;background-color: #B3B3B3;font-weight: bold;"> 
             
-<div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 86px;border: 0">
+<div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 86px;border: 0;width: 1200px;">
     <ul class="nav-first">
      
          <li><a href="food.html?cat_id=24" title="西餐">西餐</a></li>  

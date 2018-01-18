@@ -225,8 +225,8 @@ ul.food_memu li a:hover div{background:url(../images/food_2.jpg) no-repeat cente
 /*   内页产品  css   */
 .ny_food_t{padding:25px 0;width:100%;}
 .ny_food_c{width:100%;height:auto;}
-.ny_food_c ul li{width:357px;height:300px;float:left; background:#fff;margin-right:25px;margin-bottom:25px;}
-.ny_food_c ul li img{width:357px;height:252px; }
+.ny_food_c ul li{width:361px;height:300px;float:left; background:#fff;margin-right:25px;margin-bottom:25px;}
+.ny_food_c ul li img{width:361px;height:252px; }
 .ny_food_c ul li p{width:100%;height:46px;line-height:46px;background:#000;color:#fff;font-size:16px; text-align:center;}
 .ny_food_c ul li a:hover p{background:#fec601;}
 #auto-loop{min-height:1000px; }
