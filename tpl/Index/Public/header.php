@@ -30,7 +30,7 @@
                       <div class="tel">24H加盟热线：400-1368-683</div>
 
                       <div class="nav-bg">
-                        <ul class="an-nav">
+                        <ul class="an-nav" style="width: 981px;">
                           <li><a href="zhaoshang.html">招商加盟</a></li>
                           <li><a href="lianxi.html">联系我们</a></li>
                           <!-- <li><a href="tuiguang.html">品牌推广</a></li> -->
