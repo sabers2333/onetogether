@@ -27,7 +27,8 @@
                 <a href="index.html"><img src="{$config.site_logo}" /></a>
             </div>
             <div class="nav">
-                      <div class="tel"><i class="icon iconfont"></i></div>
+                      <div class="tel"><i class="icon iconfont"></i>{$config.site_phone}</div>
+
                       <div class="nav-bg">
                         <ul class="an-nav">
                           <li><a href="zhaoshang.html">招商加盟</a></li>
