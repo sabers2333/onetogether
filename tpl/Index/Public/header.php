@@ -27,7 +27,7 @@
                 <a href="index.html"><img src="{$config.site_logo}" /></a>
             </div>
             <div class="nav">
-                      <div class="tel"><i class="icon iconfont"></i>{$config.site_phone}</div>
+                      <div class="tel">24H加盟热线：400-1368-683</div>
 
                       <div class="nav-bg">
                         <ul class="an-nav">
