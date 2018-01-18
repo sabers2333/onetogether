@@ -38,7 +38,7 @@ class Page{
 		}else{
 		   $url .= '&page=';
 		}
-		$str = '<span class="total"><span id="row_count">'.$this->totalRows.'</span> 条记录 '.$now.' / '.$total.' 页  </span>';
+		$str = '<span class="total"><span id="row_count">'.$now.' / '.$total.' 页  </span>';
 		if($now > 1){
 			$str .= '<a href="'.$url.($now-1).'" class="prev" title="上一页">上一页</a>';
 		}
