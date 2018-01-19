@@ -23,7 +23,7 @@
     }
     function createMap(){ 
       map = new BMap.Map("map"); 
-      map.centerAndZoom(new BMap.Point(113.27812,23.122832),17);
+      map.centerAndZoom(new BMap.Point(114.0496143908,22.6243368194),15);
     }
     function setMapEvent(){
       map.enableScrollWheelZoom();
@@ -38,7 +38,7 @@
     }
     function addMapOverlay(){
       var markers = [
-        {content:"深圳市龙华新区龙华街道龙园社区和平路龙胜一号202",title:"漫游时光（深圳）品牌管理有限公司",imageOffset: {width:0,height:3},position:{lat:23.122184,lng:113.277024}}
+        {content:"漫游时光（深圳）品牌管理有限公司",title:"漫游时光（深圳）品牌管理有限公司",imageOffset: {width:0,height:3},position:{lat:22.6243368194,lng:114.0496143908}}
       ];
       for(var index = 0; index < markers.length; index++ ){
         var point = new BMap.Point(markers[index].position.lng,markers[index].position.lat);
