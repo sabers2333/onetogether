@@ -110,7 +110,7 @@
                                 <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
-                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_12.jpg" width="135"
+                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_15.jpg" width="135"
                                             height="135" alt="">
                                         </div>
                                         <div class="content">
@@ -128,7 +128,7 @@
                                 <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
-                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_15.jpg" width="135"
+                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_24.jpg" width="135"
                                             height="135" alt="">
                                         </div>
                                         <div class="content">
@@ -146,7 +146,7 @@
                                 <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
-                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_21.jpg" width="135"
+                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_12.jpg" width="135"
                                             height="135" alt="">
                                         </div>
                                         <div class="content">
@@ -164,7 +164,7 @@
                                 <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
-                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_24.jpg" width="135"
+                                            <img class=" vc_box_border_grey " src="{$static_path}images/team_21.jpg" width="135"
                                             height="135" alt="">
                                         </div>
                                         <div class="content">
