@@ -40,10 +40,10 @@
              “一起吃货战场”是一个集美食和轻娱乐休闲的新锐餐饮品牌，它以领先的商业思维突破了单产品差价的传统餐饮盈利模式，让多重盈利模式得以实现。
     
 </p>
-<p style="margin-top:0px;margin-bottom:0px;padding:0px;font-family:&quot;font-size:14px;white-space:normal;background-color:#F6F6F6;">
+<p style="margin-top:0px;margin-bottom:0px;padding:0px;font-size:14px;white-space:normal;background-color:#F6F6F6;">
     在“美食”方面，它引进轻米饭系列，五彩沙拉系列，创意披萨系列，时尚饮品系列，精致西餐系列，特色烤串系列等丰富多样的特色食物，为消费者提供了丰富多样的就餐选择，深受年轻消费者的青睐。
 </p>
-<p style="margin-top:0px;margin-bottom:0px;padding:0px;font-family:&quot;font-size:14px;white-space:normal;background-color:#F6F6F6;">
+<p style="margin-top:0px;margin-bottom:0px;padding:0px;font-size:14px;white-space:normal;background-color:#F6F6F6;">
    在“娱乐”方面，它专门研发了基于“微信”这个强大社交软件的“一起餐饮娱乐系统”，将店铺变成了一个时尚，开放，有趣的社交场所，让在这里消费的客户无一不津津乐道，流连忘返。
 </p>
 <p>
