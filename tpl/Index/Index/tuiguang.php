@@ -194,16 +194,16 @@
                                     <div class="college-thumbs float">
                                         <article id="post-2084" class="post-2084 post type-post status-publish format-standard has-post-thumbnail hentry category-brand-image college-thumb">
                                             <header class="entry-header">
-                                                <a href="#?id=55" title="一起手游吧技能大赛">
+                                                <a href="#?id=55" title="一起吃货战场技能大赛">
                                                     <img width="315" height="519" class="attachment-post-thumbnail wp-post-image"
-                                                    src="{$static_path}images/20151223113000312.jpg" alt="一起手游吧技能大赛" title="一起手游吧技能大赛"
+                                                    src="{$static_path}images/20151223113000312.jpg" alt="一起吃货战场技能大赛" title="一起吃货战场技能大赛"
                                                     />
                                                 </a>
                                             </header>
                                             <div class="entry-content">
                                                 <h2 class="blog-title">
-                                                    <a href="#?id=55" title="一起手游吧技能大赛">
-                                                        一起手游吧技能大赛
+                                                    <a href="#?id=55" title="一起吃货战场技能大赛">
+                                                        一起吃货战场技能大赛
                                                     </a>
                                                 </h2>
                                             </div>
@@ -839,16 +839,16 @@
                                     <div class="college-thumbs float">
                                         <article id="post-2084" class="post-2084 post type-post status-publish format-standard has-post-thumbnail hentry category-brand-image college-thumb">
                                             <header class="entry-header">
-                                                <a href="#?id=22" title="一起手游吧师">
+                                                <a href="#?id=22" title="一起吃货战场师">
                                                     <img width="315" height="519" class="attachment-post-thumbnail wp-post-image"
-                                                    src="{$static_path}images/20151223105745031.jpg" alt="一起手游吧师" title="一起手游吧师"
+                                                    src="{$static_path}images/20151223105745031.jpg" alt="一起吃货战场师" title="一起吃货战场师"
                                                     />
                                                 </a>
                                             </header>
                                             <div class="entry-content">
                                                 <h2 class="blog-title">
-                                                    <a href="#?id=22" title="一起手游吧师">
-                                                        一起手游吧师
+                                                    <a href="#?id=22" title="一起吃货战场师">
+                                                        一起吃货战场师
                                                     </a>
                                                 </h2>
                                             </div>
