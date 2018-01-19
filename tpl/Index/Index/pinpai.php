@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="wpb_row row_width960" style="display: none;">
+                            <div class="wpb_row row_width960">
                                 <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
@@ -79,12 +79,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                品牌中心
+                                                娱乐部 Henson说：
                                                 <br/>
-                                                Kelvin
+                                                （娱乐行业，网咖行业从业将近10年，有过娱乐酒吧连锁品牌运作经验，创办过网咖实体店，网吧运营托管服务公司。）
                                             </div>
                                             <div class="content-text">
-                                                10年以上知名跨国公司形象创意策划经验。具有敏锐的时尚触觉与色彩搭配感，善于透过品牌核心理念提供形象视觉表达，以别具一格的形式清晰阐述品牌内涵。
+                                                泛娱乐行业时代已经全面到来，行业边界快速的扩张，一方面带来了巨大的市场机会，另一方面也正因为与其他行业的极速碰撞融合，让整个行业从业人员陷入一种力不从心的转型混战中。
                                             </div>
                                         </div>
                                     </div>
@@ -97,12 +97,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                拓展部
+                                                餐饮部 Daivi说：
                                                 <br/>
-                                                Jemmy
+                                                （多家连锁餐饮品牌研发经验）
                                             </div>
                                             <div class="content-text">
-                                                连锁经营选址专家，在商圈评估、竞争评估、客流采集等多个方面积累了数十年的店铺开发数据及开店经验，并能高效快速、规模化地复制到异地城市，持续不断地量产人气旺铺。
+                                                现在的人们喜欢的已经不是产品本身，而是产品所处的场景，以及场景中自己浸润的情感。
                                             </div>
                                         </div>
                                     </div>
@@ -115,12 +115,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                营运中心
+                                                投资部 Vivian说：
                                                 <br/>
-                                                David
+                                                （参与过多家知名餐饮天使轮投资）
                                             </div>
                                             <div class="content-text">
-                                                注册特级餐饮管理师、中国烹饪协会特聘专家，在近二十年的职业生涯中成功操盘多家知名连锁品牌，超群的供应链管理能力更是享誉业界。
+                                                餐饮行业全新的商业模式必须是打破单一的产品差价盈利，变成多重盈利的模式。
                                             </div>
                                         </div>
                                     </div>
@@ -133,12 +133,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                营运中心
+                                                品牌部 Kaven说：
                                                 <br/>
-                                                Jay
+                                                （多个品牌创始人）
                                             </div>
                                             <div class="content-text">
-                                                资深餐饮运营专家，集市场操盘手、营销咨询人和管理培训师三栖一体的复合式职业营销经理人，对连锁专卖店营运体系、全国各类客户与各级市场有精深的实操管理经验。
+                                                未来餐饮行业的品牌之路一定是：餐饮服务的基本功能+主题文化+消费体验的平台型企业+跨界合作+跨界发展。
                                             </div>
                                         </div>
                                     </div>
@@ -151,12 +151,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                研发中心
+                                                空间部 Liou.tao说：
                                                 <br/>
-                                                Charles
+                                                （知名设计工作室成员之一，主刀过多个品牌空间设计）
                                             </div>
                                             <div class="content-text">
-                                                顺德糕点世家传人，毕业于法国Lenôtre厨艺学院，学贯中西、博古通今，在传统糕点、港式甜品、分子料理等多个领域均具备极高造诣。
+                                                人们常说的品牌消费场景的营造，在我看来，所谓的消费场景绝不仅仅是空间意义上的概念，更是对心智对时间的占用。场景对应的也不仅仅是刚需的饱腹，更是特定社群的情感连接。
                                             </div>
                                         </div>
                                     </div>
@@ -169,12 +169,12 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                采购中心
+                                                联合创始人Peter：
                                                 <br/>
-                                                Cooper
+                                                （多个知名餐饮品牌创始人之一，多家餐饮品牌公司高级合伙人）
                                             </div>
                                             <div class="content-text">
-                                                获国际采购经理C.P.M证书认证，曾参与广交会采购组织总负责工作，深谙ERP管理之道，具有精密的采购谈判策略思维，对产品供应销售链及议价评估拥有10年的丰富经验。
+                                                餐饮由单核进化到多核竞争的时代来临，考验的不仅是体力耐力，更是系统的作战能力。新餐饮时代已经来临，新餐饮将会是，餐饮基础服务+创新×数据，同样，未来的餐饮公司则会是科技创新公司，肯定会从经营产品到经营科技创新，这就是我们漫游时光和传统餐饮公司的本质区别。
                                             </div>
                                         </div>
                                     </div>

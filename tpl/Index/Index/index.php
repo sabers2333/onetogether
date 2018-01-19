@@ -35,21 +35,25 @@
 <!-- <embed src="flv.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
          </div>
          <div class="cur_t">
-             <h3>{$config.site_name}【官网】</h3><p>
-    <span style="white-space:normal;">"一起手游吧"【官网】</span>是一家以牛排、披萨、意面等西式简餐为主的邻里西餐厅，消费群体主要为学生、上班族、儿童等大众消费群体。人均消费三十元左右<span style="white-space:normal;">！</span>是家庭聚餐、朋友聚会、情侣约会的极佳场所。已开设多家连锁直管店及数百家特许连锁加盟店。 如果您想加盟投资创业餐饮项目,一起手游吧将是您的不二之选。
+             <h3>{$config.site_name}【官网】</h3>
+             <p>
+             「一起吃貨戰場」是一個集美食和輕娛樂休閒的新銳餐飲品牌，它以領先的商業思維突破了單產品差價的傳統餐飲盈利模式，讓多重盈利模式得以實現。
+    
 </p>
 <p style="margin-top:0px;margin-bottom:0px;padding:0px;font-family:&quot;font-size:14px;white-space:normal;background-color:#F6F6F6;">
-    白墙黑屋的独栋洋房，外观风格仿照都铎式建筑，全部采用黑白两色，老洋房结合热带花园的魅力，白天充满清新绿意，夜间摇曳浪漫烛光，已成为美食的标志之一。
+    在「美食」方面，它引進輕米飯系列，五彩沙拉系列，創意披薩系列，時尚飲品系列，精緻西餐系列，特色烤串系列等豐富多樣的特色食物，為消費者提供了豐富多樣的就餐選擇，深受年輕消費者的青睞。
 </p>
 <p style="margin-top:0px;margin-bottom:0px;padding:0px;font-family:&quot;font-size:14px;white-space:normal;background-color:#F6F6F6;">
-    <span style="margin:0px;padding:0px;font-size:13.3333px;"><span style="white-space:normal;">"一起手游吧"</span><span style="white-space:normal;">隶属于安徽风清扬品牌管理股份有限公司。</span>公司</span>将这种充满魅力的简约风格餐厅带到中国，餐厅延续英伦都绎华宅的设计风格，采用经典的黑白色调，映衬出东西方的对称之美。营造别致清新、静谧典雅的就餐氛围。多元化的美食、舒适柔和的环境、乡村与都市的完美融合，给味蕾以享受的同时让顾客体验到不一样的西餐厅风情。
+   在「娛樂」方面，它專門研發了基於「微信」這個強大社交軟件的「一起餐飲娛樂系統」，將店鋪變成了一個時尚，開放，有趣的社交場所，讓在這裡消費的客戶無一不津津樂道，流連忘返。
 </p>
 <p>
-    &nbsp;
+    在「空間」方面，它以時尚，簡約的流行風格，將整個店鋪變成一個既能獨立又能互動的開放式空間，深受年輕消費者的喜歡。
 </p>
 <p>
-    &nbsp;
-</p>            <a href="pinpai.html">了解更多>></a>
+   「一起吃貨戰場」隸屬於漫遊時光（深圳）品牌管理有限公司，公司旗下有「一起吃貨戰場」，「一起茶」兩個品牌，都是以全新的商業思維和品牌理念在運作，在深圳一經推出便受到資本以及眾多投資者的青睞，勢必引爆2018的投資市場，公司在2018年2月開放合作，將在全國挑選出來優質合作者，大力扶持區域市場開發，如果你看好我們的商業模式，如果你準備付諸於努力，我們願與你攜手同行。
+</p>   
+<p>未來，已來</p>
+         <a href="pinpai.html">了解更多>></a>
             </p>
          </div>
      </div>
