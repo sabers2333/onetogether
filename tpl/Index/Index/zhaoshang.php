@@ -71,7 +71,7 @@
 <h3>西餐/简餐系列(部分餐饮展示)</h3>
 <div class="line" ></div>
 </div>
-<div class="ny_food" style="width: 1200px;margin:0 auto;height: 1100px;">
+<div class="ny_food" style="width: 1158px;margin:0 auto;height: 1100px;">
    <div class="ny_food_c" style="height: 1100px;">
        <ul id="auto-loop">
           <li><a href="javascript:;"><img src="{$static_path}/img/img_11.jpg" /></a></li>  
