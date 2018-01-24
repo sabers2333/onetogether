@@ -97,7 +97,7 @@
 <h3>宵夜/小吃/烤鸡系列(部分餐饮展示)</h3>
 <div class="line" ></div>
 </div>
-<div class="ny_food" style="width: 1200px;margin:0 auto;height: 600px;">
+<div class="ny_food" style="width: 1158px;margin:0 auto;height: 600px;">
    <div class="ny_food_c" style="height: 600px;">
        <ul id="auto-loop">
           <li><a href="javascript:;"><img src="{$static_path}/img/img_36.jpg" /></a></li>  
