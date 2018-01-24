@@ -6,7 +6,7 @@
     text-align: center;
     color: #000;
     padding: 33px 0 40px 0;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 .pd {
     padding:20px;
@@ -61,12 +61,10 @@
 <div class="t1">
 <div class="title1">
 <img src="{$static_path}img/img_03.png" alt="">
-<div class="pd"></div>
 <h3>产品线覆盖网红饮品、简餐、西餐、中餐、轻米饭系列，</h3>
 <h3>夜宵烤串系列，还有专门针对吃鸡游戏研发的烤鸡系列。</h3>
 </div>
 </div>
-<div class="pd"></div>
 <!-- <div class="ny_banner1"><a href="" target="_blank"><img src="{$static_path}img/img_08.jpg" alt=""></a></div> -->
 <div class="title1">
 
