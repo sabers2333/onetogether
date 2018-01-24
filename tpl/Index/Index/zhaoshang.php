@@ -45,8 +45,9 @@
     <div class="banner">
       <div class="banner_center">
         <ul >
-                <li style="background:url({$static_path}img/img_01.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
                 <li style="background:url({$static_path}img/img_08.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
+                <li style="background:url({$static_path}img/img_01.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
+                
         </ul>
       </div>
       <div class="banner_btn">
