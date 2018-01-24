@@ -90,7 +90,7 @@
 <h3>饮品系列(部分餐饮展示)</h3>
 <div class="line" ></div>
 </div>
-<div class="w16 cur_c clearfix" >
+<div class="w16  clearfix" >
       <img src="{$static_path}img/img_29.jpg" alt="">
 </div>
 <div class="title1">
@@ -113,7 +113,7 @@
 </div>
 <div class="ny_banner1" ><a href="" target="_blank"><img src="{$static_path}img/img_47.jpg" alt=""></a></div> 
 <div class="pd"></div>
-<div class="w16 cur_c clearfix" style="width: 966px;" >
+<div class="w16  clearfix" style="width: 966px;" >
       <img src="{$static_path}img/img_50.jpg" alt="">
       <img src="{$static_path}img/img_52.jpg" alt="">
       <img src="{$static_path}img/img_53.jpg" alt="">
@@ -126,11 +126,11 @@
 <h4>他们的共性：不仅仅是提供优质餐饮，而是变成为一个，提供餐饮服务基本功能+主题文化+</h3>
 <h4>消费体验平台，融入跨界合作、跨界发展的新餐饮品牌。</h3>
 </div>
-<div class="w16 cur_c clearfix" style="width: 1000px;" >
+<div class="w16  clearfix" style="width: 1000px;" >
       <img src="{$static_path}img/img_11.png" alt="">
 </div> 
 <div class="ny_banner1"><img src="{$static_path}img/img_86.jpg" alt=""></a></div> 
-<div class="w16 cur_c clearfix" style="width: 1000px;" >
+<div class="w16  clearfix" style="width: 1000px;" >
       <img src="{$static_path}img/img_89.jpg" alt="">
       <img src="{$static_path}img/img_92.jpg" alt="">
       <img src="{$static_path}img/img_93.jpg" alt="">
