@@ -115,7 +115,7 @@ $(document).ready(function(){
                 $(".consulting_btn a").eq(c).trigger('click');
                 });
     // 战略合作logo播放
-    $('#Marquee_x').jcMarquee({ 'marquee':'x','margin_right':'6px','speed':18 });
+    // $('#Marquee_x').jcMarquee({ 'marquee':'x','margin_right':'6px','speed':18 });
 });
               function showAuto()
             {
