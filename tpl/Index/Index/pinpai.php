@@ -35,7 +35,7 @@
                                                                 漫游时光（深圳）品牌管理公司，是由一群有着休闲餐饮、饮品行业多年美学研究,新媒体行业丰富管理运营经验,品牌管理行业优秀运营实力的精英人才联合成立的。
                                                             </p>
                                                             <p class="font_company">
-                                                                漫游时光（深圳）品牌管理公司 目前，拥有国内“一起吃货战场”“一起茶”等知名餐饮品牌，连锁店总数超过100家，覆盖国内外，是国内最成功的休闲餐饮企业之一。
+                                                                漫游时光（深圳）品牌管理公司 目前，拥有国内“一起吃货战场”“一起茶”等知名餐饮品牌，连锁店100多家，覆盖国内外，是国内最成功的休闲餐饮企业之一。
 
                                                             </p>
                                                             <p class="font_company">
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                             <div class="wpb_row row_width960" style="width: 1200px;max-width: 1200px">
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_06.jpg" width="135" height="135" alt="">
@@ -86,8 +86,6 @@
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
                                                 娱乐部 Henson说：
-                                                <br>
-                                                （娱乐行业，网咖行业从业将近10年，有过娱乐酒吧连锁品牌运作经验，创办过网咖实体店，网吧运营托管服务公司。）
                                             </div>
                                             <div class="content-text">
                                                 泛娱乐行业时代已经全面到来，行业边界快速的扩张，一方面带来了巨大的市场机会，另一方面也正因为与其他行业的极速碰撞融合，让整个行业从业人员陷入一种力不从心的转型混战中。
@@ -95,7 +93,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_04.jpg" width="135" height="135" alt="">
@@ -103,8 +101,6 @@
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
                                                 餐饮部 Daivi说：
-                                                <br>
-                                                （多家连锁餐饮品牌研发经验）
                                             </div>
                                             <div class="content-text">
                                                 现在的人们喜欢的已经不是产品本身，而是产品所处的场景，以及场景中自己浸润的情感。
@@ -112,7 +108,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_15.jpg" width="135" height="135" alt="">
@@ -120,8 +116,6 @@
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
                                                 投资部 Vivian说：
-                                                <br>
-                                                （参与过多家知名餐饮天使轮投资）
                                             </div>
                                             <div class="content-text">
                                                 餐饮行业全新的商业模式必须是打破单一的产品差价盈利，变成多重盈利的模式。
@@ -129,7 +123,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_24.jpg" width="135" height="135" alt="">
@@ -137,8 +131,6 @@
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
                                                 品牌部 Kaven说：
-                                                <br>
-                                                （多个品牌创始人）
                                             </div>
                                             <div class="content-text">
                                                 未来餐饮行业的品牌之路一定是：餐饮服务的基本功能+主题文化+消费体验的平台型企业+跨界合作+跨界发展。
@@ -146,7 +138,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_12.jpg" width="135" height="135" alt="">
@@ -154,8 +146,6 @@
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
                                                 空间部 Liou.tao说：
-                                                <br>
-                                                （知名设计工作室成员之一，主刀过多个品牌空间设计）
                                             </div>
                                             <div class="content-text">
                                                 人们常说的品牌消费场景的营造，在我看来，所谓的消费场景绝不仅仅是空间意义上的概念，更是对心智对时间的占用。场景对应的也不仅仅是刚需的饱腹，更是特定社群的情感连接。
@@ -163,7 +153,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="vc_span6 wpb_column column_container hq1">
+                                <div class="vc_span6 wpb_column column_container">
                                     <div class="wpb_wrapper team_leader">
                                         <div class="photo">
                                             <img class=" vc_box_border_grey " src="{$static_path}/images/team_21.jpg" width="135" height="135" alt="">
@@ -171,8 +161,6 @@
                                         <div class="content">
                                             <div class="title_jiuwo">
                                                 联合创始人Peter：
-                                                <br>
-                                                （多个知名餐饮品牌创始人，多家餐饮品牌公司高级合夥人）
                                             </div>
                                             <div class="content-text">
                                                 餐饮由单核进化到多核竞争的时代来临，考验的不仅是体力耐力，更是系统的作战能力。新餐饮时代已经来临，新餐饮将会是，餐饮基础服务+创新×数据，同样，未来的餐饮公司则会是科技创新公司，肯定会从经营产品到经营科技创新，这就是我们漫游时光和传统餐饮公司的本质区别。
