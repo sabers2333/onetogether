@@ -85,7 +85,8 @@
                                         </div>
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
-                                                娱乐部 Henson说：
+                                            娱乐部<br>
+                                                Henson
                                             </div>
                                             <div class="content-text">
                                                 泛娱乐行业时代已经全面到来，行业边界快速的扩张，一方面带来了巨大的市场机会，另一方面也正因为与其他行业的极速碰撞融合，让整个行业从业人员陷入一种力不从心的转型混战中。
@@ -100,7 +101,7 @@
                                         </div>
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
-                                                餐饮部 Daivi说：
+                                               餐饮部<br> Daivi
                                             </div>
                                             <div class="content-text">
                                                 现在的人们喜欢的已经不是产品本身，而是产品所处的场景，以及场景中自己浸润的情感。
@@ -115,7 +116,8 @@
                                         </div>
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
-                                                投资部 Vivian说：
+                                                 投资部<br>Vivian
+                                               
                                             </div>
                                             <div class="content-text">
                                                 餐饮行业全新的商业模式必须是打破单一的产品差价盈利，变成多重盈利的模式。
@@ -130,7 +132,8 @@
                                         </div>
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
-                                                品牌部 Kaven说：
+                                                品牌部<br>Kaven
+                                                
                                             </div>
                                             <div class="content-text">
                                                 未来餐饮行业的品牌之路一定是：餐饮服务的基本功能+主题文化+消费体验的平台型企业+跨界合作+跨界发展。
@@ -145,7 +148,8 @@
                                         </div>
                                         <div class="content hq2">
                                             <div class="title_jiuwo">
-                                                空间部 Liou.tao说：
+                                               空间部<br> Liou.tao
+                                                
                                             </div>
                                             <div class="content-text">
                                                 人们常说的品牌消费场景的营造，在我看来，所谓的消费场景绝不仅仅是空间意义上的概念，更是对心智对时间的占用。场景对应的也不仅仅是刚需的饱腹，更是特定社群的情感连接。
@@ -160,7 +164,8 @@
                                         </div>
                                         <div class="content">
                                             <div class="title_jiuwo">
-                                                联合创始人Peter：
+                                                联合创始人<br>Peter
+                                                
                                             </div>
                                             <div class="content-text">
                                                 餐饮由单核进化到多核竞争的时代来临，考验的不仅是体力耐力，更是系统的作战能力。新餐饮时代已经来临，新餐饮将会是，餐饮基础服务+创新×数据，同样，未来的餐饮公司则会是科技创新公司，肯定会从经营产品到经营科技创新，这就是我们漫游时光和传统餐饮公司的本质区别。
@@ -177,7 +182,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo">
+                                            <div class="title_jiuwo" style="font-weight:bold;">
                                                 产品研发团队
                                             </div>
                                             <div class="content-text">
@@ -193,7 +198,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo">
+                                            <div class="title_jiuwo" style="font-weight:bold;">
                                                 店铺设计团队
                                             </div>
                                             <div class="content-text">
@@ -209,7 +214,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo">
+                                            <div class="title_jiuwo" style="font-weight:bold;">>
                                                 门店管理团队
                                             </div>
                                             <div class="content-text">
@@ -225,7 +230,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo">
+                                            <div class="title_jiuwo" style="font-weight:bold;">>
                                                 品牌运营团队
                                             </div>
                                             <div class="content-text">
