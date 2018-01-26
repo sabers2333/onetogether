@@ -214,7 +214,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo" style="font-weight:bold;">>
+                                            <div class="title_jiuwo" style="font-weight:bold;">
                                                 门店管理团队
                                             </div>
                                             <div class="content-text">
@@ -230,7 +230,7 @@
                                             height="165" alt="">
                                         </div>
                                         <div class="content">
-                                            <div class="title_jiuwo" style="font-weight:bold;">>
+                                            <div class="title_jiuwo" style="font-weight:bold;">
                                                 品牌运营团队
                                             </div>
                                             <div class="content-text">
