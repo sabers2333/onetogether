@@ -59,7 +59,7 @@
      </div>
 </div>
 <div class="food">
-     <div class="title">
+     <div class="title" style="background: url({$static_path}/images/title_food.png) no-repeat bottom center;">
          <h3>美食</h3>
          <p>品味世界美食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给您味蕾绽放的快感</p>
      </div>
@@ -89,7 +89,7 @@
      </div>
 </div>
 <div class="lunbo">
-    <div class="title">
+    <div class="title" style="background: url({$static_path}/images/title_shouyou.png) no-repeat bottom center;">
          <h3>手游 + 娱乐</h3>
          <p>娱乐休闲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国最有趣的吃货战场</p>
      </div>
@@ -114,7 +114,7 @@
     </div>
 </div>
 <div class="news">
-     <div class="title">
+     <div class="title" style="background: url({$static_path}/images/title_news.png) no-repeat bottom center;">
          <h3>新闻资讯</h3>
         <!-- <p>海外轻奢型美味 向家庭厨房和社区服务延伸</p>-->
      </div>
