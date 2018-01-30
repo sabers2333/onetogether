@@ -26,11 +26,12 @@ $(document).ready(function() {
 </script>
 <style>
     .FrontColumns_navigation01-d1_c1 ul.nav-first li a{
-        line-height: 90px;
+        line-height: 50px;
         font-size: 18px;
         color: #000;
 
     }
+    .ny_title{height: 50px;}
 </style>
                     
 <div class="ny_banner" style="background:url({$static_path}images/20160130112133492.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
@@ -38,9 +39,9 @@ $(document).ready(function() {
 <a name="food" id="food"></a>
 <div class="ny_main">
     <div class="ny_title">
-             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 90px;background-color: #B3B3B3;font-weight: bold;"> 
+             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 50px;background-color: #B3B3B3;font-weight: bold;"> 
             
-<div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 86px;border: 0;width: 1200px;">
+<div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 46px;border: 0;width: 1200px;">
     <ul class="nav-first">
      
          <li><a href="food.html?cat_id=24" title="西餐">西餐</a></li>  
@@ -54,7 +55,7 @@ $(document).ready(function() {
           </div>
     </div>
     
-<div class="ny_food">
+<div class="ny_food" style="padding-top: 0">
         <div class="w16">
             <!-- <div class="ny_food_t">
             <ul class="food_memu">

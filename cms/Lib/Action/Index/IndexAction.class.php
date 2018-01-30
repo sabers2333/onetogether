@@ -102,6 +102,12 @@ class IndexAction extends BaseAction
         $this->display();
     }
 
+    //招商
+    public function zhaoshang1()
+    {
+        $this->display();
+    }
+
     //推荐新闻
     public function getnews($condition)
     {
