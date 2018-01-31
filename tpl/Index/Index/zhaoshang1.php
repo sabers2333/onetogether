@@ -39,6 +39,7 @@
 .t1{
     width: 100%;height: auto;
 }
+.ny_banner1 img{width: 100%}
 .line{border-top: 1px solid red;width :900px;text-align: center;margin:20px auto}
 </style>
 <div class="banner_all">
@@ -47,7 +48,7 @@
         <ul >
                 <li style="background:url({$static_path}zs1/1_01.png);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
                 <li style="background:url({$static_path}img/img_08.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
-                <li style="background:url({$static_path}img/img_01.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
+                <li style="background:url({$static_path}img/img_011.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
                 
         </ul>
       </div>
