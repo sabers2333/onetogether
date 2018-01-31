@@ -140,11 +140,11 @@
       <img src="{$static_path}img/img_89.jpg" alt="">
       <img src="{$static_path}img/img_92.jpg" alt="">
       <img src="{$static_path}img/img_93.jpg" alt="">
-      <img src="{$static_path}img/img_94.jpg" alt="">
+      <img src="{$static_path}img/1_39.png" alt="">
       <img src="{$static_path}img/img_95.jpg" alt="">
-      <img src="{$static_path}img/img_96.jpg" alt="">
+      <img src="{$static_path}img/1_41.png" alt="">
       <img src="{$static_path}img/img_97.jpg" alt="">
-      <img src="{$static_path}img/img_98.jpg" alt="">
+      <img src="{$static_path}img/1_42.png" alt="">
       <img src="{$static_path}img/img_99.jpg" alt="">
 </div> 
 <div class="ny_banner1"><img src="{$static_path}zs1/1_44.png" alt=""></a></div> 
