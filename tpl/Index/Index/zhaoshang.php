@@ -5,7 +5,6 @@
     height: auto;
     text-align: center;
     color: #000;
-    padding: 33px 0 40px 0;
     /* margin-bottom: 40px; */
 }
 .pd {
