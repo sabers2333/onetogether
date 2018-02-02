@@ -47,7 +47,7 @@
         <ul >
                 <li style="background:url({$static_path}zs1/1_01.png);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
                 <li style="background:url({$static_path}img/img_08.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
-                <li style="background:url({$static_path}img/img_0111.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
+                <li style="background:url({$static_path}img/img_011.jpg);height: 599px;  "><a href="javascript:;" target="_blank"></a></li>
                 
         </ul>
       </div>
