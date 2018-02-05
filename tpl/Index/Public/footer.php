@@ -1,7 +1,8 @@
 <footer>
     <div id="sub-footer">
         <div id="sub-footer-core">
-            <div id="footer-menu" class="sub-footer-links"><ul id="menu-footermenuall" class="menu">
+            <div id="footer-menu" class="sub-footer-links">
+            <!-- <ul id="menu-footermenuall" class="menu">
                 <li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-279">
                     <a href="pinpai.html">品牌文化</a>
                     <ul class="sub-menu">
@@ -31,7 +32,8 @@
                         <li id="menu-item-2234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2234"><a href="zhaoshang.html">招商加盟</a></li>
                     </ul>
                 </li>
-                </ul></div>           <!-- #footer-menu -->
+                </ul> -->
+                </div>           <!-- #footer-menu -->
                 <div id="footerQRcode">
                     <img src="{$static_path}images/qr_code.png" alt="" />
                 </div>
