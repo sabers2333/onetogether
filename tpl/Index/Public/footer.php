@@ -42,7 +42,11 @@
                 </div>
         </div>
     </div>
+    <div style="display: none;"><script src="https://s19.cnzz.com/z_stat.php?id=1272888463&web_id=1272888463" language="JavaScript"></script></div>
 </footer><!-- footer -->
+    <script>
+var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?f6b76b7f985c3c5af8d894e1b1bbc68f"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
+<script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=11693852"></script>
     <script type='text/javascript' src='{$static_path}js/jquery.carouFredSel-6.2.1-packed.js?ver=6.2.1'></script>
     <script type='text/javascript' src='{$static_path}js/theme.extend.js?ver=4.1.8'></script>
 </body>
