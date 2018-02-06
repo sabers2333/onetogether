@@ -44,6 +44,7 @@
     </div>
     <div style="display: none;"><script src="https://s19.cnzz.com/z_stat.php?id=1272888463&web_id=1272888463" language="JavaScript"></script></div>
 </footer><!-- footer -->
+<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10170576/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script> 
     <script>
 var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?f6b76b7f985c3c5af8d894e1b1bbc68f"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
 <script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=11693852"></script>
