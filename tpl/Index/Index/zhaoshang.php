@@ -1,4 +1,6 @@
 <include file="Public:header"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}/css/style1.css"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}/css/bootstrap.min.css"/>
 <style>
     .title1 {
     width: 100%;
@@ -151,4 +153,130 @@
 <div class="ny_banner1"><img src="{$static_path}img/img_103.jpg" alt=""></a></div> 
 <div class="ny_banner1"><img src="{$static_path}img/img_104.jpg" alt=""></a></div> 
 <div class="ny_banner1"><img src="{$static_path}img/img_105.jpg" alt=""></a></div> 
+
+                                    
+<div class="ny_main">
+    <div class="ny_about">
+       <div class="w16" style="height: 550px;">
+
+            <div class="col-xs-6 liuyanneirong">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      最新留言
+    </div>
+    <div class="panel-body">
+      <ul class="list-group" id="list">
+        <div class="comment_list">
+        
+        </div>
+        <li class="page" style="margin-left: 120px;">
+        <!-- <div>
+          <span class="current">1</span><a class="num" href="javascript:ajaxdata(2);">2</a>
+          <a class="num" href="/Touzi-index-p-3.html">3</a>
+          <a class="num" href="/Touzi-index-p-4.html">4</a><a class="num" href="/Touzi-index-p-5.html">5</a><a class="num" href="/Touzi-index-p-6.html">6</a><a class="num" href="/Touzi-index-p-7.html">7</a><a class="num" href="/Touzi-index-p-8.html">8</a><a class="num" href="/Touzi-index-p-9.html">9</a><a class="num" href="/Touzi-index-p-10.html">10</a><a class="num" href="/Touzi-index-p-11.html">11</a><a class="next" href="/Touzi-index-p-2.html">下一页</a><a class="end" href="/Touzi-index-p-165.html">165</a>
+        </div> -->
+        <div class="loadmore">
+        </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="col-xs-6 ">
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      在线留言
+    </div>
+    <div class="panel-body">
+      <form class="myform" action="{:U('comment')}" method="post" id="form1">
+        <div class="row form-group">
+          <div class="col-xs-6">
+            <input style="height:34px" class="form-control" type="text" name="name" id="name" value="" placeholder="请输入您的姓名" required="required"/>
+          </div>
+          <div class="col-xs-6">
+            <input style="height:34px" class="form-control" type="text" name="mobile" id="mobile" value="" placeholder="请输入您的手机号码" required="required"/>
+          </div>
+        </div>
+        <div class="row form-group ">
+          <div class="col-xs-12">
+            <textarea style="height:118px" class="form-control " name="demand" id="demand" placeholder="请输入您的需求" required="required" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="row form-group ">
+          <div class="col-xs-12">
+            <input class="form-control yanzhenginput" style="height:34px" type="text" name="verify" value="" placeholder="请输入验证码" required="required"/><img class="yanzheng" src="{:U('verify')}" id="verifyImg" onclick="fleshVerify('{:U('verify')}')" title="刷新验证码" alt="刷新验证码"/>
+          </div>
+        </div>
+        <div class="row form-group ">
+          <div class="col-xs-12">
+            <button type="button" class="btn btn-primary form-control">提交需求</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+       </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function fleshVerify(url){
+        var time = new Date().getTime();
+        $('#verifyImg').attr('src',url+"&time="+time);
+    }
+    $(function(){
+        /* 提示 */
+        $('.btn-primary').on('click', function () {
+            $.post("{:U('comment')}",$("#form1").serialize(),function(data){
+                if(data['status']==0){
+                    alert(data.info);
+                }else{
+                    alert(data.info);
+                    window.location.reload();
+                }
+            })
+        });
+        ajaxdata(1);
+    });
+    function ajaxdata(page){
+      // 这里可以写些验证代码
+      $.get("{:U('ajax_comment')}",{page:page},function(data){
+            if(data.li==''){
+            }else{
+              total = data.total; //总记录数 
+              pageSize =data.pageSize; //每页显示条数 
+              curPage = Number(page); //当前页 
+              totalPage = data.totalpage; //总页数 
+                $(".comment_list").html(data.li);
+                 getPageBar();
+            }
+             },'json');
+    }
+    function getPageBar(){
+        var pageStr='';
+    //页码大于最大页数 
+    if(curPage>totalPage) curPage=totalPage; 
+    //页码小于1 
+    if(curPage<1) curPage=1; 
+    //如果是最后页 
+    if(curPage!=1){
+        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage-1)+')">上一页</a>'; 
+    }
+    
+    
+    for(var i=curPage;i<=curPage+5;i++){
+        if(i>totalPage){
+            continue;
+        }
+        pageStr += '<a class="num" href="javascript:ajaxdata('+i+')">'+i+'</a>'; 
+    } 
+    if(curPage<totalPage){
+        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage+1)+')">下一页</a>'; 
+        pageStr += '<a class="num" href="javascript:ajaxdata('+totalPage+')">'+totalPage+'</a>'; 
+    }
+    
+     
+    $(".loadmore").html(pageStr); 
+}
+</script>
 <include file="Public:footer"/>
