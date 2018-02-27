@@ -12,7 +12,7 @@ return array(
 	'OUTPUT_ENCODE'         => true, 			//页面压缩输出
 	
 	/*URL配置*/
-	'URL_MODEL' 			=> '1',
+	'URL_MODEL' 			=> '0',
 	
 	/*分组配置*/
 	'APP_GROUP_LIST' 		=> 'Index,Group,Meal,User,Merchant,System,Lottery,WapMerchant,House', 	//项目分组设定

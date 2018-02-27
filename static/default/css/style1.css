@@ -1,0 +1,362 @@
+header, section, footer, aside, nav, main, article, figure{ display: block;}
+h1, h2, h3, h4, h5, h6, p, ul{ margin: 0px; padding: 0px;}
+.clearfix{ overflow: hidden; _zoom: 1;}
+*{ box-sizing: border-box; font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu;}
+a{ text-decoration: none; outline: none;}
+html{
+  /*1rem = 20px */
+  font-size: 125%;}
+body{ -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision;}
+
+/*动画定义区域*/
+
+@keyframes move2{ 50%{ top: 70%;}
+  100%{ top: 0%;}
+  }
+@-webkit-keyframes move2{ 50%{ top: 70%;}
+  100%{ top: 0%;}
+  }
+.section .move2{ animation: move2 2s 1 reverse; -webkit-animation: move2 2s 1 reverse;}
+@keyframes move1{ 50%{ bottom: 12%;}
+  100%{ bottom: 10%;}
+  }
+@-webkit-keyframes move1{ 50%{ bottom: 12%;}
+  100%{ bottom: 10%;}
+  }
+@keyframes move3{ 50%{ bottom: 2%;}
+  100%{ bottom: 0%;}
+  }
+@-webkit-keyframes move3{ 50%{ bottom: 2%;}
+  100%{ bottom: 0%;}
+  }
+
+/* ========== */
+
+
+/* = 背景动画 = */
+
+
+/* ========== */
+
+
+/*
+ * 应用范围
+ * 第三屏手风琴背景切换透明过渡效果
+ * 
+ * */
+
+@keyframes getwhite{ 50%{ opacity: 0.5;}
+  100%{ opacity: 0.8;}
+  }
+@-webkit-keyframes getwhite{ 50%{ opacity: 0.5;}
+  100%{ opacity: 0.8;}
+  }
+section{ position: relative;}
+.logo{ top: 0px; left: 0px; z-index: 13; width: 300px; width: 15rem; padding: 20px; padding: 1rem; height: 80px; height: 4rem;}
+.logo .inner{ width: 100%; height: 100%; position: relative;}
+.logo .background_logo{ position: absolute; z-index: 10; background: #fff; width: 100%; height: 100%; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.logo .pic{ position: absolute; z-index: 11; width: 100%;}
+.logo .pic img{ width: 100%; vertical-align: middle;}
+
+/*#fp-nav.right ul li span{background-color: #C92847;}*/
+
+
+/* side */
+
+.section1 .side{position: fixed;width: 100px;height: 250px;right: 0;top: 230px; z-index: 1000;}
+.section1 .side ul li{width: 100px;height: 54px;float: left;position: relative;border-bottom: 1px solid #444;list-style: none;}
+.section1 .side ul li .sidebox{position:absolute;width:260px;height:54px;top:0;right:0;transition:all 0.3s;background:#000;opacity:1;filter:Alpha(opacity=80);color:#fff;font:18px/54px "微软雅黑";overflow:hidden;background:#ae1c1c;}
+.section1 .side ul li .sidebox:hover{font-size: 18px;}
+.section1 .side ul li .phone{width: 260px;}
+.section1 .side ul li .phone:hover{ font-size: 18px;}
+.section1 .side ul li a{color: #fff;font: 16px "微软雅黑";}
+.section1 .side ul li a:hover{color: #fff;line-height: 54px; text-decoration: none;}
+.section1 .side ul li .sidetop{width: 100px;height: 54px;line-height: 54px;display: inline-block;background: #000;opacity: 1;filter: Alpha(opacity=100);transition: all 0.3s;}
+.section1 .side ul li .sidetop:hover{background: #ae1c1c;opacity: 1;filter: Alpha(opacity=100);font: 18px/54px "微软雅黑";}
+.section1 .side ul li img{float: left; width: 30px; margin: 12px 10px 0px 12px;}
+.section1 .slide{ background-position: center; background-attachment: scroll; background-size: cover; background-repeat: no-repeat;  transition: opacity 1.5s; -webkit-transition: opacity 1.5s; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section1 div.fp-controlArrow.fp-prev{ visibility: hidden;}
+.section1 div.fp-controlArrow.fp-next{ visibility: hidden;}
+.section1 .banner1{ background-image: url(../../img/pc/banner1.jpg); background-size: cover; background-position: 50%; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section1 .banner2{ background-image: url(../../img/pc/banner2.jpg); background-size: cover; background-position: 50%; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section1 .banner3{ background-image: url(../../img/pc/banner3.jpg); background-size: cover; background-position: 50%; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section1 .banner4{ background-image: url(../../img/pc/banner4.jpg); background-size: cover; background-position: 50%; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+
+/*箭头向下示意*/
+
+.dowm{ position: absolute; z-index: 20; width: 50px; height: 50px; bottom: 0px; left: 50%; margin-left: -25px; animation: move3 1s linear infinite; -webkit-animation: move3 1s linear infinite;}
+.dowm img{ width: 100%; display: block;}
+
+/*第一屏*/
+
+
+/*动画应用*/
+
+.section1 .getbig{ opacity: 1;
+  /*   animation: hide1 10s linear;
+    -webkit-animation: hide1 8s reverse infinite;*/
+  /* Safari 和 Chrome */
+  }
+.section1 header{ position: absolute; bottom: 10%; left: 50%; z-index: 10; width: 400px; width: 20rem; height: 190px; height: 9.5rem; text-align: left; margin-left: -200px; margin-left: -10rem;}
+.section1 header:hover{ animation: move1 1s 1; -webkit-animation: move1 1s 1;}
+.section1 header:hover .background_banner{ opacity: 0.5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)";}
+.bannertext{ position: relative; width: 100%; height: 100%;}
+.bannertext .background_banner{ background: #fefefe; opacity: 0.15; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=15)"; position: absolute; z-index: 9; left: 0px; top: 0px; width: 100%; height: 100%; transition: opacity 1s; -webkit-transition: opacity 1s;}
+.bannertext .background_text{ position: absolute; z-index: 11; left: 0px; top: 0px; width: 100%; height: 100%; padding-top: 30px; padding-top: 1.5rem;}
+.bannertext h2{ font-size: 40px; font-size: 2rem; color: #C92847; margin-bottom: 20px; margin-bottom: 1rem;}
+.bannertext p{ font-size: 20px; font-size: 1rem; line-height: 30px; line-height: 1.5rem; color: #000; padding-left: 20px; padding-left: 1rem;}
+
+/*第二屏*/
+
+.section2 {}
+
+.section2 .background{ opacity: 0.5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; background: url(../../img/pc/background_image.jpg) 50% no-repeat; background-attachment: fixed; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc); position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;}
+.section2 .content{ position: relative; height: 100%; max-width: 100%;}
+.section2 h2{ line-height: 40px; line-height: 2rem; font-size: 28px; font-size: 1.4rem; text-align: left; color: black; padding: 80px 0px 18px 20px; padding: 4rem 0px 0.9rem 1rem;}
+.section2 ul{ width: 100%; overflow: hidden; margin-left: 0.5%; position: absolute; bottom: 0px;}
+.section2 ul li{ width: 16.5%; list-style: none; position: relative; height: 400px; height: 20rem; float: left;}
+.section2 ul .text{ height: 200px; height: 10rem; background: rgba(221, 221, 221, 0.2); transition: background-color 1s; -webkit-transition: background-color 1s;}
+.section2 ul li:hover .text{ background-color: #C92847;}
+.section2 ul .pic{ position: absolute; transition: top 0.7s; -webkit-transition: top 0.7s; top: 50%; width: 100%; height: 50%;}
+.section2 ul li:hover .pic{ top: 0%;}
+.section2 ul .top{ height: 200px; height: 10rem;}
+.section2 ul .top h3{ color: black; font-size: 30px; font-size: 1.5rem; line-height: 200px; line-height: 10rem; text-align: center; padding: 0px; margin: 0px;}
+.section2 ul .bottom{ box-sizing: border-box; padding: 10px; padding: 0.5rem; position: relative; display: table; width: 100%;}
+.section2 ul .bottom .inner{ width: 100%; display: table-cell; vertical-align: middle; -ms-behavior: url(Public/js/pc/ie-css3.htc); behavior: url(Public/js/pc/ie-css3.htc);}
+
+/*
+.section2 ul .bottom .inner {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-behavior: url(Public/js/pc/ie-css3.htc);
+    behavior: url(Public/js/pc/ie-css3.htc);
+}*/
+
+.section2 ul .bottom p{ width: 90%; margin: 0px 5%; text-indent: 16px; text-indent: 0.8rem; color: white; line-height: 18px; line-height: 0.9rem; font-size: 12px; font-size: 0.6rem;}
+.section2 ul .bottom h4{ text-align: center; color: white; font-size: 18px; font-size: 0.9rem; margin-bottom: 10px; margin-bottom: 0.5rem; line-height: 26px; line-height: 1.3rem;}
+.section2 ul .pic1{ background: url(../../img/pc/pinpai1.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section2 ul .pic2{ background: url(../../img/pc/pinpai2.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section2 ul .pic3{ background: url(../../img/pc/pinpai3.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section2 ul .pic4{ background: url(../../img/pc/pinpai4.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section2 ul .pic5{ background: url(../../img/pc/pinpai5.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.section2 ul .pic6{ background: url(../../img/pc/pinpai6.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+
+/*第三屏手风琴效果*/
+
+ul.accordion{ list-style: none; position: absolute; right: 80px; top: 0px; font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu; font-size: 16px; line-height: 1.5em; z-index: 11;}
+ul.accordion li{ float: left; width: 115px; height: 540px; display: block; border-right: 2px solid #fff; border-bottom: 2px solid #fff; background-color: #fff; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; cursor: pointer; -moz-box-shadow: 1px 3px 15px #555; -webkit-box-shadow: 1px 3px 15px #555; box-shadow: 1px 3px 15px #555;}
+ul.accordion li.bg1{ background-image: url(../../img/pc/pic1.jpg); background-size: cover; background-repeat: no-repeat; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+ul.accordion li.bg2{ background-image: url(../../img/pc/pic2.jpg); background-size: cover; background-repeat: no-repeat; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+ul.accordion li.bg3{ background-image: url(../../img/pc/pic3.jpg); background-size: cover; background-repeat: no-repeat; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+ul.accordion li.bleft{ border-left: 2px solid #fff; width: 235px;}
+ul.accordion li .heading{ background-color: #fff; padding: 10px; margin-top: 60px; opacity: 1; text-transform: uppercase; font-style: normal; font-weight: bold; letter-spacing: 1px; font-size: 14px; color: #444; text-align: center; text-shadow: -1px -1px 1px #ccc;}
+ul.accordion li .heading_active{ background: #c92847; color: white;}
+ul.accordion li .description{ position: absolute; width: 480px; height: 265px; bottom: 0px; left: 0px; display: none;}
+ul.accordion li .description h2{ text-transform: uppercase; font-style: normal; font-weight: bold; letter-spacing: 1px; font-size: 45px; color: #222; text-align: left; margin: 0px 0px 15px 20px; text-shadow: -1px -1px 1px #ccc;}
+ul.accordion li .description p{ line-height: 14px; margin: 5px 22px; color: #080808; font-size: 14px; font-style: none; text-transform: none; letter-spacing: normal; line-height: 1.3em; text-indent: 20px; text-indent: 1rem;}
+ul.accordion li .description a{ position: absolute; bottom: 5px; left: 20px; text-transform: uppercase; font-style: normal; font-size: 11px; text-decoration: none; color: #888;}
+ul.accordion li .description a:hover{ color: #333; text-decoration: underline;}
+ul.accordion li .bgDescription{
+  /*background:transparent url(../../img/pc/bgDescription.png) repeat-x top left;*/
+  background: rgba(221, 221, 221, 0.5); opacity: 0.5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; height: 340px; position: absolute; bottom: 0px; left: 0px; width: 100%; display: none;}
+
+/*第三屏背景*/
+
+
+/*.section3 {background:url(../../img/pc/banner5.jpg) 50%; background-size: cover; }*/
+
+.section3 .background_s3{ position: absolute; z-index: 2; height: 100%; width: 100%; background: url(../../img/pc/pic3_bg.jpg) no-repeat;  background-position: 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc); opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)";}
+.section3 .getwhite{ animation: getwhite 1s; -webkit-animation: getwhite 1s;}
+
+/*第四屏*/
+
+.section4{ background: url(../../img/pc/goodness.jpg) 50%; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+
+/*第五屏幕*/
+
+.section5{ overflow: hidden;}
+.section5 .container-fluid{ margin-top: 0px; margin-top: 0rem; opacity: 1; height: 100%;}
+.section5 .grid{ height: 100%; width: 70%; margin: 0px auto;}
+.grid .figure{ position: relative; z-index: 1; display: inline-block; overflow: hidden; margin: -2.8px; margin: -0.14rem; width: 33.33333%; height: 50%; background: #3085a3; text-align: center; cursor: pointer;}
+.grid .goods_1{ width: 50%;}
+.grid .goods_2{ width: 25%;}
+.grid .goods_3{ width: 25%;}
+.grid .goods_4{ width: 25%;}
+.grid .goods_5{ width: 25%;}
+.grid .goods_6{ width: 50%;}
+.grid .figure img{ position: relative; display: block; min-height: 100%; opacity: 0.7; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=70)";}
+.grid .figure .figcaption{ padding: 20px; padding: 1rem; color: #fff; text-transform: uppercase; font-size: 1em; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
+.grid .figure .figcaption::before, .grid .figure .figcaption::after{ pointer-events: none;}
+.grid .figure .figcaption, .grid .figure a{ position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+
+/* Anchor will cover the whole item by default */
+
+
+/* For some effects it will show as a button */
+
+.grid .figure a{ z-index: 1000; text-indent: 200%; white-space: nowrap; font-size: 0; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.grid .figure h2{ word-spacing: -2.4px; word-spacing: -0.12rem; font-weight: 300; font-size: 20px; font-size: 1rem;}
+.grid .figure h2 span{ font-weight: 800;}
+.grid .figure h2, .grid .figure p{ margin: 0;}
+.grid .figure p{ letter-spacing: 1px; font-size: 15px; line-height: 16px; line-height: 0.8rem;}
+.grid .effect-milo{ background: #000;}
+.grid .effect-milo img{ width: 100%; width: calc(100% + 60px); opacity: 1; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: translate3d(-30px, 0, 0) scale(1.25); transform: translate3d(-30px, 0, 0) scale(1.25); -webkit-backface-visibility: hidden; backface-visibility: hidden; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)";}
+.grid .effect-milo:hover img{ opacity: 0.4; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=40)"; -webkit-transform: translate3d(0, 0, 0) scale(1); transform: translate3d(0, 0, 0) scale(1);}
+
+.grid .effect-milo h2{ position: absolute; right: 0; bottom: 0; padding: 0.8em 1em;}
+.grid .effect-milo p{ font-size: 14px; font-size: 0.7rem; line-height: 20px; line-height: 1rem; padding: 20px 0px 20px 20px; padding: 1rem 0px 1rem 1rem; width: 100%; border-left: 1px solid #fff; text-align: left; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0);}
+.grid .effect-milo p b{ display: block; margin-bottom: 10px;}
+.grid .effect-milo p span{ display: block;}
+.grid .effect-milo:hover p{ opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+@media screen and (max-width: 55rem){ .grid .figure{ width: 50%;}
+  .grid .figure .figcaption{ font-size: 90%;}
+  }
+@media screen and (max-width: 33rem){ .grid .figure{ width: 100%;}
+  }
+
+/*第六屏  地图标注*/
+
+.section6{ overflow: hidden;}
+.hidden{ visibility: hidden;}
+.fl{ float: left;}
+.fr{ float: right;}
+.form-select select{ border: 1px solid #ccc; border-radius: 2px; padding: 5px 3px; margin-right: 11px; width: 130px; height: 28px; line-height: 28px; _vertical-align: bottom; _margin-top: 3px;}
+.form-select .mr0{ margin-right: 0;}
+.Cootion{ width: 100%; background-color: #f5f5f5; padding: 50px 0px;}
+.m_map{ width: 989px; height: 724px; margin: -125px auto; position: relative; background: url(../../img/pc/diru.png) no-repeat 0 0;}
+.tait{ font-size: 36px; font-weight: bold; color: #666666; text-align: center; left: 100px;}
+.tait span{ color: #ff6d3b;}
+.tait2{ font-size: 36px; font-weight: bold; color: #666666; text-align: center; padding: 50px 0px;}
+.mp{ position: absolute; cursor: pointer; background: url(../../img/pc/fi1.png) no-repeat 4px 20px; width: 24px; height: 63px; -webkit-transition: all .2s ease-out; -moz-transition: all .2s ease-out; -ms-transition: all .2s ease-out; -o-transition: all .2s ease-out; transition: all .2s ease-out;}
+.mp:hover{ background: url(../../img/pc/fi2.png) no-repeat 4px 20px; -webkit-transition: all .2s ease-out; -moz-transition: all .2s ease-out; -ms-transition: all .2s ease-out; -o-transition: all .2s ease-out; transition: all .2s ease-out;}
+.hover_tu{ background: url(../../img/pc/fi2.png) no-repeat 4px 20px;}
+.mp .mito{ position: absolute; left: 0px; bottom: 0px; font-size: 12px; color: #666666;}
+.mp .find_mi1{ left: -12px; width: 55px;}
+.mp .find_mi2{ left: -5px; width: 55px;}
+.feng{ position: absolute; display: none; width: 347px; height: 85px; left: -230px; top: -78px; background: url(../../img/pc/vf1.png) no-repeat 0 top; z-index: 10;}
+.feng .sang{ position: absolute; left: 235px; bottom: 0px; background: url(../../img/pc/vf2.png) no-repeat 0 0; width: 14px; height: 8px;}
+.feng .tree{ height: 62px; width: 330px; margin: 9px;}
+.feng .tree .boou{ width: 86px; height: 62px; float: left;}
+.feng .tree .du_size{ float: right; height: 62px; width: 230px;}
+.feng .tree .du_size p{ font-size: 12px; color: #FFF; line-height: 20px;}
+.mp1{ left: 243px; top: 272px;}
+.mp2{ left: 341px; top: 349px;}
+.mp3{ left: 446px; top: 474px;}
+.mp4{ left: 524px; top: 474px;}
+.mp5{ left: 524px; top: 538px;}
+.mp6{ left: 545px; top: 594px;}
+.mp7{ left: 428px; top: 585px;}
+.mp8{ left: 548px; top: 407px;}
+.mp9{ left: 625px; top: 398px;}
+.mp10{ left: 612px; top: 325px;}
+.mp10{ left: 612px; top: 325px;}
+.mp11{ left: 643px; top: 454px;}
+.mp12{ left: 611px; top: 503px;}
+.mp13{ left: 668px; top: 496px;}
+.mp14{ left: 742px; top: 498px;}
+
+/*第七屏*/
+
+.section7{ overflow: hidden; height: 100%;}
+.section7 .slide{ background-position: left top; background-size: cover; background-repeat: no-repeat; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.bg_img1{ background-image: url(../../img/pc/shop3.jpg);}
+.bg_img2{ background-image: url(../../img/pc/shop2.jpg);}
+.bg_img3{ background-image: url(../../img/pc/shop1.jpg);}
+.section7 .slide{ position: relative;}
+.section7 .discription{ position: absolute; left: 60px; left: 3rem; bottom: 0px; bottom: 0rem; width: 300px; width: 15rem; opacity: 0.8; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";}
+.section7 .discription table tr th{ text-align: right;}
+
+/*加盟步骤*/
+
+
+/*---------------*/
+
+
+/***** Layla *****/
+
+
+/*---------------*/
+
+.section8 .container-fluid{ margin-top: 10%; opacity: 1; height: 90%; position: absolute; bottom: 0px; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)";}
+.section8 h2{ height: 10%; text-align: center;}
+.section8 .grid{ height: 90%;}
+.section8 .grid .figure{ position: relative; z-index: 1; display: inline-block; overflow: hidden; margin: -2.8px; margin: -0.14rem; width: 33.333333%; height: 50%; background: #3085a3; text-align: left; cursor: pointer;}
+.section8 .grid .figure img{ position: relative; display: block; min-height: 100%; opacity: 0.8; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=80)";}
+.section8 .grid .figure figcaption{ padding: 40px; padding: 2rem; color: #fff; text-transform: uppercase; font-size: 1em; -webkit-backface-visibility: hidden; backface-visibility: hidden;}
+.section8 .grid .figure figcaption::before, .section8 .grid .figure figcaption::after{ pointer-events: none;}
+.section8 .grid .figure figcaption, .section8 .grid .figure a{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; font-size: 1.6px; font-size: 0.8rem;}
+
+/* Anchor will cover the whole item by default */
+
+
+/* For some effects it will show as a button */
+
+.section8 .grid .figure a{ z-index: 1000; text-indent: 200%; white-space: nowrap; font-size: 0; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=00)";}
+.section8 .grid .figure h2{ word-spacing: -2.4px; word-spacing: -0.12rem; font-weight: 300; font-size: 22px; font-size: 1.1rem;}
+.section8 .grid .figure h2 span{ font-weight: 800;}
+.section8 .grid .figure h2, .section8 .grid .figure p{ margin: 0;}
+.section8 .grid .figure p{ letter-spacing: 1px; font-size: 14px; line-height: 19px;}
+.section8 div.effect-layla:hover{ background: #000;}
+.grid .effect-layla img{ min-width: 100%; height: calc(100% + 40px);}
+.grid .effect-layla .figcaption{ padding: 3em;}
+.grid .effect-layla .figcaption::before, .grid .effect-layla .figcaption::after{ position: absolute; content: ''; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.grid .effect-layla .figcaption::before{ top: 30px; right: 30px; bottom: 30px; left: 30px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; -webkit-transform: scale(0, 1); transform: scale(0, 1); -webkit-transform-origin: 0 0; transform-origin: 0 0;}
+.grid .effect-layla .figcaption::after{ top: 20px; right: 50px; bottom: 20px; left: 50px; border-right: 1px solid #fff; border-left: 1px solid #fff; -webkit-transform: scale(1, 0); transform: scale(1, 0); -webkit-transform-origin: 100% 0; transform-origin: 100% 0;}
+.grid .effect-layla h2{ padding-top: 16px; padding-top: 0.8rem; -webkit-transition: -webkit-transform 0.35s; transition: transform 0.35s;}
+.grid .effect-layla p{ padding: 2.5em 2em; text-transform: none; opacity: 0; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; -webkit-transform: translate3d(0, -10px, 0); transform: translate3d(0, -10px, 0);}
+.grid .effect-layla img, .grid .effect-layla h2{ -webkit-transform: translate3d(0, -30px, 0); transform: translate3d(0, -30px, 0);}
+.grid .effect-layla img, .grid .effect-layla .figcaption::before, .grid .effect-layla .figcaption::after, .grid .effect-layla p{ -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s;}
+.grid .effect-layla:hover img{ opacity: 0.5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=50)"; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+.grid .effect-layla:hover .figcaption::before, .grid .effect-layla:hover .figcaption::after{ opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; -webkit-transform: scale(1); transform: scale(1);}
+.grid .effect-layla:hover h2, .grid .effect-layla:hover p{ opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+.grid .effect-layla:hover .figcaption::after, .grid .effect-layla:hover h2, .grid .effect-layla:hover p, .grid .effect-layla:hover img{ -webkit-transition-delay: 0.15s; transition-delay: 0.15s;}
+
+/*公司介绍*/
+
+.section9{ background: url(../../img/pc/buliding.jpg) no-repeat left bottom; background-size: cover; -ms-behavior: url(Public/js/pc/backgroundsize.min.htc); behavior: url(Public/js/pc/backgroundsize.min.htc);}
+.about{ color: #333333; padding-top: 80px; padding-top: 4rem; padding-left: 25%;}
+.about h3{ margin-bottom: 20px; margin-bottom: 1rem; font-size: 30px; font-size: 1.5rem;}
+.about p{ font-size: 14px; font-size: 0.7rem; line-height: 24px; line-height: 1.2rem; padding-right: 80px; padding-right: 4rem;}
+
+/*留言内容*/
+
+.section10 .liuyan{ margin-top: 100px; margin-top: 5rem;}
+.section10 .liuyanneirong .list-group-item h4{ font-size: 14px; font-size: 0.7rem; margin-bottom: 8px; margin-bottom: 0.2rem; padding: 0rem 20px 4px 0rem; padding: 0rem 1rem 0.2rem 0rem;}
+.section10 .liuyanneirong .list-group-item h4 time{ float: right; margin-top: 5px;}
+.section10 .liuyanneirong .list-group-item p{ font-size: 12px; font-size: 0.6rem;}
+.section10 .liuyanneirong .list-group-item span{ display: block; font-size: 0.8em; color: #888888; text-indent: 40px; text-indent: 2rem;}
+
+/*留言分页*/
+
+.page{ list-style: none; display: block; margin: 0rem auto;}
+.page div >a, .page div >span{ display: inline ;position:relative; float: left; padding: 3px 6px; margin-left: -1px; line-height: 1.42857143; color: #337ab7; text-decoration: none; background-color: #fff; border: 1px solid #ddd}
+.page div >a:first-child, .page div >a:first-child{ margin-left: 0; border-top-left-radius: 4px; border-bottom-left-radius: 4px}
+.page div >a:last-child, .page div >a:last-child{ border-top-right-radius: 4px; border-bottom-right-radius: 4px}
+.page div >a:focus, .page div >a:hover, .page div >span:focus, .page div >span:hover{ z-index: 3; color: #23527c; background-color: #eee; border-color: #ddd}
+.page div >a.current, .page div >a.current:focus, .page div >a.current:hover, .page div >span.current, .page div >span.current:focus, .page div >span.current:hover{ z-index: 2; color: #fff; cursor: default; background-color: #337ab7; border-color: #337ab7}
+
+/*表单提交*/
+
+.section10{ background-color: #C92847;}
+.section10 .wrap{ background: #C92847; color: white; padding: 0 0 0; margin-top: 10px; margin-top: 0.5rem;}
+.section10 .wrap h2{ line-height: 60px; line-height: 3rem;}
+.section10 .wrap p{ margin: 6px 0rem; margin: 0.3rem 0rem; padding-bottom: 20px;}
+.form-group .yanzheng{ position: absolute; left: 16px; top: 1px; height: 32px; width: 100px; background: #FFFFFF; z-index: 20; border-radius: 4px 0px 0px 4px; line-height: 32px; text-indent: 10px; text-indent: 0.5rem;}
+.form-group .yanzhenginput{ padding-left: 112px;}
+
+/*公司信息&页脚*/
+
+.section10 footer{ width: 100%;}
+.section10 .wrap big{ font-weight: bolder; font-size: 24px; border-bottom: 1px solid #FFFFFF;}
+.section10 .copyright{ position: absolute; width: 100%; height: 60px; height: 3rem; line-height: 60px; line-height: 3rem; bottom: 0px; color: #FFFFFF; position: absolute; bottom: 0px;}
+
+/*兼容ie8 的position fixed*/
+
+.ie{ _position: absolute; _clear: both; _top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop +(documentElement.clientHeight-this.clientHeight) - 1: document.body.scrollTop +(document.body.clientHeight-this.clientHeight) - 1);}
+@media only screen and (min-width: 1450px){ .section8 .grid .figure p{ letter-spacing: 1px; font-size: 16px; line-height: 24px;}
+  }
+@media(min-width:768px){.panel{margin-top:65px;}}
+.section1,.section2,.section3,.section4,.section5,.section6,.section7,.section8,.section9,.section10{ height:1000px!important; }

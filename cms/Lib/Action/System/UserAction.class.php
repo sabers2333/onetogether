@@ -7,32 +7,15 @@
 
 class UserAction extends BaseAction {
     public function index() {
-        //搜索
-        if (!empty($_GET['keyword'])) {
-            if ($_GET['searchtype'] == 'uid') {
-                $condition_user['uid'] = $_GET['keyword'];
-            } else if ($_GET['searchtype'] == 'nickname') {
-                $condition_user['nickname'] = array('like', '%' . $_GET['keyword'] . '%');
-            } else if ($_GET['searchtype'] == 'phone') {
-                $condition_user['phone'] = array('like', '%' . $_GET['keyword'] . '%');
-            }
-        }
-
-        $database_user = D('User');
+        
+        $database_user = M('comment');
 
         $count_user = $database_user->where($condition_user)->count();
         import('@.ORG.system_page');
         $p = new Page($count_user, 15);
-        $user_list = $database_user->field(true)->where($condition_user)->order('`uid` DESC')->limit($p->firstRow . ',' . $p->listRows)->select();
+        $user_list = $database_user->field(true)->where($condition_user)->order('`id` DESC')->limit($p->firstRow . ',' . $p->listRows)->select();
 
-        if (!empty($user_list)) {
-            import('ORG.Net.IpLocation');
-            $IpLocation = new IpLocation();
-            foreach ($user_list as &$value) {
-                $last_location = $IpLocation->getlocation(long2ip($value['last_ip']));
-                $value['last_ip_txt'] = iconv('GBK', 'UTF-8', $last_location['country']);
-            }
-        }
+        
         $this->assign('user_list', $user_list);
         $pagebar = $p->show();
         $this->assign('pagebar', $pagebar);
@@ -41,85 +24,29 @@ class UserAction extends BaseAction {
     }
 
     public function edit() {
-        $this->assign('bg_color', '#F3F3F3');
 
-        $database_user = D('User');
-        $condition_user['uid'] = intval($_GET['uid']);
-        $now_user = $database_user->field(true)->where($condition_user)->find();
-        if (empty($now_user)) {
-            $this->frame_error_tips('没有找到该用户信息！');
-        }
-
-        $levelDb = M('User_level');
-        $tmparr = $levelDb->field(true)->order('id ASC')->select();
-        $levelarr = array();
-        if ($tmparr) {
-            foreach ($tmparr as $vv) {
-                $levelarr[$vv['level']] = $vv;
-            }
-        }
-		
-        $this->assign('levelarr', $levelarr);
-        $this->assign('now_user', $now_user);
+        $database_user = D('Comment');
+        $condition_user['id'] = intval($_GET['id']);
+        $now_user = $database_user->field(true)->where($condition_user)->find();  
+        $now_user['recomment'] = $now_user['recomment']?:'您好，你的留言我们已收到。';   
+             
+        $this->assign('info', $now_user);
 
         $this->display();
     }
 
     public function amend() {
-        if (IS_POST) {
-            $database_user = D('User');
-            $condition_user['uid'] = intval($_POST['uid']);
-            $now_user = $database_user->field(true)->where($condition_user)->find();
-            if (empty($now_user)) {
-                $this->error('没有找到该用户信息！');
-            }
-            $condition_user['uid'] = $now_user['uid'];
-            $data_user['nickname'] = $_POST['nickname'];
-            $data_user['phone'] = $_POST['phone'];
-            if ($_POST['pwd']) {
-                $data_user['pwd'] = md5($_POST['pwd']);
-            }
-            $data_user['sex'] = $_POST['sex'];
-            $data_user['province'] = $_POST['province'];
-            $data_user['city'] = $_POST['city'];
-            $data_user['qq'] = $_POST['qq'];
+
+        if (IS_POST) {     
+        
+             
+            $database_user = D('Comment');
+            $condition_user['id'] = intval($_POST['id']);
+            $data_user['content'] = $_POST['content'];
+            $data_user['recomment'] = $_POST['recomment'];
             $data_user['status'] = $_POST['status'];
-			$data_user['youaddress'] = trim($_POST['youaddress']);
-			$data_user['truename'] = trim($_POST['truename']);
-			
-            $_POST['set_money'] = floatval($_POST['set_money']);
-            if (!empty($_POST['set_money'])) {
-                if ($_POST['set_money_type'] == 1) {
-                    $data_user['now_money'] = $now_user['now_money'] + $_POST['set_money'];
-                } else {
-                    $data_user['now_money'] = $now_user['now_money'] - $_POST['set_money'];
-                }
-                if ($data_user['now_money'] < 0) {
-                    $this->error('修改后，余额不能小于0');
-                }
-            }
-
-            $_POST['set_score'] = intval($_POST['set_score']);
-            if (!empty($_POST['set_score'])) {
-                if ($_POST['set_score_type'] == 1) {
-                    $data_user['score_count'] = $now_user['score_count'] + $_POST['set_score'];
-                } else {
-                    $data_user['score_count'] = $now_user['score_count'] - $_POST['set_score'];
-                }
-                if ($data_user['score_count'] < 0) {
-                    $this->error('修改后，积分不能小于0');
-                }
-            }
-
-            $data_user['level'] = intval($_POST['level']);
-
             if ($database_user->where($condition_user)->data($data_user)->save()) {
-                if (!empty($_POST['set_money'])) {
-                    D('User_money_list')->add_row($now_user['uid'], $_POST['set_money_type'], $_POST['set_money'], '管理员后台操作', false);
-                }
-                if (!empty($_POST['set_score'])) {
-                    D('User_score_list')->add_row($now_user['uid'], $_POST['set_score_type'], $_POST['set_score'], '管理员后台操作', false);
-                }
+                
                 $this->success('修改成功！');
             } else {
                 $this->error('修改失败！请重试。');

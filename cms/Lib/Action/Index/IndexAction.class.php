@@ -126,4 +126,59 @@ class IndexAction extends BaseAction
         M('slider')->where('id='.$id)->setInc('click');     
        
     }
+    public function verify(){
+        import('ORG.Util.Image');
+        Image::buildImageVerify(4,1,'jpeg',53,26,'admin_verify');
+    }
+
+    public function comment(){
+        if(!$_POST['name']){$this->error('请输入您的姓名');}
+        if(!$_POST['mobile']){$this->error('请输入您的手机号码');}
+        if(!$_POST['demand']){$this->error('请输入您的需求');}
+        if(!$_POST['verify']){$this->error('请输入验证码');}
+        if(md5($_POST['verify']) != $_SESSION['admin_verify']){$this->error('验证码错误');}
+        if(!preg_match('/^[0-9]{11}$/',$_POST['mobile'])){$this->error('请输入有效的手机号');}
+        $info=M('comment')->where("mobile='$_POST[mobile]' and addtime>".date('Y-m-d'))->count();
+        if($info>5)$this->error('您已经评论过了'); 
+             
+        $data['username']=$_POST['name'];
+        $data['mobile']=$_POST['mobile'];
+        $data['content']=$_POST['demand'];
+        $data['addtime']=date("Y-m-d H:i:s",time());
+        $result=M('comment')->add($data);    
+             
+        if($result){
+            $this->success('评论成功');
+        }
+    }
+    public function ajax_comment(){
+        $model=M('comment');
+        $where = 'status=1';
+        $count=$model->where($where)->count();
+        $page=3;
+        import('@.ORG.system_page');
+        $p=new Page($count,$page);
+        $list=$model->where($where)->limit($p->firstRow.','.$p->listRows)->order('id desc')->select(); 
+              
+        
+        foreach ($list as $k => $v) {
+            $li.= '<li class="list-group-item">
+            <h4>【留言】'.$v['username'].' <small><time>'.$v['addtime'].'</time></small></h4>
+            <p>'.$v['content'].'                   
+              <br><span>【回复】:'.$v['recomment'].'</span>
+            </p>
+            </li>';
+            
+        }
+        $this->page=$p->show();
+          $data_list['total']=$count;
+          $data_list['pagesize']=$page;
+          $data_list['page']=$page;
+          $maxpage=ceil($count/$page);
+          $data_list['totalpage']=$maxpage;
+        $data_list['li']=$li;  
+             
+        echo json_encode($data_list);die();
+    }
+
 }
