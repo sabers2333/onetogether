@@ -61,7 +61,7 @@
 
                           </li>
                           <li>
-                            <a href="food.html">美食</a>
+                            <a href="food.html">一起吃货战场</a>
                             <ul class="sub sub-small" >
                                 
                               <li><a href="food.html?cat_id=24">西餐</a></li>  
