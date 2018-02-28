@@ -47,6 +47,22 @@ class IndexAction extends BaseAction
         $this->page = $p->show();
         $this->display();
     }
+    //一起茶
+    public function yiqicha()
+    {
+        $cat_id = I('cat_id', '29');
+        $model = M('Adver');
+        $where['cat_id'] = $cat_id;
+        $field = 'id,name,pic';
+        $count = $model->where($where)->count(); 
+        $page = 9;
+        import('@.ORG.system_page');
+        $p = new Page($count, $page);
+        $list = $model->where($where)->limit($p->firstRow . ',' . $p->listRows)->field($field)->select();
+        $this->list = $list;
+        $this->page = $p->show();
+        $this->display();
+    }
 
     //新闻
     public function news()

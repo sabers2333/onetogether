@@ -42,6 +42,19 @@
 }
 .ny_banner1 img{width: 100%}
 .line{border-top: 1px solid red;width :900px;text-align: center;margin:20px auto}
+.panel-info>.panel-heading {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.panel-info {
+    border-color: #000;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
 </style>
 <div class="banner_all">
     <div class="banner">
