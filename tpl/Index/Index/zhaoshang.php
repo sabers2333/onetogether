@@ -44,16 +44,16 @@
 .line{border-top: 1px solid red;width :900px;text-align: center;margin:20px auto}
 .panel-info>.panel-heading {
     color: #fff;
-    background-color: #000;
-    border-color: #000;
+    background-color: #666;
+    border-color: #666;
 }
 .panel-info {
-    border-color: #000;
+    border-color: #666;
 }
 .btn-primary {
     color: #fff;
-    background-color: #000;
-    border-color: #000;
+    background-color: #666;
+    border-color: #666;
 }
 .page div >a, .page div >span {
     display: inline;
@@ -62,7 +62,7 @@
     padding: 3px 6px;
     margin-left: -1px;
     line-height: 1.42857143;
-    color: #000;
+    color: #666;
     text-decoration: none;
     background-color: #fff;
     border: 1px solid #ddd;
