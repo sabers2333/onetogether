@@ -34,7 +34,7 @@ $(document).ready(function() {
     .ny_title{height: 50px;}
 </style>
                     
-<div class="ny_banner" style="background:url({$static_path}images/yiqicha.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
+<div class="ny_banner" style="background:url({$static_path}images/yiqicha.jpg) no-repeat center top;height: 526px"><a href="" target="_blank"></a></div>
     
 <a name="food" id="food"></a>
 <div class="ny_main">
