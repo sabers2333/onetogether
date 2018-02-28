@@ -157,8 +157,9 @@
                                     
 <div class="ny_main">
     <div class="ny_about">
-       <div class="w16" style="height: 800px;">
+       <div class="w16" style="height: 550px;">
 
+            <div class="col-xs-6 liuyanneirong">
   <div class="panel panel-info">
     <div class="panel-heading">
       最新留言
@@ -180,8 +181,8 @@
       </ul>
     </div>
   </div>
-
-
+</div>
+<div class="col-xs-6 ">
   <div class="panel panel-info">
     <div class="panel-heading">
       在线留言
@@ -214,7 +215,7 @@
       </form>
     </div>
   </div>
-
+</div>
        </div>
     </div>
 </div>
