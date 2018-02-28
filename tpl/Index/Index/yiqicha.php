@@ -34,7 +34,7 @@ $(document).ready(function() {
     .ny_title{height: 50px;}
 </style>
                     
-<div class="ny_banner" style="background:url({$static_path}images/20160130112133492.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
+<div class="ny_banner" style="background:url({$static_path}images/yiqicha.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
     
 <a name="food" id="food"></a>
 <div class="ny_main">
@@ -44,12 +44,12 @@ $(document).ready(function() {
 <div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 46px;border: 0;width: 1200px;">
     <ul class="nav-first">
      
-         <li><a href="food.html?cat_id=24" title="西餐">西餐</a></li>  
-         <li style="margin-left: 148px"><a href="food.html?cat_id=25" title="中餐">中餐</a></li>  
-         <li style="margin-left: 148px"><a href="food.html?cat_id=26" title="饮品">饮品</a></li>  
-        
-         <li style="margin-left: 148px"><a href="food.html?cat_id=27" title="烧烤">烧烤</a></li>  
-         <li style="margin-left: 148px"><a href="food.html?cat_id=28" title="特色">特色</a></li>  
+         <li><a href="yiqicha.html?cat_id=30" title="奶盖">奶盖</a></li>  
+         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=31" title="青茶">青茶</a></li>  
+         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=32" title="茶昔">茶昔</a></li> 
+         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>  
+         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=34" title="软欧">软欧</a></li>  
+         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li>  
                   
     </ul></div> 
           </div>
@@ -60,15 +60,15 @@ $(document).ready(function() {
             <!-- <div class="ny_food_t">
             <ul class="food_memu">
                   
-                <li><a href="food.html?cat_id=24" title="西餐"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
+                <li><a href="yiqicha.html?cat_id=24" title="西餐"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
                       
-                <li><a href="food.html?cat_id=25" title="中餐"><div><i class="icon iconfont"></i></div<p>中餐</p></a></li>
+                <li><a href="yiqicha.html?cat_id=25" title="中餐"><div><i class="icon iconfont"></i></div<p>中餐</p></a></li>
                       
-                <li><a href="food.html?cat_id=26" title="饮品"><div><i class="icon iconfont"></i></div<p>饮品</p></a></li>
+                <li><a href="yiqicha.html?cat_id=26" title="饮品"><div><i class="icon iconfont"></i></div<p>饮品</p></a></li>
                       
-                <li><a href="food.html?cat_id=27" title="烧烤"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
+                <li><a href="yiqicha.html?cat_id=27" title="烧烤"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
                       
-                <li><a href="food.html?cat_id=28" title="特色"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
+                <li><a href="yiqicha.html?cat_id=28" title="特色"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
                             <div class="clear"></div>
              </ul>
                        </div> -->
