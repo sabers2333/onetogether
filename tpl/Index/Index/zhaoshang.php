@@ -42,6 +42,31 @@
 }
 .ny_banner1 img{width: 100%}
 .line{border-top: 1px solid red;width :900px;text-align: center;margin:20px auto}
+.panel-info>.panel-heading {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.panel-info {
+    border-color: #000;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.page div >a, .page div >span {
+    display: inline;
+    position: relative;
+    float: left;
+    padding: 3px 6px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
 </style>
 <div class="banner_all">
     <div class="banner">
@@ -158,31 +183,7 @@
 <div class="ny_main">
     <div class="ny_about">
        <div class="w16" style="height: 900px;">
-
-  <div class="panel panel-info">
-    <div class="panel-heading">
-      最新留言
-    </div>
-    <div class="panel-body">
-      <ul class="list-group" id="list">
-        <div class="comment_list">
-        
-        </div>
-        <li class="page" style="margin-left: 120px;">
-        <!-- <div>
-          <span class="current">1</span><a class="num" href="javascript:ajaxdata(2);">2</a>
-          <a class="num" href="/Touzi-index-p-3.html">3</a>
-          <a class="num" href="/Touzi-index-p-4.html">4</a><a class="num" href="/Touzi-index-p-5.html">5</a><a class="num" href="/Touzi-index-p-6.html">6</a><a class="num" href="/Touzi-index-p-7.html">7</a><a class="num" href="/Touzi-index-p-8.html">8</a><a class="num" href="/Touzi-index-p-9.html">9</a><a class="num" href="/Touzi-index-p-10.html">10</a><a class="num" href="/Touzi-index-p-11.html">11</a><a class="next" href="/Touzi-index-p-2.html">下一页</a><a class="end" href="/Touzi-index-p-165.html">165</a>
-        </div> -->
-        <div class="loadmore">
-        </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-
-  <div class="panel panel-info">
+    <div class="panel panel-info">
     <div class="panel-heading">
       在线留言
     </div>
@@ -214,6 +215,30 @@
       </form>
     </div>
   </div>
+  <div class="panel panel-info">
+    <div class="panel-heading">
+      最新留言
+    </div>
+    <div class="panel-body">
+      <ul class="list-group" id="list">
+        <div class="comment_list">
+        
+        </div>
+        <li class="page" style="margin-left: 120px;">
+        <!-- <div>
+          <span class="current">1</span><a class="num" href="javascript:ajaxdata(2);">2</a>
+          <a class="num" href="/Touzi-index-p-3.html">3</a>
+          <a class="num" href="/Touzi-index-p-4.html">4</a><a class="num" href="/Touzi-index-p-5.html">5</a><a class="num" href="/Touzi-index-p-6.html">6</a><a class="num" href="/Touzi-index-p-7.html">7</a><a class="num" href="/Touzi-index-p-8.html">8</a><a class="num" href="/Touzi-index-p-9.html">9</a><a class="num" href="/Touzi-index-p-10.html">10</a><a class="num" href="/Touzi-index-p-11.html">11</a><a class="next" href="/Touzi-index-p-2.html">下一页</a><a class="end" href="/Touzi-index-p-165.html">165</a>
+        </div> -->
+        <div class="loadmore">
+        </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
 
        </div>
     </div>

@@ -59,6 +59,7 @@ return array(
         'detail/:id'    => 'Index/detail',
         'zhaoshang'    => 'Index/zhaoshang',
         'addclick'    => 'Index/addclick',
+        'yiqicha'    => 'Index/yiqicha',
     ),
 	
 );
