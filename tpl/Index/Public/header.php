@@ -31,6 +31,7 @@
 
                       <div class="nav-bg">
                         <ul class="an-nav" style="width: 981px;">
+                          <li><a href="yqc.html">一起茶</a></li>
                           <li><a href="zhaoshang.html">招商加盟</a></li>
                           <li><a href="lianxi.html">联系我们</a></li>
                           <!-- <li><a href="tuiguang.html">品牌推广</a></li> -->

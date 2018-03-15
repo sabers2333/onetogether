@@ -118,6 +118,12 @@ class IndexAction extends BaseAction
         $this->display();
     }
 
+     //招商
+    public function yqc()
+    {
+        $this->display();
+    }
+
     //招商
     public function zhaoshang1()
     {

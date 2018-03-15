@@ -60,6 +60,7 @@ return array(
         'zhaoshang'    => 'Index/zhaoshang',
         'addclick'    => 'Index/addclick',
         'yiqicha'    => 'Index/yiqicha',
+        'yqc'    => 'Index/yqc',
     ),
 	
 );
