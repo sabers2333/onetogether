@@ -69,6 +69,7 @@
     background-color: #fff;
     border: 1px solid #ddd;
 }
+.panel-info{text-align: left;}
 </style>
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_01.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 

@@ -67,6 +67,7 @@
     background-color: #fff;
     border: 1px solid #ddd;
 }
+.panel-info{text-align: left;}
 </style>
 <div class="banner_all">
     <div class="banner">
