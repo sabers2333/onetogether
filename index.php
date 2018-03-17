@@ -18,6 +18,11 @@ define('RUNTIME_PATH','./runtime/');	//缓存文件地址
 define('TMPL_PATH','./tpl/');	//模板目录
 define('APP_DEBUG',true);	//开启DEBUG
 define('MEMORY_LIMIT_ON',function_exists('memory_get_usage'));
+ 
+
+if(strpos($_SERVER['HTTP_HOST'], "wap." ) !== false) {
+    $_GET['g'] = 'Wap';
+}
 
 $runtime = '~Index_runtime.php';
 define('RUNTIME_FILE',RUNTIME_PATH.$runtime);
