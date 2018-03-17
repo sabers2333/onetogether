@@ -61,6 +61,8 @@ return array(
         'addclick'    => 'Index/addclick',
         'yiqicha'    => 'Index/yiqicha',
         'yqc'    => 'Index/yqc',
+        'yqc1'    => 'Index/yqc1',
+        'wap'    => 'Index/wap',
     ),
 	
 );

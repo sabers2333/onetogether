@@ -73,14 +73,12 @@
 </style>
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_01.jpg" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_04.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_05.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_06.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_07.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_08.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_09.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_10.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_11.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_03.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_04.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_05.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_06.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_07.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_08.png" alt=""></a></div> 
 <div class="title1">
 <h3 style="font-size: 26px;">网红时代的代表品牌</h3>
 <div class="pd"></div>
@@ -91,28 +89,26 @@
       <img src="{$static_path}img/img_11.png" alt="">
 </div> 
 <div class="title1">
+<h3 style="font-size: 26px;">市场的发展</h3>
 <div class="w16  clearfix" style="width: 1150px;" >
-      <img src="{$static_path}zs2/3_17.png" alt="">
-      <img src="{$static_path}zs2/3_18.png" alt="">
-      <img src="{$static_path}zs2/3_19.png" alt="">
-      <img src="{$static_path}zs2/3_20.png" alt="">
+      <img src="{$static_path}yqc/2_17.png" alt="">
+      <img src="{$static_path}yqc/2_18.png" alt="">
+      <img src="{$static_path}yqc/2_19.png" alt="">
 </div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_20.png" alt=""></a></div> 
 <div class="w16  clearfix" style="width: 1162px;" >
-      <img src="{$static_path}zs2/3_25.png" alt="">
-      <img src="{$static_path}zs2/3_27.png" alt="">
-      <img src="{$static_path}zs2/3_30.png" alt="">
-      <img src="{$static_path}zs2/3_32.png" alt="">
-      <img src="{$static_path}zs2/3_34.png" alt="">
-      <img src="{$static_path}zs2/3_35.png" alt="">
-      <img src="{$static_path}zs2/3_36.png" alt="">
-      <img src="{$static_path}zs2/3_38.png" alt="">
+      <img src="{$static_path}yqc/2_23.png" alt="">
+      <img src="{$static_path}yqc/2_26.png" alt="">
+      <img src="{$static_path}yqc/2_28.png" alt="">
+      <img src="{$static_path}yqc/2_31.png" alt="">
+      <img src="{$static_path}yqc/2_33.png" alt="">
+      <img src="{$static_path}yqc/2_34.png" alt="">
+      <img src="{$static_path}yqc/2_35.png" alt="">
 </div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_37.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_41.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_42.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_43.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_44.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_38.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_39.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_40.png" alt=""></a></div> 
 
    
 <div class="ny_main">
