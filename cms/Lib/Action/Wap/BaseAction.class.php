@@ -13,21 +13,8 @@ class BaseAction extends CommonAction
     public function __construct()
     {
         parent::__construct();
-        load('@.jssdk');
-        $jssdk = new JSSDK("wx38d1dd55f0e47ded", "3c31337dde32c6e93cf04e11ce88e52b"); 
-             
-        $signPackage = $jssdk->GetSignPackage();  
-
      
-             
        
-        $this->signPackage=$signPackage;
-        $this->title='展翅网-职趣视频';
-        $this->desc='展翅网是由共青团广东省委员会主导建设的大学生职业成长综合服务平台。超过100万中国内地及港澳台大学生，通过展翅网一站式完成职业心理测评、职业技能培训、实习、兼职与就业服务。';
-        $this->imgUrl='http://zcplan.cn/Public/images/150.jpg';
-       
-
-        $this->token = $this->mer_id = isset($_REQUEST['mer_id']) ? htmlspecialchars($_REQUEST['mer_id']) : (isset($_REQUEST['token']) ? htmlspecialchars($_REQUEST['token']) : 0);
 
         if (strpos($_SERVER['HTTP_USER_AGENT'], 'MicroMessenger') !== false) {
             $this->is_wexin_browser = true;
@@ -55,7 +42,7 @@ class BaseAction extends CommonAction
 
         $this->merchant_info['wxname'] = $merchant['name'];
         $this->assign('wxuser', $this->merchant_info);
-        $this->static_path = $this->config['site_url'] .  '/static/wap/';
+        $this->static_path = $this->config['site_url'] .  '/static/default/';
              
         $this->assign('static_path', $this->static_path);
              
