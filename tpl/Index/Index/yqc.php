@@ -77,10 +77,11 @@
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_05.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_06.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_07.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_08.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_09.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_10.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_11.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_05.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_06.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_07.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_08.png" alt=""></a></div>  
+<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_10.png" alt=""></a></div> 
 <div class="title1">
 <h3 style="font-size: 26px;">网红时代的代表品牌</h3>
 <div class="pd"></div>
