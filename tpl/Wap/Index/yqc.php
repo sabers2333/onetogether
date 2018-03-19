@@ -12,6 +12,7 @@
 .img img{border: 0;vertical-align:middle;width: 100%;}
 
 </style>
+<script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
 <body>
 
 	<div class="img">
@@ -164,5 +165,10 @@
 <script>
 var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?ea0937658be71b7104bc3e1785d7410d"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
 <script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=11796862"></script>
+<script type="text/javascript">
+	$(".img").click(function(){
+		get_chat_event('advice');
+	});
+</script>
 </body>
 </html>
