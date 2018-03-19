@@ -71,17 +71,17 @@
 }
 .panel-info{text-align: left;}
 </style>
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_01.jpg" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_04.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_05.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_06.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_07.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_05.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_06.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_07.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_08.png" alt=""></a></div>  
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_10.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_01.jpg" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_04.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_05.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_06.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_07.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_05.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_06.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_07.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_08.png" alt=""></a></div>  
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_10.png" alt=""></a></div> 
 <div class="title1">
 <h3 style="font-size: 26px;">网红时代的代表品牌</h3>
 <div class="pd"></div>
@@ -98,7 +98,7 @@
       <img src="{$static_path}zs2/3_19.png" alt="">
       <img src="{$static_path}zs2/3_20.png" alt="">
 </div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_20.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_20.png" alt=""></a></div> 
 <div class="w16  clearfix" style="width: 1162px;" >
       <img src="{$static_path}zs2/3_25.png" alt="">
       <img src="{$static_path}zs2/3_27.png" alt="">
@@ -109,11 +109,11 @@
       <img src="{$static_path}zs2/3_36.png" alt="">
       <img src="{$static_path}zs2/3_38.png" alt="">
 </div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}yqc/2_37.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_41.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_42.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_43.png" alt=""></a></div> 
-<div class="ny_banner1" ><a href="javascript:;" onclick="ttt()" ><img src="{$static_path}zs2/3_44.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_37.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_41.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_42.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_43.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}zs2/3_44.png" alt=""></a></div> 
 
    
 <div class="ny_main">
@@ -181,9 +181,13 @@
 </div>
 <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10170576/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script> 
 <script type="text/javascript">
-function ttt(){
-  hz6d_is_exist('setIsinvited()%3Bwindow.open(#liyc#https%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10170576%26style%3D1%26language%3Dzh-cn%26charset%3Dgbk%26kflist%3Doff%26kf%3D%26zdkf_type%3D1%26lnk_overflow%3D0%26referer%3Dhttp%253A%252F%252Fot.com%252Fyqc.html%26keyword%3D%26tfrom%3D1%26tpl%3Dcrystal_blue%26uid%3Dc60875c6c66a11399b222c2000fe7f33%26is_group%3D%26is_group%3D#liyc#%2C%20#liyc#_blank#liyc#%2C%20#liyc#height%3D600%2Cwidth%3D800%2Ctop%3D50%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno#liyc#)');
-}
+
+$(function(){
+
+  $('img').click(function(){
+     hz6d_is_exist('setIsinvited()%3Bwindow.open(#liyc#https%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10170576%26style%3D1%26language%3Dzh-cn%26charset%3Dgbk%26kflist%3Doff%26kf%3D%26zdkf_type%3D1%26lnk_overflow%3D0%26referer%3Dhttp%253A%252F%252Fot.com%252Fyqc.html%26keyword%3D%26tfrom%3D1%26tpl%3Dcrystal_blue%26uid%3Dc60875c6c66a11399b222c2000fe7f33%26is_group%3D%26is_group%3D#liyc#%2C%20#liyc#_blank#liyc#%2C%20#liyc#height%3D600%2Cwidth%3D800%2Ctop%3D50%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno#liyc#)');
+  })
+});
 
 
 
