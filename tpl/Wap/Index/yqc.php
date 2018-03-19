@@ -44,15 +44,11 @@
 	
 	
 		
-			<img src="{$static_path}/zswap/4_08.png"   alt="">
+			<img src="{$static_path}/zswap/5_02.png"   alt="">
+			<img src="{$static_path}/zswap/5_03.png"   alt="">
+			<img src="{$static_path}/zswap/5_04.png"   alt="">
+			<img src="{$static_path}/zswap/5_06.png"   alt="">
 	
-	
-		
-			<img src="{$static_path}/zswap/4_09.png"   alt="">
-	
-	
-		
-			<img src="{$static_path}/zswap/4_10.png"   alt="">
 	
 	
 		
