@@ -68,6 +68,7 @@
     border: 1px solid #ddd;
 }
 .panel-info{text-align: left;}
+.logo{padding: 0}
 </style>
 <div class="banner_all">
     <div class="banner">

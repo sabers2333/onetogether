@@ -70,6 +70,7 @@
     border: 1px solid #ddd;
 }
 .panel-info{text-align: left;}
+.logo{padding: 0}
 </style>
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_01.jpg" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 
