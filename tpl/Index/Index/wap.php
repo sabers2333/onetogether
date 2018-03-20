@@ -10,6 +10,8 @@
 *{border: 0;margin:0;padding:0;}
 .img{border: 0;vertical-align:middle;width: 100%}
 .img img{border: 0;vertical-align:middle;width: 100%;}
+.dt img{width: 60%;text-align: center;}
+.dt1 {margin: 40px; auto;text-align: center;}
 
 </style>
 <script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
@@ -50,7 +52,7 @@
 			<img src="{$static_path}/zswap/5_04.png"   alt="">
 			<img src="{$static_path}/zswap/5_06.png"   alt="">
 	
-	
+			<div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
 	
 		
 			<img src="{$static_path}/zswap/4_11.png"   alt="">
@@ -99,7 +101,7 @@
 		
 			<img src="{$static_path}/zswap/4_22.png"   alt="">
 	
-	
+	<div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
 		
 			<img src="{$static_path}/zswap/4_23.png"   alt="">
 	
@@ -158,6 +160,7 @@
 	
 		
 			<img src="{$static_path}/zswap/4_37.png"   alt="">
+			<div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
 
 </div>
     <div style="display: none;"><script src="https://s19.cnzz.com/z_stat.php?id=1272888463&web_id=1272888463" language="JavaScript"></script></div>
