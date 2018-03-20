@@ -71,6 +71,11 @@
 }
 .panel-info{text-align: left;}
 .logo{padding: 0}
+.dt{position: absolute;right: 150px;}
+.dt1{position: absolute;right: 150px;top:800px;}
+.dt2{position: absolute;left: 50px;}
+.dt3{position: absolute;right: 50px;}
+
 </style>
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_01.jpg" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_02.png" alt=""></a></div> 
@@ -84,10 +89,13 @@
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_08.png" alt=""></a></div>  
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_10.png" alt=""></a></div> 
 <div class="title1">
+<div class="dt"><img src="{$static_path}images/1.gif" alt=""></div>
 <h3 style="font-size: 26px;">网红时代的代表品牌</h3>
+
 <div class="pd"></div>
 <h4>他们的共性：不仅仅是提供优质餐饮，而是变成为一个，提供餐饮服务基本功能+主题文化+</h3>
 <h4>消费体验平台，融入跨界合作、跨界发展的新餐饮品牌。</h3>
+
 </div>
 <div class="w16  clearfix" style="width: 1000px;" >
       <img src="{$static_path}img/img_11.png" alt="">
@@ -96,6 +104,7 @@
 <div class="w16  clearfix" style="width: 1150px;" >
       <img src="{$static_path}zs2/3_17.png" alt="">
       <img src="{$static_path}zs2/3_18.png" alt="">
+      <div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div>
       <img src="{$static_path}zs2/3_19.png" alt="">
       <img src="{$static_path}zs2/3_20.png" alt="">
 </div> 
@@ -103,11 +112,14 @@
 <div class="w16  clearfix" style="width: 1162px;" >
       <img src="{$static_path}zs2/3_25.png" alt="">
       <img src="{$static_path}zs2/3_27.png" alt="">
+      <div class="dt2"><img src="{$static_path}images/1.gif" alt=""></div>
       <img src="{$static_path}zs2/3_30.png" alt="">
+
       <img src="{$static_path}zs2/3_32.png" alt="">
       <img src="{$static_path}zs2/3_34.png" alt="">
       <img src="{$static_path}zs2/3_35.png" alt="">
       <img src="{$static_path}zs2/3_36.png" alt="">
+      <div class="dt3"><img src="{$static_path}images/1.gif" alt=""></div>
       <img src="{$static_path}zs2/3_38.png" alt="">
 </div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}yqc/2_37.png" alt=""></a></div> 
