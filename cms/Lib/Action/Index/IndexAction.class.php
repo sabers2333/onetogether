@@ -34,7 +34,7 @@ class IndexAction extends BaseAction
     //美食
     public function food()
     {
-        $cat_id = I('cat_id', '23');
+        $cat_id = I('cat_id', '36');
         $model = M('Adver');
         $where['cat_id'] = $cat_id;
         $field = 'id,name,pic';
