@@ -30,7 +30,7 @@
                       <div class="tel">24H加盟热线：400-1368-683</div>
 
                       <div class="nav-bg">
-                        <ul class="an-nav" style="width: 981px;">
+                        <ul class="an-nav" style="width: 1060px;">
                           <li>
                             <a href="yqc.html">招商加盟</a>
                            
