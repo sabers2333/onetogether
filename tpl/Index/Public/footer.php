@@ -12,12 +12,12 @@
                 <li id="menu-item-278" class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-menu-ancestor current-menu-parent current-category-parent menu-item-has-children menu-item-278">
                     <a href="food.html">美食</a>
                     <ul class="sub-menu">
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=30"  title="奶盖">奶盖</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=31"  title="水果茶">水果茶</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=34"  title="软欧">软欧</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=35"  title="西点">西点</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=32"  title="colourful">colourful</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=37"  title="答案茶">答案茶</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=30"  title="奶盖">奶盖</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=31"  title="水果茶">水果茶</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=34"  title="软欧">软欧</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=35"  title="西点">西点</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=32"  title="colourful">colourful</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yqc.html?cat_id=37"  title="答案茶">答案茶</a></li>
                     </ul>
                 </li>
                 <li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-317">
