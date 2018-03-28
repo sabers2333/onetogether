@@ -53,16 +53,13 @@
                             <a href="yiqicha.html">一起茶</a>
                             <ul class="sub sub-small" >
                                 
-                              <li><a href="yiqicha.html?cat_id=30">奶盖</a></li>  
-                                
-                              <li><a href="yiqicha.html?cat_id=31">青茶</a></li>  
-                                
-                              <li><a href="yiqicha.html?cat_id=32">茶昔</a></li>  
-                                
-                              <li><a href="yiqicha.html?cat_id=33">沙拉</a></li>  
-                                
-                              <li><a href="yiqicha.html?cat_id=34">软欧</a></li>  
-                              <li><a href="yiqicha.html?cat_id=35">西点</a></li>  
+                              <li><a href="yiqicha.html?cat_id=30" title="奶盖">奶盖</a></li>  
+                             <li ><a href="yiqicha.html?cat_id=31" title="水果茶">水果茶</a></li>  
+                             <li ><a href="yiqicha.html?cat_id=34" title="软欧">软欧</a></li> 
+                             <li ><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>
+                             <li ><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li> 
+                             <li ><a href="yiqicha.html?cat_id=32" title="colourful">colourful</a></li> 
+                             <li ><a href="yiqicha.html?cat_id=37" title="答案茶">答案茶</a></li> 
                              </ul>
 
                           </li>
