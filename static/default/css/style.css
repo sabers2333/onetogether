@@ -27,7 +27,7 @@ url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 .nav-bg {width:940px; height: 46px; clear: both;position: relative; z-index: 888;margin:0px auto}
 .nav ul{width:940px;height:46px;line-height:46px;float:left;}
 .nav li { float:right; position: relative; }
-.nav li a { display: block; width:94px;text-align: center; font-size: 14px; color: #FFF; }
+.nav li a { display: block; width:100px;text-align: center; font-size: 14px; color: #FFF; }
 .nav li.on a, .nav li:hover a {color: #fff;}
 .nav .sub { display: none; width:94px;height: auto; white-space:nowrap; position: absolute; left:0px; z-index: 999;background:url(../images/icon_1.png) repeat; }
 .nav li .sub-big { width:110px; }
