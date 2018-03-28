@@ -102,7 +102,7 @@ url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 
 .food{width:100%;height:auto;padding:0px 0; overflow:hidden; background:#f3f3f3;}
 ul.food_memu{width:100%;height:40px; overflow:hidden;}
-ul.food_memu li{width:230px;height:auto; float:left;}
+ul.food_memu li{width:165px;height:auto; float:left;}
 ul.food_memu li div{width:100%;height:40px;padding:5px 0;text-align:center;background:url(../images/food_1.jpg) no-repeat center center;}
 ul.food_memu li div i{color:#fff;font-size:30px; }
 ul.food_memu li p{font-size:28px;color:#000; text-align:center;padding:8px 0;}

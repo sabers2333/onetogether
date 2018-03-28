@@ -25,7 +25,7 @@
 <div class="cur">
      <div class="title">
          <h3>品牌文化</h3>
-         <p>香港国际餐饮品牌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;潮流休闲生活馆</p>
+         <p>重新定义茶饮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打开生活方式品牌时代</p>
      </div>
      <div class="w16 cur_c clearfix">
          <div class="video">
@@ -36,29 +36,20 @@
 <!-- <embed src="flv.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
          </div>
          <div class="cur_t">
-             <h3>漫游时光</h3>
+             <h3>一起茶</h3>
              <p class="pp">
-               漫游时光（深圳）品牌管理公司，是一家具有国际化视野和丰富餐饮投资管理经验的餐饮品牌管理公司，公司资本构成主要由香港和台湾资本构成。目前公司旗下有“一起吃货战场”、“一起茶”两大餐饮品牌，全新的商业思维和品牌理念，在国际一线大都市深圳扎根发芽与您见面！ 
+               深圳漫游时光品牌管理有限公司是一家致力于提供全新生活方式的新餐饮品牌服务企业，来自香港的品牌团一直将为消费者提供全新生活方式为使命，旗下品牌所有餐品都是市场最时尚潮流品类，我们不仅仅只是将目光局限于餐品本身，而是将时尚的美学思维和全新的生活方式呈现给消费者，给消费者一种全新的生活理念。      
 </p>
 <p class="pp" >
-“一起吃货战场” 是一家集美食和轻娱乐休闲一体的新锐餐饮品牌，她以领先的商业思维突破了单产品差价的传统餐饮盈利模式，让多重盈利模式得以实现。 
+企业定位：一家致力于提供全新生活方式的新餐饮品牌公司
 </p>
 <p class="pp">
-     美食，我们花了大量的研发资金，引进了轻米饭系列，五彩沙拉系列，创意披萨系列，时尚饮品系列，精致西餐系列，特色烤串系列等丰富多样的特色食物，为消费者提供了丰富多样的就餐选择，满足了社会发展人们日益增长的餐饮精神文化需求。
+     企业愿景：让生活成就生活的意义。
 </p>
 <p class="pp">
-    娱乐，我们基于“微信”研发了“一起餐饮娱乐系统”，将店铺变成了一个时尚，开放，有趣的社交场所，让消费者津津乐道，流连忘返。 
+   企业口号:用心每一天，让生活充满仪式感
 </p>
-<p class="pp">
-  空间，时尚，简约的流行风格，将整个店铺变成一个既能独立又能互动的开放式空间，深受年轻消费者的喜欢。 
 
-</p>   
-<p class="pp">“一起茶” 是一个追求 “一起喝、一起陪伴、一起Do，一起。。。”的潮流茶饮品牌，随着社会的发展人们的娱乐与社交方式发生了巨大的变化，人们的沟通与陪伴被互联网“替代”，“一起喝，才有味”我们渴望还原童年彼此一起不变的友谊与笑声的陪伴。 
-
-
-</p>
-<p class="pp">“一起茶”秉承二千多年中华茶养生文化，以台式茶系为本，集合了众多网红潮流茶饮品牌明星产品，六大系列，近百种原生态茶饮与简餐，时尚、休闲美学、放松的装修空间，给够您足够的慢童年生活步骤与陪伴。
-</p>
          <a href="pinpai.html">了解更多&gt;&gt;</a>
             <p></p>
          </div>
@@ -66,21 +57,18 @@
 </div>
 <div class="food">
      <div class="title" style="background: url({$static_path}/images/title_food.png) no-repeat bottom center;">
-         <h3>美食</h3>
-         <p>品味世界美食&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给您味蕾绽放的快感</p>
+         <h3>明星产品</h3>
+         <p>时尚健康&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高颜值&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自带话题&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狂吸粉</p>
      </div>
      <div class="w16">
          <ul class="food_memu">
-                  
-            <li><a href="food.html?cat_id=24"><!-- <div><i class="icon iconfont"></i></div> --><p>西餐</p></a></li>
-                  
-            <li><a href="food.html?cat_id=25"><!-- <div><i class="icon iconfont"></i></div> --><p>中餐</p></a></li>
-                  
-            <li><a href="food.html?cat_id=26"><!-- <div><i class="icon iconfont"></i></div> --><p>饮品</p></a></li>
-                  
-            <li><a href="food.html?cat_id=27"><!-- <div><i class="icon iconfont"></i></div> --><p>烧烤</p></a></li>
-                  
-            <li><a href="food.html?cat_id=28"><!-- <div><i class="icon iconfont"></i></div> --><p>特色</p></a></li>
+            <li><a href="yiqicha.html?cat_id=30" title="奶酸"><p>奶酸</p></a></li>  
+             <li ><a href="yiqicha.html?cat_id=31" title="水果茶"><p>水果茶</p></a></li>  
+             <li ><a href="yiqicha.html?cat_id=34" title="软欧包"><p>软欧包</p></a></li> 
+             <li ><a href="yiqicha.html?cat_id=33" title="沙拉"><p>沙拉</p></a></li>
+             <li ><a href="yiqicha.html?cat_id=35" title="西点"><p>西点</p></a></li> 
+             <li ><a href="yiqicha.html?cat_id=32" title="colourful"><p>colourful</p></a></li> 
+             <li ><a href="yiqicha.html?cat_id=37" title="答案茶"><p>答案茶</p></a></li> 
                         <div class="clear"></div>
          </ul>
      </div>
@@ -96,8 +84,8 @@
 </div>
 <div class="lunbo">
     <div class="title" style="background: url({$static_path}/images/title_shouyou.png) no-repeat bottom center;">
-         <h3>手游 + 娱乐</h3>
-         <p>娱乐休闲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中国最有趣的吃货战场</p>
+         <h3>空间展示</h3>
+         <p>设计理念&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以生活方式为原点</p>
      </div>
     <div class="w16">
             <div id="divRuner">
