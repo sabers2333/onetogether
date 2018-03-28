@@ -45,11 +45,12 @@ $(document).ready(function() {
     <ul class="nav-first">
      
          <li><a href="yiqicha.html?cat_id=30" title="奶盖">奶盖</a></li>  
-         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=31" title="青茶">青茶</a></li>  
-         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=32" title="茶昔">茶昔</a></li> 
-         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>  
-         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=34" title="软欧">软欧</a></li>  
-         <li style="margin-left: 98px"><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li>  
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=31" title="水果茶">水果茶</a></li>  
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=34" title="软欧">软欧</a></li> 
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li> 
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=32" title="colourful">colourful</a></li> 
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=37" title="答案茶">答案茶</a></li> 
                   
     </ul></div> 
           </div>

@@ -66,7 +66,7 @@
                              </ul>
 
                           </li>
-                          <li>
+                          <!-- <li>
                             <a href="food.html">一起吃货战场</a>
                             <ul class="sub sub-small" >
                                 
@@ -80,8 +80,8 @@
                                 
                               <li><a href="food.html?cat_id=28">特色</a></li>  
                              </ul>
-
-                          </li>
+                          
+                          </li> -->
 
                           <li><a href="pinpai.html">品牌文化</a></li>   
                           <li><a href="index.html">首页</a></li>
