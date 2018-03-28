@@ -12,11 +12,12 @@
                 <li id="menu-item-278" class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-menu-ancestor current-menu-parent current-category-parent menu-item-has-children menu-item-278">
                     <a href="food.html">美食</a>
                     <ul class="sub-menu">
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=24"  title="西餐">西餐</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=25"  title="中餐">中餐</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=26"  title="饮品">饮品</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=27"  title="烧烤">烧烤</a></li>
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=28"  title="特色">特色</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=30"  title="奶盖">奶盖</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=31"  title="水果茶">水果茶</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=34"  title="软欧">软欧</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=35"  title="西点">西点</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=32"  title="colourful">colourful</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="food.html?cat_id=37"  title="答案茶">答案茶</a></li>
                     </ul>
                 </li>
                 <li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-317">
@@ -29,7 +30,7 @@
                 <li id="menu-item-782" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-782">
                     <a href="lianxi.html">联系我们</a>
                     <ul class="sub-menu">
-                        <li id="menu-item-2234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2234"><a href="zhaoshang.html">招商加盟</a></li>
+                        <li id="menu-item-2234" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2234"><a href="yqc.html">招商加盟</a></li>
                     </ul>
                 </li>
                 </ul>
