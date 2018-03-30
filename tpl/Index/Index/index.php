@@ -62,7 +62,7 @@
      </div>
      <div class="w16">
          <ul class="food_memu">
-            <li><a href="yiqicha.html?cat_id=30" title="奶酸"><p>奶酸</p></a></li>  
+            <li><a href="yiqicha.html?cat_id=30" title="奶霜"><p>奶霜</p></a></li>  
              <li ><a href="yiqicha.html?cat_id=31" title="水果茶"><p>水果茶</p></a></li>  
              <li ><a href="yiqicha.html?cat_id=34" title="软欧包"><p>软欧包</p></a></li> 
              <li ><a href="yiqicha.html?cat_id=33" title="沙拉"><p>沙拉</p></a></li>

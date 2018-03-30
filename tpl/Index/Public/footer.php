@@ -12,7 +12,7 @@
                 <li id="menu-item-278" class="menu-item menu-item-type-taxonomy menu-item-object-category current-category-ancestor current-menu-ancestor current-menu-parent current-category-parent menu-item-has-children menu-item-278">
                     <a href="food.html">美食</a>
                     <ul class="sub-menu">
-                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yiqicha.html?cat_id=30"  title="奶酸">奶酸</a></li>
+                        <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yiqicha.html?cat_id=30"  title="奶霜">奶霜</a></li>
                         <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yiqicha.html?cat_id=31"  title="水果茶">水果茶</a></li>
                         <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yiqicha.html?cat_id=34"  title="软欧包">软欧包</a></li>
                         <li  class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-778"><a href="yiqicha.html?cat_id=35"  title="西点">西点</a></li>

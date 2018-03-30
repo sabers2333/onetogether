@@ -53,7 +53,7 @@
                             <a href="yiqicha.html">一起茶</a>
                             <ul class="sub sub-small" >
                                 
-                              <li><a href="yiqicha.html?cat_id=30" title="奶酸">奶酸</a></li>  
+                              <li><a href="yiqicha.html?cat_id=30" title="奶霜">奶霜</a></li>  
                              <li ><a href="yiqicha.html?cat_id=31" title="水果茶">水果茶</a></li>  
                              <li ><a href="yiqicha.html?cat_id=34" title="软欧包">软欧包</a></li> 
                              <li ><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>
