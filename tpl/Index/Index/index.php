@@ -155,3 +155,14 @@
     </div> 
 </div>
 <include file="Public:footer"/>
+<script type="text/javascript">
+    $(function(){
+         //鼠标的移入移出  
+        $(".food_memu p").mouseover(function (){  
+            $(this).css('color', 'red');
+        }).mouseout(function (){  
+            $(this).css('color', '#000'); 
+        });  
+         //鼠
+    })
+</script>
