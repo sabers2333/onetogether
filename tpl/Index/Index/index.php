@@ -77,7 +77,7 @@
      <div class="food_c">
           <ul>
             <volist name = 'food' id = 'vo'>
-             <li><a href="food.html"><img  src="{$vo.pic}"><div class="food_m"><h3>{$vo.name}</h3><span>查看详情</span></div></a></li>
+             <li><a href="yiqicha.html"><img  src="{$vo.pic}"><div class="food_m"><h3>{$vo.name}</h3><span>查看详情</span></div></a></li>
             </volist>
                <div class="clear"></div>
           </ul>
