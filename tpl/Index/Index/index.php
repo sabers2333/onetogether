@@ -32,7 +32,7 @@
 <!--<embed src="http://hans002.w195.host-diy.net/div/flv.swf?vcastr_file=http://hans002.w195.host-diy.net/div/NextDoorDeli.flv" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280" /> -->
 <!-- <embed src="flv.swf?vcastr_file=video/Next Door Deli.flv" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
 <!-- <object ><embed width=375 height=280 wmode="Transparent" allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://player.youku.com/player.php/sid/XMzMwNjEyMzAxMg==/v.swf&topBar=1&autoplay=false&plid=1411&pub_catecode=0&from=page" type="application/x-shockwave-flash"/></embed></object> -->
-<embed src="http://player.video.qiyi.com/ff46294247b8b7896eb13401c9b6b345/0/0/w_19rvhkf0h5.swf-albumId=8659255109-tvId=8659255109-isPurchase=0-cnId=27" allowFullScreen="true" quality="high" width="420" height="280" align="middle" allowScriptAccess="always" autoplay="true" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.video.qiyi.com/ff46294247b8b7896eb13401c9b6b345/0/0/w_19rvhkf0h5.swf-albumId=8659255109-tvId=8659255109-isPurchase=0-cnId=27" allowFullScreen="true" quality="high" width="375" height="280" align="middle" allowScriptAccess="always" autoplay="true" type="application/x-shockwave-flash"></embed>
 
 <!-- <embed src="flv.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
          </div>
