@@ -16,7 +16,7 @@ class IndexAction extends BaseAction
         $food = D('Adver')->get_adver_by_key('food');
         $this->food = $food;
         //新闻
-        $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->cache(true,60)->order("id desc")->select();
+        $news = M('slider')->where('cat_id=5')->limit(5)->field('id,name,pic,last_time')->order("id desc")->select();
         $this->news = $news;
         //产品
         $products = M('slider')->where('cat_id=7')->limit(5)->field('id,name,pic,last_time')->order("id desc")->select();
