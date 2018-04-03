@@ -109,18 +109,16 @@
       <img src="{$static_path}pc/2_20.png" alt="">
 </div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_22.png" alt=""></a></div> 
-<div class="w16  clearfix" style="width: 1162px;" >
+<div class="w16  clearfix" style="width: 1152px;" >
       <img src="{$static_path}pc/2_25.png" alt="">
       <img src="{$static_path}pc/2_27.png" alt="">
       <img src="{$static_path}pc/2_29.png" alt="">
       <div class="dt2"><img src="{$static_path}images/1.gif" alt=""></div>
       <img src="{$static_path}pc/2_30.png" alt="">
       <img src="{$static_path}pc/2_31.png" alt="">
-
       <img src="{$static_path}pc/2_32.png" alt="">
       <img src="{$static_path}pc/2_34.png" alt="">
       <img src="{$static_path}pc/2_35.png" alt="">
-      <img src="{$static_path}pc/2_36.png" alt="">
       <div class="dt3"><img src="{$static_path}images/1.gif" alt=""></div>
       <img src="{$static_path}pc/2_38.png" alt="">
       <img src="{$static_path}pc/2_37.png" alt="">
