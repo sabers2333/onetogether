@@ -95,7 +95,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element row_width960 wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
                             <div class="wpb_wrapper">
-                                <img width="221" height="221" src="{$static_path}images/749ab3b686326806.png" class=" vc_box_border_grey attachment-full"
+                                <img width="201" height="201" src="{$static_path}images/749ab3b686326806.png" class=" vc_box_border_grey attachment-full"
                                 alt="weibo">
                             </div>
                         </div>

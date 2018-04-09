@@ -154,7 +154,7 @@
         </div>
         <div class="row form-group ">
           <div class="col-xs-12">
-            <input class="form-control yanzhenginput" style="height:34px" type="text" name="verify" value="" placeholder="请输入验证码" required="required"/><img class="yanzheng" src="{:U('verify')}" id="verifyImg" onclick="fleshVerify('{:U('verify')}')" title="刷新验证码" alt="刷新验证码"/>
+            <input class="form-control yanzhenginput" style="height:34px;width: 180px;padding-left:80px;" type="text" name="verify" value="" placeholder="请输入验证码" required="required"/><img class="yanzheng" src="{:U('verify')}" id="verifyImg" onclick="fleshVerify('{:U('verify')}')" title="刷新验证码" alt="刷新验证码" style="width: 70px;" />
           </div>
         </div>
         <div class="row form-group ">
