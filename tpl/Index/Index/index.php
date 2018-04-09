@@ -23,7 +23,7 @@
 </div>
 <!--E banner图切换-->
 <div class="cur">
-     <div class="title" style="background: url({$static_path}/images/t_3.png) no-repeat bottom center;">
+     <div class="title" style="background: url({$static_path}images/t_3.png) no-repeat bottom center;">
          <h3>品牌文化</h3>
          <p>重新定义茶饮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打开生活方式品牌时代</p>
      </div>
@@ -57,7 +57,7 @@
      </div>
 </div>
 <div class="food">
-     <div class="title" style="background: url({$static_path}/images/t_2.png) no-repeat bottom center;">
+     <div class="title" style="background: url({$static_path}images/t_2.png) no-repeat bottom center;">
          <h3>明星产品</h3>
          <p>时尚健康&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高颜值&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自带话题&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狂吸粉</p>
      </div>
@@ -84,7 +84,7 @@
      </div>
 </div>
 <div class="lunbo">
-    <div class="title" style="background: url({$static_path}/images/t_1.png) no-repeat bottom center;">
+    <div class="title" style="background: url({$static_path}images/t_1.png) no-repeat bottom center;">
          <h3>空间展示</h3>
          <p>设计理念&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以生活方式为原点</p>
      </div>
@@ -109,7 +109,7 @@
     </div>
 </div>
 <div class="news">
-     <div class="title" style="background: url({$static_path}/images/title_news.png) no-repeat bottom center;">
+     <div class="title" style="background: url({$static_path}images/title_news.png) no-repeat bottom center;">
          <h3>新闻资讯</h3>
         <!-- <p>海外轻奢型美味 向家庭厨房和社区服务延伸</p>-->
      </div>

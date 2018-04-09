@@ -1,6 +1,6 @@
 <include file="Public:header"/>
-<link rel="stylesheet" type="text/css" href="{$static_path}/css/style1.css"/>
-<link rel="stylesheet" type="text/css" href="{$static_path}/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}css/style1.css"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}css/bootstrap.min.css"/>
 <style>
     .title1 {
     width: 100%;

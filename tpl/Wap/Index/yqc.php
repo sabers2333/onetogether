@@ -18,42 +18,42 @@
 <script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
 <body>
 <div class="img">
-	<img src="{$static_path}/wap/1_01.png"   alt="">
-	<img src="{$static_path}/wap/1_02.png"   alt="">
-	<img src="{$static_path}/wap/1_03.png"   alt="">
-	<img src="{$static_path}/wap/1_04.png"   alt="">
-	<img src="{$static_path}/wap/1_05.png"   alt="">
-	<img src="{$static_path}/wap/1_06.png"   alt="">
-	<img src="{$static_path}/wap/1_07.png"   alt="">
-	<img src="{$static_path}/wap/1_08.png"   alt="">
-	<img src="{$static_path}/wap/1_09.png"   alt="">
-	<img src="{$static_path}/wap/1_10.png"   alt="">
+	<img src="{$static_path}wap/1_01.png"   alt="">
+	<img src="{$static_path}wap/1_02.png"   alt="">
+	<img src="{$static_path}wap/1_03.png"   alt="">
+	<img src="{$static_path}wap/1_04.png"   alt="">
+	<img src="{$static_path}wap/1_05.png"   alt="">
+	<img src="{$static_path}wap/1_06.png"   alt="">
+	<img src="{$static_path}wap/1_07.png"   alt="">
+	<img src="{$static_path}wap/1_08.png"   alt="">
+	<img src="{$static_path}wap/1_09.png"   alt="">
+	<img src="{$static_path}wap/1_10.png"   alt="">
 	<div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
-	<img src="{$static_path}/wap/1_12.png"   alt="">
-	<img src="{$static_path}/wap/1_13.png"   alt="">
-	<img src="{$static_path}/wap/1_14.png"   alt="">
-	<img src="{$static_path}/wap/1_15.png"   alt="">
-	<img src="{$static_path}/wap/1_16.png"   alt="">
-	<img src="{$static_path}/wap/1_17.png"   alt="">
-	<img src="{$static_path}/wap/1_18.png"   alt="">
-	<img src="{$static_path}/wap/1_19.png"   alt="">
-	<img src="{$static_path}/wap/1_20.png"   alt="">
-	<img src="{$static_path}/wap/1_21.png"   alt="">
-	<img src="{$static_path}/wap/1_22.png"   alt="">
-	<img src="{$static_path}/wap/1_23.png"   alt="">
-	<img src="{$static_path}/wap/1_24.png"   alt="">
+	<img src="{$static_path}wap/1_12.png"   alt="">
+	<img src="{$static_path}wap/1_13.png"   alt="">
+	<img src="{$static_path}wap/1_14.png"   alt="">
+	<img src="{$static_path}wap/1_15.png"   alt="">
+	<img src="{$static_path}wap/1_16.png"   alt="">
+	<img src="{$static_path}wap/1_17.png"   alt="">
+	<img src="{$static_path}wap/1_18.png"   alt="">
+	<img src="{$static_path}wap/1_19.png"   alt="">
+	<img src="{$static_path}wap/1_20.png"   alt="">
+	<img src="{$static_path}wap/1_21.png"   alt="">
+	<img src="{$static_path}wap/1_22.png"   alt="">
+	<img src="{$static_path}wap/1_23.png"   alt="">
+	<img src="{$static_path}wap/1_24.png"   alt="">
 	<div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
-	<img src="{$static_path}/wap/1_26.png"   alt="">
-	<img src="{$static_path}/wap/1_27.png"   alt="">
-	<img src="{$static_path}/wap/1_28.png"   alt="">
-	<img src="{$static_path}/wap/1_29.png"   alt="">
-	<img src="{$static_path}/wap/1_30.png"   alt="">
-	<img src="{$static_path}/wap/1_31.png"   alt="">
-	<img src="{$static_path}/wap/1_32.png"   alt="">
-	<img src="{$static_path}/wap/1_33.png"   alt="">
-	<img src="{$static_path}/wap/1_34.png"   alt="">
-	<img src="{$static_path}/wap/1_35.png"   alt="">
-	<img src="{$static_path}/wap/1_36.png"   alt="">
+	<img src="{$static_path}wap/1_26.png"   alt="">
+	<img src="{$static_path}wap/1_27.png"   alt="">
+	<img src="{$static_path}wap/1_28.png"   alt="">
+	<img src="{$static_path}wap/1_29.png"   alt="">
+	<img src="{$static_path}wap/1_30.png"   alt="">
+	<img src="{$static_path}wap/1_31.png"   alt="">
+	<img src="{$static_path}wap/1_32.png"   alt="">
+	<img src="{$static_path}wap/1_33.png"   alt="">
+	<img src="{$static_path}wap/1_34.png"   alt="">
+	<img src="{$static_path}wap/1_35.png"   alt="">
+	<img src="{$static_path}wap/1_36.png"   alt="">
 	<div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
 
 </div>

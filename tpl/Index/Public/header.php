@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="{$static_path}css/style_jiuwo.css"/>
 <link rel="stylesheet" type="text/css" href="{$static_path}css/style.css"/>
 <link rel="stylesheet" type="text/css" href="{$static_path}css/theme.extend.css"/>
-<link rel='stylesheet' href='{$static_path}/css/js_composer_front.css'  type='text/css' media='all' />
+<link rel='stylesheet' href='{$static_path}css/js_composer_front.css'  type='text/css' media='all' />
 <link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
 <script type="text/javascript" src="{$static_path}js/jquery-1.7.2.min.js"></script>

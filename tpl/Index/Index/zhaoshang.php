@@ -1,6 +1,6 @@
 <include file="Public:header"/>
-<link rel="stylesheet" type="text/css" href="{$static_path}/css/style1.css"/>
-<link rel="stylesheet" type="text/css" href="{$static_path}/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}css/style1.css"/>
+<link rel="stylesheet" type="text/css" href="{$static_path}css/bootstrap.min.css"/>
 <style>
     .title1 {
     width: 100%;
@@ -117,12 +117,12 @@
 <div class="ny_food" style="width: 1158px;margin:0 auto;height: 1100px;">
    <div class="ny_food_c" style="height: 1100px;">
        <ul id="auto-loop">
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_11.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_13.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_15.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_20.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_22.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_24.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_11.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_13.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_15.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_20.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_22.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_24.jpg" /></a></li>  
         </ul>  
      
    </div>
@@ -143,9 +143,9 @@
 <div class="ny_food" style="width: 1158px;margin:0 auto;height: 600px;">
    <div class="ny_food_c" style="height: 600px;">
        <ul id="auto-loop">
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_36.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_38.jpg" /></a></li>  
-          <li><a href="javascript:;"><img src="{$static_path}/img/img_40.jpg" /></a></li>   
+          <li><a href="javascript:;"><img src="{$static_path}img/img_36.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_38.jpg" /></a></li>  
+          <li><a href="javascript:;"><img src="{$static_path}img/img_40.jpg" /></a></li>   
         </ul>  
      
    </div>
