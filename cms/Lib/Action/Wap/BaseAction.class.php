@@ -42,7 +42,7 @@ class BaseAction extends CommonAction
 
         $this->merchant_info['wxname'] = $merchant['name'];
         $this->assign('wxuser', $this->merchant_info);
-        $this->static_path = 'http://zcplan.oss-cn-shenzhen.aliyuncs.com/uploads/public' .  '/static/default/';
+        $this->static_path = 'http://www.86teen.cn/Files/article/ueditor/php' .  '/static/default/';
              
         $this->assign('static_path', $this->static_path);
              
