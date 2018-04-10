@@ -109,8 +109,8 @@ class CommonAction extends Action
 		     
 		$this->assign('user_session', $this->user_session);
 		$this->common_url['group_category_all'] = $this->config['site_url'] . '/category/all/all';
-		$this->static_path = 'https://haiqing.oss-cn-shenzhen.aliyuncs.com/onetogether' . '/static/default/'  ;
-		$this->static_public = 'https://haiqing.oss-cn-shenzhen.aliyuncs.com/onetogether' . '/static/';
+		$this->static_path = 'http://zcplan.oss-cn-shenzhen.aliyuncs.com/uploads/public' . '/static/default/'  ;
+		$this->static_public = 'http://zcplan.oss-cn-shenzhen.aliyuncs.com/uploads/public' . '/static/';
 		$this->assign('static_path', $this->static_path);
 		$this->assign('static_public', $this->static_public);
 		
