@@ -77,8 +77,25 @@
 .dt3{position: absolute;right: 50px;}
 
 </style>
+<div class="banner_all">
+    <div class="banner">
+      <div class="banner_center">
+        <ul >
+                <li style="background:url({$static_path}images/banner_1.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+                <li style="background:url({$static_path}images/banner_2.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+                <li style="background:url({$static_path}images/banner_3.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+        </ul>
+      </div>
+      <div class="banner_btn">
+        <ul>
+          <li ><a href="javascript:void(0)"></a></li>
+          <li class=""><a href="javascript:void(0)"></a></li>
+          <li class=""><a href="javascript:void(0)"></a></li>
+        </ul>
+      </div>
+    </div>
+</div>
 <div id="dianji">
-<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_01.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_02.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_03.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_04.png" alt=""></a></div> 
