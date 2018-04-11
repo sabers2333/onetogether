@@ -16,26 +16,37 @@ ul, ol, li{list-style:none;}
 
 </style>
 <script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
-<script src="{$static_path}js/index.js"></script>
+<script type="text/javascript" src="http://m.delihouse.cn/js/swipe.js"></script>
+
+
 <body>
-<div class="banner_all">
-    <div class="banner">
-      <div class="banner_center">
-        <ul >
-                <li style="background:url({$static_path}images/wap_1.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
-                <li style="background:url({$static_path}images/wap_2.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
-                <li style="background:url({$static_path}images/wap_3.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
-        </ul>
-      </div>
-      <div class="banner_btn">
-        <ul>
-          <li ><a href="javascript:void(0)"></a></li>
-          <li class=""><a href="javascript:void(0)"></a></li>
-          <li class=""><a href="javascript:void(0)"></a></li>
-        </ul>
-      </div>
-    </div>
-</div>
+            <div id="banner_box1" class="box_swipe">
+                <ul>
+                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_1.jpg" alt="1" style="width:100%;" /> </a> </li>
+                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_2.jpg" alt="1" style="width:100%;" /> </a> </li>
+                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_3.jpg" alt="1" style="width:100%;" /> </a> </li>
+                    
+                                    
+                </ul>
+                <ol>
+                  <li class="on"></li>
+                  <li class="on"></li>
+                  <li class="on"></li>
+                </ol>
+              </div>
+            <script>
+                    $(function(){
+                        new Swipe(document.getElementById('banner_box1'), {
+                            speed:500,
+                            auto:3000,
+                            callback: function(){
+                                var lis = $(this.element).next("ol").children();
+                                lis.removeClass("on").eq(this.index).addClass("on");
+                            }
+                        });
+                    });
+                </script>
+
 <div class="img">
 	
 	<img src="{$static_path}wap/1_02.png"   alt="">
