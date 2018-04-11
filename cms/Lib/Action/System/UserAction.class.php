@@ -28,7 +28,7 @@ class UserAction extends BaseAction {
         $database_user = D('Comment');
         $condition_user['id'] = intval($_GET['id']);
         $now_user = $database_user->field(true)->where($condition_user)->find();  
-        $now_user['recomment'] = $now_user['recomment']?:'您好，你的留言我们已收到。';   
+        $now_user['recomment'] = $now_user['recomment']?:'您好，您的留言我们已收到,请保持电话畅通，谢谢！';   
              
         $this->assign('info', $now_user);
 

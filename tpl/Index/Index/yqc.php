@@ -75,7 +75,14 @@
 .dt1{position: absolute;right: 150px;top:800px;}
 .dt2{position: absolute;left: 50px;}
 .dt3{position: absolute;right: 50px;}
-
+/*S banner图切换*/
+.banner_all {width: 100%;margin:0 auto;overflow: hidden;position: relative;z-index: 2;min-width:980px;}
+.banner {width: 980px;height: 720px;margin: 0 auto;position: relative;zoom:1;}
+.banner_center {width:1920px;height: 726px;overflow: hidden;z-index: 0;position: relative;left: -470px;_display:inline;}
+.banner_center ul {width:38400px;height: 677px;position:absolute;top:0;left:0;}
+.banner_center ul li {width:1920px;height: 753px;float: left;overflow: hidden;display: block;}
+.banner_center ul a {width:1920px;height:659px;display:block;}
+.banner_btn{top: 680px}
 </style>
 <div class="banner_all">
     <div class="banner">
