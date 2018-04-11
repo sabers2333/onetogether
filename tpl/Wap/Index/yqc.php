@@ -3,9 +3,8 @@
 <title>【一起茶】漫游时光官网_茶饮店加盟_奶茶店加盟_一起茶官网</title>
 <meta name="keywords" content="一起手游，西餐吧，手游西餐吧，一起茶，西餐加盟，西餐厅加盟，西餐加盟连锁，西式简餐加盟" />
 <meta name="description" content="“一起茶”【官网】源自新加坡的邻里型西餐厅,现面向全球诚招加盟，多元化的产品包括：西餐，西式简餐，西式快餐，时尚休闲西餐等西餐厅加盟项目。西餐厅加盟咨询热线400-1368-683" />
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="{$static_path}css/style.css"/>
 </head>
 <style>	
 *{border: 0;margin:0;padding:0;}
@@ -13,12 +12,32 @@
 .img img{border: 0;vertical-align:middle;width: 100%;}
 .dt img{width: 60%;text-align: center;}
 .dt1 {margin: 40px; auto;text-align: center;}
+ul, ol, li{list-style:none;}
 
 </style>
 <script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
+<script src="{$static_path}js/index.js"></script>
 <body>
+<div class="banner_all">
+    <div class="banner">
+      <div class="banner_center">
+        <ul >
+                <li style="background:url({$static_path}images/wap_1.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+                <li style="background:url({$static_path}images/wap_2.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+                <li style="background:url({$static_path}images/wap_3.jpg)  "><a href="{$vo.url}" target="_blank"></a></li>
+        </ul>
+      </div>
+      <div class="banner_btn">
+        <ul>
+          <li ><a href="javascript:void(0)"></a></li>
+          <li class=""><a href="javascript:void(0)"></a></li>
+          <li class=""><a href="javascript:void(0)"></a></li>
+        </ul>
+      </div>
+    </div>
+</div>
 <div class="img">
-	<img src="{$static_path}wap/1_01.png"   alt="">
+	
 	<img src="{$static_path}wap/1_02.png"   alt="">
 	<img src="{$static_path}wap/1_03.png"   alt="">
 	<img src="{$static_path}wap/1_04.png"   alt="">
