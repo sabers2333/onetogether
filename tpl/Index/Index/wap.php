@@ -16,7 +16,7 @@ ul, ol, li{list-style:none;}
 
 </style>
 <script type='text/javascript' src='{$static_path}js/jquery.js?ver=1.11.1'></script>
-<script type="text/javascript" src="http://m.delihouse.cn/js/swipe.js"></script>
+<script type="text/javascript" src="{$static_path}/js/swipe.js"></script>
 
 
 <body>
