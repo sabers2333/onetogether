@@ -129,7 +129,7 @@
          </div>
          <div class="news_2">
             <h3>最新产品 <a href="news.html?cat_id=7">+更多</a></h3>
-                        <a href="detail.html?id={$products.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/5ace00a3dbeae1.jpg" width="275" height="200" style="margin-right:10px"></a>
+                        <a href="detail.html?id={$products.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5ace00a3dbeae1.jpg" width="275" height="200" style="margin-right:10px"></a>
                         <a href="detail.html?id={$products.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5ace00a3dbeae.jpg" width="275" height="200" style=""></a>
                                 
             <div class="clear"></div>               
