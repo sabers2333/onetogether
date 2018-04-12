@@ -117,8 +117,8 @@
          <div class="news_2" style="margin-left:0;">
             <h3>新闻动态 <a href="news.html?cat_id=5">+更多</a></h3>
                     
-                        <a href="detail.html?id={$news.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/{$news.0.pic}" width="275" height="200" style="margin-right:10px"></a>
-                        <a href="detail.html?id={$news.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/{$news.1.pic}" width="275" height="200" style=""></a>
+                        <a href="detail.html?id={$news.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5a56e6ebccb2b.jpg" width="275" height="200" style="margin-right:10px"></a>
+                        <a href="detail.html?id={$news.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5a56e54801cad.jpg" width="275" height="200" style=""></a>
                        <div class="clear"></div>                
             <ul>
             <volist name = 'news' id = 'vo'>
@@ -129,8 +129,8 @@
          </div>
          <div class="news_2">
             <h3>最新产品 <a href="news.html?cat_id=7">+更多</a></h3>
-                        <a href="detail.html?id={$products.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/{$products.0.pic}" width="275" height="200" style="margin-right:10px"></a>
-                        <a href="detail.html?id={$products.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/{$products.1.pic}" width="275" height="200" style=""></a>
+                        <a href="detail.html?id={$products.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/5ace00a3dbeae1.jpg" width="275" height="200" style="margin-right:10px"></a>
+                        <a href="detail.html?id={$products.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5ace00a3dbeae.jpg" width="275" height="200" style=""></a>
                                 
             <div class="clear"></div>               
            <ul>
