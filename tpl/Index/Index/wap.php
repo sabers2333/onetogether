@@ -58,6 +58,7 @@ ul, ol, li{list-style:none;}
 	<img src="{$static_path}wap/1_04.png"   alt="">
 	<img src="{$static_path}wap/1_05.png"   alt="">
 	<img src="{$static_path}wap/1_06.png"   alt="">
+    <img src="{$static_path}wap/1_38.png"   alt="">
 	<img src="{$static_path}wap/1_07.png"   alt="">
 	<img src="{$static_path}wap/1_08.png"   alt="">
 	<img src="{$static_path}wap/1_09.png"   alt="">
