@@ -9,6 +9,10 @@ class BaseAction extends CommonAction
 	
    }
 
+    public function _empty()
+    {
+        redirect('http://'.$_SERVER['HTTP_HOST'].'/yqc.html');
+    }
 }
 
 
