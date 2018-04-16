@@ -108,6 +108,7 @@
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_04.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_05.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_06.png" alt=""></a></div> 
+<div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_12.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_07.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_08.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc/2_09.png" alt=""></a></div> 
@@ -137,8 +138,9 @@
 <div class="w16  clearfix" style="width: 1152px;" >
       <img src="{$static_path}pc/2_25.png" alt="">
       <img src="{$static_path}pc/2_27.png" alt="">
-      <img src="{$static_path}pc/2_29.png" alt="">
       <div class="dt2"><img src="{$static_path}images/1.gif" alt=""></div>
+      <img src="{$static_path}pc/2_29.png" alt="">
+      
       <img src="{$static_path}pc/2_30.png" alt="">
       <img src="{$static_path}pc/2_31.png" alt="">
       <img src="{$static_path}pc/2_32.png" alt="">

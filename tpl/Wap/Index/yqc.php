@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" type="text/css" href="{$static_path}css/style.css"/>
 </head>
-<style>	
+<style> 
 *{border: 0;margin:0;padding:0;}
 .img{border: 0;vertical-align:middle;width: 100%}
 .img img{border: 0;vertical-align:middle;width: 100%;}
@@ -26,9 +26,9 @@ ul, ol, li{list-style:none;}
 <body>
             <div id="banner_box1" class="box_swipe">
                 <ul>
-                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_1.jpg" alt="1" style="width:100%;" /> </a> </li>
-                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_2.jpg" alt="1" style="width:100%;" /> </a> </li>
-                	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_3.jpg" alt="1" style="width:100%;" /> </a> </li>
+                                         <li> <a onClick="return false;"> <img src="{$static_path}images/wap_1.jpg" alt="1" style="width:100%;" /> </a> </li>
+                                         <li> <a onClick="return false;"> <img src="{$static_path}images/wap_2.jpg" alt="1" style="width:100%;" /> </a> </li>
+                                         <li> <a onClick="return false;"> <img src="{$static_path}images/wap_3.jpg" alt="1" style="width:100%;" /> </a> </li>
                     
                                     
                 </ul>
@@ -52,55 +52,55 @@ ul, ol, li{list-style:none;}
                 </script>
 
 <div class="img">
-	
-	<img src="{$static_path}wap/1_02.png"   alt="">
-	<img src="{$static_path}wap/1_03.png"   alt="">
-	<img src="{$static_path}wap/1_04.png"   alt="">
-	<img src="{$static_path}wap/1_05.png"   alt="">
-	<img src="{$static_path}wap/1_06.png"   alt="">
-	<img src="{$static_path}wap/1_07.png"   alt="">
-	<img src="{$static_path}wap/1_08.png"   alt="">
-	<img src="{$static_path}wap/1_09.png"   alt="">
-	<img src="{$static_path}wap/1_10.png"   alt="">
-	<div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
-	<img src="{$static_path}wap/1_12.png"   alt="">
-	<img src="{$static_path}wap/1_13.png"   alt="">
-	<img src="{$static_path}wap/1_14.png"   alt="">
-	<img src="{$static_path}wap/1_15.png"   alt="">
-	<img src="{$static_path}wap/1_16.png"   alt="">
-	<img src="{$static_path}wap/1_17.png"   alt="">
-	<img src="{$static_path}wap/1_18.png"   alt="">
-	<img src="{$static_path}wap/1_19.png"   alt="">
-	<img src="{$static_path}wap/1_20.png"   alt="">
-	<img src="{$static_path}wap/1_21.png"   alt="">
-	<img src="{$static_path}wap/1_22.png"   alt="">
-	<img src="{$static_path}wap/1_23.png"   alt="">
-	<img src="{$static_path}wap/1_24.png"   alt="">
-	<div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
-	<img src="{$static_path}wap/1_26.png"   alt="">
-	<img src="{$static_path}wap/1_27.png"   alt="">
-	<img src="{$static_path}wap/1_28.png"   alt="">
-	<img src="{$static_path}wap/1_29.png"   alt="">
-	<img src="{$static_path}wap/1_30.png"   alt="">
-	<img src="{$static_path}wap/1_31.png"   alt="">
-	<img src="{$static_path}wap/1_32.png"   alt="">
-	<img src="{$static_path}wap/1_33.png"   alt="">
-	<img src="{$static_path}wap/1_34.png"   alt="">
-	<img src="{$static_path}wap/1_35.png"   alt="">
-	<img src="{$static_path}wap/1_36.png"   alt="">
-	<div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
+    
+    <img src="{$static_path}wap/1_02.png"   alt="">
+    <img src="{$static_path}wap/1_03.png"   alt="">
+    <img src="{$static_path}wap/1_04.png"   alt="">
+    <img src="{$static_path}wap/1_05.png"   alt="">
+    <img src="{$static_path}wap/1_06.png"   alt="">
+    <img src="{$static_path}wap/1_38.png"   alt="">
+    <img src="{$static_path}wap/1_07.png"   alt="">
+    <img src="{$static_path}wap/1_08.png"   alt="">
+    <img src="{$static_path}wap/1_09.png"   alt="">
+    <img src="{$static_path}wap/1_10.png"   alt="">
+    <div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
+    <img src="{$static_path}wap/1_12.png"   alt="">
+    <img src="{$static_path}wap/1_13.png"   alt="">
+    <img src="{$static_path}wap/1_14.png"   alt="">
+    <img src="{$static_path}wap/1_15.png"   alt="">
+    <img src="{$static_path}wap/1_16.png"   alt="">
+    <img src="{$static_path}wap/1_17.png"   alt="">
+    <img src="{$static_path}wap/1_18.png"   alt="">
+    <img src="{$static_path}wap/1_19.png"   alt="">
+    <img src="{$static_path}wap/1_20.png"   alt="">
+    <img src="{$static_path}wap/1_21.png"   alt="">
+    <img src="{$static_path}wap/1_22.png"   alt="">
+    <img src="{$static_path}wap/1_23.png"   alt="">
+    <img src="{$static_path}wap/1_24.png"   alt="">
+    <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
+    <img src="{$static_path}wap/1_26.png"   alt="">
+    <img src="{$static_path}wap/1_27.png"   alt="">
+    <img src="{$static_path}wap/1_28.png"   alt="">
+    <img src="{$static_path}wap/1_29.png"   alt="">
+    <img src="{$static_path}wap/1_30.png"   alt="">
+    <img src="{$static_path}wap/1_31.png"   alt="">
+    <img src="{$static_path}wap/1_32.png"   alt="">
+    <img src="{$static_path}wap/1_33.png"   alt="">
+    <img src="{$static_path}wap/1_34.png"   alt="">
+    <img src="{$static_path}wap/1_35.png"   alt="">
+    <img src="{$static_path}wap/1_36.png"   alt="">
+    <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
 
 </div>
-    <div style="display: none;"><script src="https://s19.cnzz.com/z_stat.php?id=1272888463&web_id=1272888463" language="JavaScript"></script></div>
 
 <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10170576/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script> 
 <script>
 var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?ea0937658be71b7104bc3e1785d7410d"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
 <script type="text/javascript" charset="utf-8" async src="http://lxbjs.baidu.com/lxb.js?sid=11796862"></script>
 <script type="text/javascript">
-	$(".img").click(function(){
-		get_chat_event('advice');
-	});
+    $(".img").click(function(){
+        get_chat_event('advice');
+    });
 </script>
 </body>
 </html>
