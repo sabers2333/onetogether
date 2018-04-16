@@ -9,10 +9,6 @@ class BaseAction extends CommonAction
 	
    }
 
-    public function _empty()
-    {
-        exit("你搞错了。");
-    }
 }
 
 
