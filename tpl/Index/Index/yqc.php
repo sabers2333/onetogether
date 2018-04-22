@@ -175,7 +175,7 @@
         </div>
         <div class="row form-group ">
           <div class="col-xs-12">
-            <textarea style="height:118px" class="form-control " name="demand" id="demand" placeholder="请输入您的需求" required="required" rows="3"></textarea>
+            <textarea style="height:118px" class="form-control " name="demand" id="demand" placeholder="请输入您的留言" required="required" rows="3"></textarea>
           </div>
         </div>
         <div class="row form-group ">
@@ -185,7 +185,7 @@
         </div>
         <div class="row form-group ">
           <div class="col-xs-12">
-            <button type="button" class="btn btn-primary form-control">提交需求</button>
+            <button type="button" class="btn btn-primary form-control">提交留言</button>
           </div>
         </div>
       </form>
