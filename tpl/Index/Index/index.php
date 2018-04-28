@@ -8,7 +8,7 @@
       <div class="banner_center">
         <ul >
                 <volist name="index_lunbo_adver" id="vo">
-                <li style="background:url({$vo.pic})  "><a href="{$vo.url}" target="_blank"></a></li>
+                <li style="background:url({$vo.pic})  "><a href="javascript:hz6d_is_exist('setIsinvited()%3Bwindow.open(#liyc#https%3A%2F%2Fwww16.53kf.com%2FwebCompany.php%3Farg%3D10170576%26style%3D1%26language%3Dzh-cn%26charset%3Dgbk%26kflist%3Doff%26kf%3D%26zdkf_type%3D1%26lnk_overflow%3D0%26referer%3Dhttp%253A%252F%252Fot.com%252Fyqc.html%26keyword%3D%26tfrom%3D1%26tpl%3Dcrystal_blue%26uid%3Dc60875c6c66a11399b222c2000fe7f33%26is_group%3D%26is_group%3D#liyc#%2C%20#liyc#_blank#liyc#%2C%20#liyc#height%3D600%2Cwidth%3D800%2Ctop%3D50%2Cleft%3D200%2Cstatus%3Dyes%2Ctoolbar%3Dno%2Cmenubar%3Dno%2Cresizable%3Dyes%2Cscrollbars%3Dno%2Clocation%3Dno%2Ctitlebar%3Dno#liyc#)');"></a></li>
                 </volist>
         </ul>
       </div>
