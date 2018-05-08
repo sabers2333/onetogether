@@ -10,7 +10,7 @@ class IndexAction extends BaseAction
         //轮播
         $index_lunbo_adver = D('Adver')->get_adver_by_key('indexlunbo'); 
         //首页下面轮播图
-        $shouyou = D('Adver')->get_adver_by_key('shouyou');     
+        $shouyou = D('Adver')->get_adver_by_key('shouyou', 12);     
         $this->shouyou = $shouyou;
         //美食
         $food = D('Adver')->get_adver_by_key('food');
