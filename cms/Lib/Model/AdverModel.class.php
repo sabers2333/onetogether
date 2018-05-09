@@ -8,7 +8,7 @@ class AdverModel extends Model{
 		if($now_adver_category){
 			$condition_adver['cat_id'] = $now_adver_category['cat_id'];
 			$condition_adver['status'] = '1';
-			$adver_list = $this->field(true)->where($condition_adver)->limit($limit)->select();
+			$adver_list = $this->where($condition_adver)->limit($limit)->select();
 			foreach($adver_list as $key=>$value){
 				$adver_list[$key]['pic'] = C('config.site_url').'/upload/adver/'.$value['pic'];
 				if(strpos($value['desc'],";" )!==false){
