@@ -63,6 +63,8 @@ return array(
         'yqc'    => 'Index/yqc',
         'yqc1'    => 'Index/yqc1',
         'wap'    => 'Index/wap',
+        'message'    => 'Index/message',
+        'iframe'    => 'Index/iframe',
     ),
 	
 );

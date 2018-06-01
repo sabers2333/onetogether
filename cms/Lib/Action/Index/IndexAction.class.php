@@ -123,6 +123,16 @@ class IndexAction extends BaseAction
     {
         $this->display();
     }
+
+     //招商
+    public function message()
+    {
+        $this->display();
+    }
+    public function iframe()
+    {
+        $this->display();
+    }
     //招商
     public function yqc1()
     {
@@ -163,7 +173,8 @@ class IndexAction extends BaseAction
         Image::buildImageVerify(4,1,'jpeg',53,26,'admin_verify');
     }
 
-    public function comment(){
+    public function comment(){   
+         
         if(!$_POST['name']){$this->error('请输入您的姓名');}
         if(!$_POST['mobile']){$this->error('请输入您的手机号码');}
         if(!$_POST['demand']){$this->error('请输入您的需求');}
