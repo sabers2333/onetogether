@@ -121,7 +121,7 @@
       </form>
     </div>
   </div>
-  <div class="panel panel-info">
+  <div class="panel panel-info" style="display: none;">
     <div class="panel-heading">
       最新留言
     </div>
