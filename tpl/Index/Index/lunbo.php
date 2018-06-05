@@ -110,7 +110,7 @@
     <div class="banner">
       <div class="banner_center">
         <ul >
-                <li style="background:url({$static_path}images/banner_1.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
+                <!-- <li style="background:url({$static_path}images/banner_1.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li> -->
                 <li style="background:url({$static_path}images/banner_2.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
                 <li style="background:url({$static_path}images/banner_3.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
         </ul>
