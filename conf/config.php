@@ -66,6 +66,7 @@ return array(
         'message'    => 'Index/message',
         'iframe'    => 'Index/iframe',
         'lunbo'    => 'Index/lunbo',
+        'm_lunbo'    => 'Index/m_lunbo',
     ),
 	
 );
