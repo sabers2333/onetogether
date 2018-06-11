@@ -18,7 +18,7 @@ $(document).ready(function(){
     };
     /* 自动轮换 */
     function autoroll() {
-                    if(n >= 2) {
+                    if(n >= 3) {
                         n = 0;
                     }
                     tli.removeClass("curs");
