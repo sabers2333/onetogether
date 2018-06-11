@@ -36,7 +36,7 @@ ul, ol, li{list-style:none;}
                 <ol>
                   <li class="on"></li>
                   <li class="on"></li>
-                 <!--  <li class="on"></li> -->
+                 <li class="on"></li>
                 </ol>
               </div>
             <script>
