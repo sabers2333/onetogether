@@ -26,6 +26,7 @@ ul, ol, li{list-style:none;}
 <body>
             <div id="banner_box1" class="box_swipe">
                 <ul>
+                                         <li> <a onClick="return false;"> <img src="{$static_path}images/wap_4.jpg" alt="1" style="width:100%;" /> </a> </li>
                 	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_1.jpg" alt="1" style="width:100%;" /> </a> </li>
                 	                     <li> <a onClick="return false;"> <img src="{$static_path}images/wap_2.jpg" alt="1" style="width:100%;" /> </a> </li>
                 	                    <!--  <li> <a onClick="return false;"> <img src="{$static_path}images/wap_3.jpg" alt="1" style="width:100%;" /> </a> </li> -->
