@@ -82,10 +82,10 @@ a:focus{outline:none;}
     <div class="banner">
       <div class="banner_center">
         <ul >
-                <li style="background:url({$static_path}images/banner_4.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
-                <li style="background:url({$static_path}images/banner_1.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
-                <!-- <li style="background:url({$static_path}images/banner_2.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li> -->
-                <li style="background:url({$static_path}images/banner_3.jpg)  "><a href="javascript:void(0)" target="_blank"></a></li>
+                <li style="background:url({$static_path}images/banner_4.jpg)  "><a href="javascript:void(0)" ></a></li>
+                <li style="background:url({$static_path}images/banner_1.jpg)  "><a href="javascript:void(0)" ></a></li>
+                <!-- <li style="background:url({$static_path}images/banner_2.jpg)  "><a href="javascript:void(0)" ></a></li> -->
+                <li style="background:url({$static_path}images/banner_3.jpg)  "><a href="javascript:void(0)" ></a></li>
         </ul>
       </div>
       <div class="banner_btn">
