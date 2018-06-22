@@ -2,13 +2,7 @@
 <link rel="stylesheet" type="text/css" href="{$static_path}css/style1.css"/>
 <link rel="stylesheet" type="text/css" href="{$static_path}css/bootstrap.min.css"/>
 <style>
-    .title1 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: #000;
-    /* margin-bottom: 40px; */
-}
+a:focus{outline:none;}
 .pd {
     padding:20px;
 }
