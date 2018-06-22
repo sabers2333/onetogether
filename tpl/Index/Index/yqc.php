@@ -103,7 +103,7 @@
       </div>
     </div>
 </div>
-<div id="dianji">
+<div id="dianji1">
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_02.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_03.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_04.png" alt=""></a></div> 
@@ -118,24 +118,24 @@
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_14.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_15.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_16.png" alt=""></a></div> 
-<div class="dt"><img src="{$static_path}images/1.gif" alt=""></div>
+<div class="dt" id="dianji"><img src="{$static_path}images/1.gif" alt=""></div>
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_17.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_18.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_19.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_20.png" alt=""></a></div> 
 
-<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_22.png" alt=""></a><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div> 
+<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_22.png" alt=""></a><div class="dt1" id="dianji"><img src="{$static_path}images/1.gif" alt=""></div></div> 
 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_23.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_25.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_26.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_28.png" alt=""></a></div> 
-<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_29.png" alt=""></a><div class="dt2"><img src="{$static_path}images/1.gif" alt=""></div></div>  
+<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_29.png" alt=""></a><div class="dt2" id="dianji"><img src="{$static_path}images/1.gif" alt=""></div></div>  
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_30.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_31.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_32.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_34.png" alt=""></a></div> 
-<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_35.png" alt=""></a><div class="dt3"><img src="{$static_path}images/1.gif" alt=""></div></div> 
+<div class="ny_banner1" style="position: relative" ><a href="javascript:;" ><img src="{$static_path}pc2/1_35.png" alt=""></a><div class="dt3" id="dianji"><img src="{$static_path}images/1.gif" alt=""></div></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_36.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_38.png" alt=""></a></div> 
 <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc2/1_39.png" alt=""></a></div> 
