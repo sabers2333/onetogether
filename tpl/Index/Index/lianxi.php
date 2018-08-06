@@ -25,7 +25,7 @@
                             <div class="wpb_single_image wpb_content_element zero_side wpb_animate_when_almost_visible wpb_top-to-bottom vc_align_center wpb_start_animation index_jiameng">
                                 <div class="wpb_wrapper">
                                     <iframe frameborder="0" id="companyOMap" name="companyOMap" scrolling="no"
-                                    src="map.html" style="width:1000px;height:534px;">
+                                    src="map.html" style="width:960px;height:534px;">
                                     </iframe>
                                 </div>
                             </div>
@@ -38,12 +38,12 @@
                     
             
             
-            <div class="wpb_row vc_row-fluid row_width960">
+            <div class="wpb_row vc_row-fluid row_width960" style="margin-top:  100px !important;">
                 <div class="vc_span3 shrink wpb_column column_container">
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
                             <div class="wpb_wrapper">
-                                <img width="240" height="281" src="{$static_path}images/b1507c22f1e74f30.gif" class=" vc_box_border_grey attachment-full"
+                                <img   src="{$static_path}images/lianxi_1.jpg" class=" vc_box_border_grey attachment-full"
                                 alt="加盟商专区-联系酒窝_03">
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
                             <div class="wpb_wrapper">
-                                <img width="241" height="281" src="{$static_path}images/e85e85af68398c6f.gif" class=" vc_box_border_grey attachment-full"
+                                <img   src="{$static_path}images/lianxi_2.jpg" class=" vc_box_border_grey attachment-full"
                                 alt="加盟商专区-联系酒窝_04">
                             </div>
                         </div>
@@ -63,7 +63,7 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
                             <div class="wpb_wrapper">
-                                <img width="240" height="281" src="{$static_path}images/9cff3ddfe8251cba.gif" class=" vc_box_border_grey attachment-full"
+                                <img   src="{$static_path}images/lianxi_3.jpg" class=" vc_box_border_grey attachment-full"
                                 alt="加盟商专区-联系酒窝_05">
                             </div>
                         </div>
@@ -73,14 +73,14 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
                             <div class="wpb_wrapper">
-                                <img width="240" height="281" src="{$static_path}images/47ba0e0972940827.gif" class=" vc_box_border_grey attachment-full"
+                                <img   src="{$static_path}images/lianxi_4.jpg" class=" vc_box_border_grey attachment-full"
                                 alt="加盟商专区-联系酒窝_06">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="wpb_row vc_row-fluid row_width960" style="padding-top: 40px;">
+            <!-- <div class="wpb_row vc_row-fluid row_width960" style="padding-top: 40px;">
                 <div class="vc_span6 grow wpb_column column_container">
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
@@ -101,8 +101,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="wpb_row vc_row-fluid" style="padding: 10px;margin-bottom: 20px;">
+            </div> -->
+            <div class="wpb_row vc_row-fluid" style="padding: 50px;margin-bottom: 20px;">
                 <div class="vc_span12 wpb_column column_container">
                     <div class="wpb_wrapper">
                     </div>
