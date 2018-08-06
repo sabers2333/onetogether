@@ -38,7 +38,7 @@
                     
             
             
-            <div class="wpb_row vc_row-fluid row_width960" style="margin-top:  100px !important;">
+            <div class="wpb_row vc_row-fluid row_width960" >
                 <div class="vc_span3 shrink wpb_column column_container">
                     <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element wpb_animate_when_almost_visible wpb_bottom-to-top vc_align_center">
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div> -->
-            <div class="wpb_row vc_row-fluid" style="padding: 50px;margin-bottom: 20px;">
+            <div class="wpb_row vc_row-fluid" >
                 <div class="vc_span12 wpb_column column_container">
                     <div class="wpb_wrapper">
                     </div>
