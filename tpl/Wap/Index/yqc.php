@@ -54,45 +54,43 @@ ul, ol, li{list-style:none;}
 
 <div class="img">
     
-    <img src="{$static_path}wap2/1_02.jpg"   alt="">
-    <img src="{$static_path}wap2/1_03.jpg"   alt="">
-    <img src="{$static_path}wap2/1_04.jpg"   alt="">
-    <img src="{$static_path}wap2/1_05.jpg"   alt="">
-    <img src="{$static_path}wap2/1_06.jpg"   alt="">
-    <img src="{$static_path}wap2/1_07.jpg"   alt="">
-    <img src="{$static_path}wap2/1_08.jpg"   alt="">
-    <img src="{$static_path}wap2/1_09.jpg"   alt="">
-    <img src="{$static_path}wap2/1_10.jpg"   alt="">
-    <img src="{$static_path}wap2/1_11.jpg"   alt="">
-    <div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
-    <img src="{$static_path}wap2/1_13.jpg"   alt="">
-    <img src="{$static_path}wap2/1_14.jpg"   alt="">
-    <img src="{$static_path}wap2/1_15.jpg"   alt="">
-    <img src="{$static_path}wap2/1_16.jpg"   alt="">
-    <img src="{$static_path}wap2/1_17.jpg"   alt="">
-    <img src="{$static_path}wap2/1_18.jpg"   alt="">
-    <img src="{$static_path}wap2/1_19.jpg"   alt="">
-    <img src="{$static_path}wap2/1_20.jpg"   alt="">
-    <img src="{$static_path}wap2/1_21.jpg"   alt="">
-    <img src="{$static_path}wap2/1_22.jpg"   alt="">
-    <img src="{$static_path}wap2/1_23.jpg"   alt="">
-    <img src="{$static_path}wap2/1_24.jpg"   alt="">
-    <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
-    <img src="{$static_path}wap2/1_26.jpg"   alt="">
-    <img src="{$static_path}wap2/1_27.jpg"   alt="">
-    <img src="{$static_path}wap2/1_28.jpg"   alt="">
-    <img src="{$static_path}wap2/1_29.jpg"   alt="">
-    <div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div>
-    <img src="{$static_path}wap2/1_31.jpg"   alt="">
-    <img src="{$static_path}wap2/1_32.jpg"   alt="">
-    <img src="{$static_path}wap2/1_33.jpg"   alt="">
-    <img src="{$static_path}wap2/1_34.jpg"   alt="">
-    <img src="{$static_path}wap2/1_35.jpg"   alt="">
-    <img src="{$static_path}wap2/1_36.jpg"   alt="">
-    <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div>
+    <img src="{$static_path}wap3/1_02.png"   alt="">
+    <img src="{$static_path}wap3/1_03.png"   alt="">
+    <img src="{$static_path}wap3/1_04.png"   alt="">
+    <img src="{$static_path}wap3/1_05.png"   alt="">
+    <img src="{$static_path}wap3/1_06.png"   alt="">
+    <img src="{$static_path}wap3/1_07.png"   alt="">
+    <img src="{$static_path}wap3/1_08.png"   alt="">
+    <img src="{$static_path}wap3/1_09.png"   alt="">
+    <img src="{$static_path}wap3/1_10.png"   alt="">
+    <img src="{$static_path}wap3/1_11.png"   alt="">
+    <!-- <div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div> -->
+    <img src="{$static_path}wap3/1_13.png"   alt="">
+    <img src="{$static_path}wap3/1_14.png"   alt="">
+    <img src="{$static_path}wap3/1_15.png"   alt="">
+    <img src="{$static_path}wap3/1_16.png"   alt="">
+    <img src="{$static_path}wap3/1_17.png"   alt="">
+    <img src="{$static_path}wap3/1_18.png"   alt="">
+    <img src="{$static_path}wap3/1_19.png"   alt="">
+    <img src="{$static_path}wap3/1_20.png"   alt="">
+    <img src="{$static_path}wap3/1_21.png"   alt="">
+    <img src="{$static_path}wap3/1_22.png"   alt="">
+    <img src="{$static_path}wap3/1_23.png"   alt="">
+    <img src="{$static_path}wap3/1_24.png"   alt="">
+   <!--  <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div> -->
+    <img src="{$static_path}wap3/1_26.png"   alt="">
+    <img src="{$static_path}wap3/1_27.png"   alt="">
+    <img src="{$static_path}wap3/1_28.png"   alt="">
+    <img src="{$static_path}wap3/1_29.png"   alt="">
+    <!-- <div class="dt"><div class="dt1"><img src="{$static_path}images/1.gif" alt=""></div></div> -->
+    <img src="{$static_path}wap3/1_31.png"   alt="">
+    <img src="{$static_path}wap3/1_32.png"   alt="">
+    <img src="{$static_path}wap3/1_33.png"   alt="">
+    <!-- <div class="dt"><div class="dt1" style="margin-bottom: 200px;"><img src="{$static_path}images/1.gif" alt=""></div></div> -->
 
 </div>
 <div style="display: none;"><script src="https://s13.cnzz.com/z_stat.php?id=1273883163&web_id=1273883163" language="JavaScript"></script></div>
+
 <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10170576/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
 <script>
 var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?ea0937658be71b7104bc3e1785d7410d"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
