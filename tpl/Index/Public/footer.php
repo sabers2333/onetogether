@@ -38,7 +38,11 @@
                 <div id="footerQRcode">
                     <img src="{$static_path}images/qr_code.png" alt="" />
                 </div>
-                <div class="copyright">
+                <div class="copyright" style="padding: 0">
+                    投资有风险，选择需谨慎
+                </div>
+                
+                <div class="copyright" style="padding: 0">
                     投诉电话：{$config.site_phone} Copyright © 2017-2018 {$config.site_name}隶属于漫游时光（深圳）品牌管理有限公司 版权所有。<a href="http://www.miitbeian.gov.cn" rel="external nofollow">粤ICP备18001190</a>
                 </div>
         </div>
@@ -53,4 +57,3 @@ var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); 
     <script type='text/javascript' src='{$static_path}js/theme.extend.js?ver=4.1.8'></script>
 </body>
 </html>
-        

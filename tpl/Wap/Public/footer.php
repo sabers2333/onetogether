@@ -1,3 +1,6 @@
+<div class="copyright" style="padding: 0">
+                    投资有风险，选择需谨慎
+                </div>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript">
   /* 注意：

@@ -90,7 +90,9 @@ ul, ol, li{list-style:none;}
 
 </div>
 <div style="display: none;"><script src="https://s13.cnzz.com/z_stat.php?id=1273883163&web_id=1273883163" language="JavaScript"></script></div>
-
+<div class="copyright" style="text-align:center;padding-bottom: 200px;">
+                    投资有风险，选择需谨慎
+                </div>
 <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/10170576/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
 <script>
 var _hmt = _hmt || []; (function() { var hm = document.createElement("script"); hm.src = "https://hm.baidu.com/hm.js?ea0937658be71b7104bc3e1785d7410d"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(hm, s); })(); </script> 
