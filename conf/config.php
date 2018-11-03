@@ -63,6 +63,7 @@ return array(
         'yqc'    => 'Index/yqc',
         'yqc1'    => 'Index/yqc1',
         'wap'    => 'Index/wap',
+        'wap1'    => 'Index/wap1',
         'message'    => 'Index/message',
         'iframe'    => 'Index/iframe',
         'lunbo'    => 'Index/lunbo',
