@@ -289,9 +289,9 @@ a:focus{outline:none;}
       <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc4/1_195.png"></div>
       <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc4/1_196.png"></div>
       <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc4/1_197.png"></div>
-      <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc4/1_198.png></div>
+      <div class="ny_banner1" ><a href="javascript:;" ><img src="{$static_path}pc4/1_198.png"></div>
 </div>
-   
+
 <div class="ny_main">
     <div class="ny_about">
        <div class="w16" style="height: 900px;">
@@ -334,7 +334,7 @@ a:focus{outline:none;}
     <div class="panel-body">
       <ul class="list-group" id="list">
         <div class="comment_list">
-        
+
         </div>
         <li class="page" style="margin-left: 120px;">
         <!-- <div>
@@ -391,10 +391,10 @@ $(function(){
       $.get("{:U('ajax_comment')}",{page:page},function(data){
             if(data.li==''){
             }else{
-              total = data.total; //总记录数 
-              pageSize =data.pageSize; //每页显示条数 
-              curPage = Number(page); //当前页 
-              totalPage = data.totalpage; //总页数 
+              total = data.total; //总记录数
+              pageSize =data.pageSize; //每页显示条数
+              curPage = Number(page); //当前页
+              totalPage = data.totalpage; //总页数
                 $(".comment_list").html(data.li);
                  getPageBar();
             }
@@ -402,29 +402,29 @@ $(function(){
     }
     function getPageBar(){
         var pageStr='';
-    //页码大于最大页数 
-    if(curPage>totalPage) curPage=totalPage; 
-    //页码小于1 
-    if(curPage<1) curPage=1; 
-    //如果是最后页 
+    //页码大于最大页数
+    if(curPage>totalPage) curPage=totalPage;
+    //页码小于1
+    if(curPage<1) curPage=1;
+    //如果是最后页
     if(curPage!=1){
-        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage-1)+')">上一页</a>'; 
+        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage-1)+')">上一页</a>';
     }
-    
-    
+
+
     for(var i=curPage;i<=curPage+5;i++){
         if(i>totalPage){
             continue;
         }
-        pageStr += '<a class="num" href="javascript:ajaxdata('+i+')">'+i+'</a>'; 
-    } 
-    if(curPage<totalPage){
-        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage+1)+')">下一页</a>'; 
-        pageStr += '<a class="num" href="javascript:ajaxdata('+totalPage+')">'+totalPage+'</a>'; 
+        pageStr += '<a class="num" href="javascript:ajaxdata('+i+')">'+i+'</a>';
     }
-    
-     
-    $(".loadmore").html(pageStr); 
+    if(curPage<totalPage){
+        pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage+1)+')">下一页</a>';
+        pageStr += '<a class="num" href="javascript:ajaxdata('+totalPage+')">'+totalPage+'</a>';
+    }
+
+
+    $(".loadmore").html(pageStr);
 }
 </script>
 <include file="Public:footer"/>
