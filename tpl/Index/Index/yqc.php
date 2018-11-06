@@ -77,6 +77,12 @@ a:focus{outline:none;}
 .banner_center ul li {width:1920px;height: 753px;float: left;overflow: hidden;display: block;}
 .banner_center ul a {width:1920px;height:659px;display:block;}
 .banner_btn{top: 680px}
+.comment_list{color: #777;text-decoration:none;}
+.comment_list ul li{color: #777;text-decoration:none;}
+a{text-decoration: none;}
+a:visited{text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active{text-decoration:none;}
 </style>
 <div class="banner_all">
     <div class="banner">
