@@ -39,7 +39,7 @@
          <div class="cur_t">
              <h3>一起茶</h3>
              <p class="pp">
-               漫游时光（深圳）品牌管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;是一家致力于提供全新生活方式的新餐饮品牌服务企业，来自香港的品牌团队一直将为消费者提供全新生活方式为使命，旗下品牌所有餐品都是市场最时尚潮流品类，我们不仅仅只是将目光局限于餐品本身，而是将时尚的美学思维和全新的生活方式呈现给消费者，给消费者一种全新的生活理念。      
+               漫游时光（深圳）品牌管理有限公司&nbsp;&nbsp;&nbsp;&nbsp;是一家致力于提供全新生活方式的新餐饮品牌服务企业，来自香港的品牌团队一直将为消费者提供全新生活方式为使命，旗下品牌所有餐品都是市场最时尚潮流品类，我们不仅仅只是将目光局限于餐品本身，而是将时尚的美学思维和全新的生活方式呈现给消费者，给消费者一种全新的生活理念。
 </p>
 <p class="pp" >
 企业定位：一家致力于提供全新生活方式的新餐饮品牌公司
@@ -63,17 +63,17 @@
      </div>
      <div class="w16">
          <ul class="food_memu">
-            <li><a href="yiqicha.html?cat_id=30" title="奶霜"><p>奶霜</p></a></li>  
-             <li ><a href="yiqicha.html?cat_id=31" title="水果茶"><p>水果茶</p></a></li>  
-             <li ><a href="yiqicha.html?cat_id=34" title="软欧包"><p>软欧包</p></a></li> 
+            <li><a href="yiqicha.html?cat_id=30" title="奶霜"><p>奶霜</p></a></li>
+             <li ><a href="yiqicha.html?cat_id=31" title="水果茶"><p>水果茶</p></a></li>
+             <li ><a href="yiqicha.html?cat_id=34" title="软欧包"><p>软欧包</p></a></li>
              <li ><a href="yiqicha.html?cat_id=33" title="沙拉"><p>沙拉</p></a></li>
-             <li ><a href="yiqicha.html?cat_id=35" title="西点"><p>西点</p></a></li> 
-             <li ><a href="yiqicha.html?cat_id=32" title="colourful"><p>colourful</p></a></li> 
-             <li ><a href="yiqicha.html?cat_id=37" title="答案茶"><p>答案茶</p></a></li> 
+             <li ><a href="yiqicha.html?cat_id=35" title="西点"><p>西点</p></a></li>
+             <li ><a href="yiqicha.html?cat_id=32" title="colourful"><p>colourful</p></a></li>
+             <li ><a href="yiqicha.html?cat_id=37" title="舒芙蕾"><p>舒芙蕾</p></a></li>
                         <div class="clear"></div>
          </ul>
      </div>
-     
+
      <div class="food_c">
           <ul>
             <volist name = 'food' id = 'vo'>
@@ -116,28 +116,28 @@
      <div class="w16 clearfix">
          <div class="news_2" style="margin-left:0;">
             <h3>新闻动态 <a href="news.html?cat_id=5">+更多</a></h3>
-                    
+
                         <a href="detail.html?id={$news.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5a56e6ebccb2b.jpg" width="275" height="200" style="margin-right:10px"></a>
                         <a href="detail.html?id={$news.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5a56e54801cad.jpg" width="275" height="200" style=""></a>
-                       <div class="clear"></div>                
+                       <div class="clear"></div>
             <ul>
             <volist name = 'news' id = 'vo'>
              <li><a href="detail.html?id={$vo.id}" target="_blank">{$vo.name}<span style="text-align:right;">[{$vo.last_time|date='Y-m-d',###}]</span></a></li>
              </volist>
-                
+
             </ul>
          </div>
          <div class="news_2">
             <h3>最新产品 <a href="news.html?cat_id=7">+更多</a></h3>
                         <a href="detail.html?id={$products.0.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5ace00a3dbeae1.jpg" width="275" height="200" style="margin-right:10px"></a>
                         <a href="detail.html?id={$products.1.id}" target="_blank"><img src="{$config.site_url}/upload/slider/000/000/002/5ace00a3dbeae.jpg" width="275" height="200" style=""></a>
-                                
-            <div class="clear"></div>               
+
+            <div class="clear"></div>
            <ul>
              <volist name = 'products' id = 'vo'>
              <li><a href="detail.html?id={$vo.id}" target="_blank">{$vo.name}<span style="text-align:right;">[{$vo.last_time|date='Y-m-d',###}]</span></a></li>
              </volist>
-                
+
             </ul>
          </div>
      </div>
@@ -145,25 +145,25 @@
 <div class="wpb_row vc_row-fluid">
     <div class="vc_span12 wpb_column column_container">
         <div class="wpb_wrapper">
-            
+
     <div class="wpb_single_image wpb_content_element vc_align_center">
         <div class="wpb_wrapper">
-            
+
             <img class=" vc_box_border_grey " src="{$static_path}images/e8a8a6d0046dcc25.gif" width="1023" height="96" alt="index_jiameng_tel">
-        </div> 
-    </div> 
-        </div> 
-    </div> 
+        </div>
+    </div>
+        </div>
+    </div>
 </div>
 <include file="Public:footer"/>
 <script type="text/javascript">
     $(function(){
-         //鼠标的移入移出  
-        $(".food_memu p").mouseover(function (){  
+         //鼠标的移入移出
+        $(".food_memu p").mouseover(function (){
             $(this).css('color', 'red');
-        }).mouseout(function (){  
-            $(this).css('color', '#000'); 
-        });  
+        }).mouseout(function (){
+            $(this).css('color', '#000');
+        });
          //鼠
     })
 </script>

@@ -9,18 +9,18 @@ $(document).ready(function() {
         auto:true,
         pause:4000
     });
-    
+
     $("#next").click(function(){
         i++;
         if(i>2){i=0;}
         $(".ny_pro_2 ul li").eq(i).show().siblings("li").hide();
-        
+
         });
     $("#pret").click(function(){
         i--;
         if(i<0){i=2;}
         $(".ny_pro_2 ul li").eq(i).show().siblings("li").hide();
-        
+
         });
 });
 </script>
@@ -33,58 +33,58 @@ $(document).ready(function() {
     }
     .ny_title{height: 50px;}
 </style>
-                    
+
 <div class="ny_banner" style="background:url({$static_path}images/yiqicha.jpg) no-repeat center top;"><a href="" target="_blank"></a></div>
-    
+
 <a name="food" id="food"></a>
 <div class="ny_main">
     <div class="ny_title">
-             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 50px;background-color: #B3B3B3;font-weight: bold;"> 
-            
+             <div id="box_left_sub1_sub1_sub2" data-unuse="1" style="height: 50px;background-color: #B3B3B3;font-weight: bold;">
+
 <div class="FrontColumns_navigation01-d1_c1" data-unuse="1" style="height: 46px;border: 0;width: 1200px;">
     <ul class="nav-first">
-     
-         <li><a href="yiqicha.html?cat_id=30" title="奶霜">奶霜</a></li>  
-         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=31" title="水果茶">水果茶</a></li>  
-         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=34" title="软欧包">软欧包</a></li> 
+
+         <li><a href="yiqicha.html?cat_id=30" title="奶霜">奶霜</a></li>
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=31" title="水果茶">水果茶</a></li>
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=34" title="软欧包">软欧包</a></li>
          <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=33" title="沙拉">沙拉</a></li>
-         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li> 
-         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=32" title="colourful">colourful</a></li> 
-         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=37" title="答案茶">答案茶</a></li> 
-                  
-    </ul></div> 
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=35" title="西点">西点</a></li>
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=32" title="colourful">colourful</a></li>
+         <li style="margin-left: 48px"><a href="yiqicha.html?cat_id=37" title="舒芙蕾">舒芙蕾</a></li>
+
+    </ul></div>
           </div>
     </div>
-    
+
 <div class="ny_food" style="padding-top: 0">
         <div class="w16">
             <!-- <div class="ny_food_t">
             <ul class="food_memu">
-                  
+
                 <li><a href="yiqicha.html?cat_id=24" title="西餐"><div><i class="icon iconfont"></i></div><p>西餐</p></a></li>
-                      
+
                 <li><a href="yiqicha.html?cat_id=25" title="中餐"><div><i class="icon iconfont"></i></div<p>中餐</p></a></li>
-                      
+
                 <li><a href="yiqicha.html?cat_id=26" title="饮品"><div><i class="icon iconfont"></i></div<p>饮品</p></a></li>
-                      
+
                 <li><a href="yiqicha.html?cat_id=27" title="烧烤"><div><i class="icon iconfont"></i></div><p>烧烤</p></a></li>
-                      
+
                 <li><a href="yiqicha.html?cat_id=28" title="特色"><div><i class="icon iconfont"></i></div><p>特色</p></a></li>
                             <div class="clear"></div>
              </ul>
                        </div> -->
-          
+
            <div class="ny_food_c">
                <ul id="auto-loop">
                     <volist name = 'list' id = 'vo'>
-                    <li style="margin-right:" data-src="{$config.site_url}/upload/adver/{$vo.pic}"><a href="#"><img src="{$config.site_url}/upload/adver/{$vo.pic}" /><p>{$vo.name}</p></a></li> 
-                    </volist> 
-                </ul>  
+                    <li style="margin-right:" data-src="{$config.site_url}/upload/adver/{$vo.pic}"><a href="#"><img src="{$config.site_url}/upload/adver/{$vo.pic}" /><p>{$vo.name}</p></a></li>
+                    </volist>
+                </ul>
               <!--分页开始-->
                   <div style="margin:0 auto;text-align: center;">{$page}</div>
-              <!--分页结束 --> 
+              <!--分页结束 -->
            </div>
         </div>
-    </div> 
+    </div>
 </div>
 <include file="Public:footer"/>
