@@ -2,6 +2,12 @@
 <style>
     ul.food_memu li p{font-weight: bold;font-size: 20px;}
     .pp{text-indent:30px;}
+    .video {
+    width: 450px;
+    height: 300px;
+    border: 4px solid #fff;
+    float: left;
+}
 </style>
 <div class="banner_all">
     <div class="banner">
@@ -33,7 +39,7 @@
 <!-- <embed src="flv.swf?vcastr_file=video/Next Door Deli.flv" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
 <!-- <object ><embed width=375 height=280 wmode="Transparent" allowfullscreen="true" allowscriptaccess="always" quality="high" src="http://player.youku.com/player.php/sid/XMzMwNjEyMzAxMg==/v.swf&topBar=1&autoplay=false&plid=1411&pub_catecode=0&from=page" type="application/x-shockwave-flash"/></embed></object> -->
 <!-- <embed src='https://v.qq.com/txp/iframe/player.html?vid=q07981spxzc' allowFullScreen='true' quality='high' width='375' height='280' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash'></embed> -->
-<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=q07981spxzc" allowFullScreen="true"  quality='high' width='375' height='280' align='middle' allowScriptAccess='always'></iframe>
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=q07981spxzc&autoplay=false" allowFullScreen="true" autoplay=true  quality='high' width='450' height='300' align='middle' allowScriptAccess='always'></iframe>
 <!-- <embed src="flv.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="375" height="280"> -->
          </div>
          <div class="cur_t">
