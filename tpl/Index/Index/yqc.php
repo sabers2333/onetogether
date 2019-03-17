@@ -278,7 +278,7 @@ $(function(){
     }
     if(curPage<totalPage){
         pageStr += '<a class="num" href="javascript:ajaxdata('+(curPage+1)+')">下一页</a>';
-        pageStr += '<a class="num" href="javascript:ajaxdata('+totalPage+')">'+totalPage+'</a>';
+        // pageStr += '<a class="num" href="javascript:ajaxdata('+totalPage+')">'+totalPage+'</a>';
     }
 
 
