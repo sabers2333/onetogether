@@ -250,8 +250,7 @@
     <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_27.jpg"></div>
     <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_28.jpg"></div>
     <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_29.jpg"></div>
-    <div class="ny_banner1" style="position: relative;"><a href="javascript:;"><img src="{$static_path}pc6/1_30.jpg">
-     <div class="dt1" id="dianji"><img src="{$static_path}images/1.gif" alt=""></div></div>
+    <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_30.jpg"></div>
 
     <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_31.jpg"></div>
     <div class="ny_banner1"><a href="javascript:;"><img src="{$static_path}pc6/1_32.jpg"></div>
